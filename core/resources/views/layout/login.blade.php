@@ -15,12 +15,11 @@
                         class="material-icons black-text">menu</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="login" class="blue-text thin">Masuk</a></li>
-                <li><a href="register" class="blue-text thin">Daftar</a></li>
                 <li><a href="daftar_topik" class="blue-text thin">Topik</a></li>
             </ul>
             <ul id="mobile-menu" class="side-nav">
                 <li><a href="login" class="blue-text thin">Masuk</a></li>
-                <li><a href="register" class="blue-text thin">Daftar</a></li>
+
                 <li><a href="daftar_topik" class="blue-text thin">Topik</a></li>
             </ul>
         </div>
@@ -71,9 +70,6 @@
                     <br/>
                     <br/>
                     <div class="col s12 black-text thin">
-                        Belum memiliki akun? daftar <a href="register"
-                                                       class="blue-text">disini</a>
-                        <br/>
                         Lupa password? ajukan <a href="mailto:ilham@lskk.ee.itb.ac.id?subject=Pengajuan reset password akun PRDOC&body=Saya mengajukan pengajuan reset password akun PRD Online Course dengan username:[SILAHKAN ANDA ISI] dan email:[SILAHKAN ANDA ISI]" target="_blank">reset</a>
                     </div>
                     <br/>

@@ -11,12 +11,10 @@
                         class="material-icons black-text">menu</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="login" class="blue-text thin">Masuk</a></li>
-                <li><a href="register" class="blue-text thin">Daftar</a></li>
                 <li><a href="daftar_topik" class="blue-text thin">Topik</a></li>
             </ul>
             <ul id="mobile-menu" class="side-nav">
                 <li><a href="login" class="blue-text thin">Masuk</a></li>
-                <li><a href="register" class="blue-text thin">Daftar</a></li>
                 <li><a href="daftar_topik" class="blue-text thin">Topik</a></li>
             </ul>
         </div>
@@ -98,9 +96,6 @@
                                     name="action">Kirim
                             </button>
                             <br/>
-                            <br/>Belum memiliki akun? daftar <a
-                                    href="register"
-                                    class="blue-text">disini</a>
                             <br/>
                             Lupa password? ajukan <a href="mailto:ilham@lskk.ee.itb.ac.id?subject=Pengajuan reset password akun PRDOC&body=Saya mengajukan pengajuan reset password akun PRD Online Course dengan username:[SILAHKAN ANDA ISI] dan email:[SILAHKAN ANDA ISI]" target="_blank">reset</a>
                         </div>
@@ -120,24 +115,24 @@
                 wajib di <a href="https://www.itb.ac.id/" target="_blank" class="blue-text">Institut Teknologi
                     Bandung</a>. Dalam PRD online course
                 ini terdiri dari beberapa topik yang harus dikerjakan
-                . Silahkan daftarkan dirimu <a href="register" class="blue-text">disini</a> untuk memulai
-                pengerjaan topik yang tersedia dibawah ini.</p>
+                .</p>
             <br/>
             <br/>
             <?php
+                $counter = 1;
             foreach ($topik as $topik1) {
             ?>
             <div class="col s12 m6 l4">
                 <div class="card">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator lazy" src="{{url('/')}}/core/resources/assets/images/<?php echo $topik1->thumbnail;?>">
+                        <img class="activator lazy" src="<?php echo $topik1->thumbnail;?>">
                     </div>
                     <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4">
 
                         <div align="center" class="font-13">
                             <div class="chip">
-                                <?php echo $topik1->id;?>
+                                <?php echo $counter;?>
                             </div>
                             <br/>
                             <?php echo $topik1->nama_topik;?>
@@ -147,7 +142,7 @@
                     <div class="card-reveal">
                         <div align="center">
                             <div class="chip">
-                                <?php echo $topik1->id;?>
+                                <?php echo $counter;?>
                             </div>
                         </div>
 
@@ -164,6 +159,7 @@
 
             </div>
             <?php
+            $counter++;
             }
             ?>
 

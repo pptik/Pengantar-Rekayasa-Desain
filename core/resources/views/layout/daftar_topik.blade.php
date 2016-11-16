@@ -10,12 +10,10 @@
 
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="login" class="blue-text thin">Masuk</a></li>
-                <li><a href="register" class="blue-text thin">Daftar</a></li>
                 <li><a href="daftar_topik" class="blue-text thin">Topik</a></li>
             </ul>
             <ul id="mobile-menu" class="side-nav">
                 <li><a href="login" class="blue-text thin">Masuk</a></li>
-                <li><a href="register" class="blue-text thin">Daftar</a></li>
                 <li><a href="daftar_topik" class="blue-text thin">Topik</a></li>
             </ul>
         </div>
@@ -28,8 +26,7 @@
                 <br/>
                 <br/>
                 <h5>Topik Perkuliahan</h5>
-                <p class="thin">Topik yang terdaftar dibawah ini bisa diikuti dengan memilih <a href="login">masuk</a> apabila kamu sudah memiliki akun
-                    <br/>atau <a href="register">daftar</a> apabila belum memiliki akun.</p>
+                <p class="thin">Topik yang terdaftar dibawah ini bisa diikuti dengan memilih <a href="login">masuk</a> apabila kamu sudah memiliki akun.</p>
                 <br/>
                 <br/>
             </div>

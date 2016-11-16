@@ -45,7 +45,7 @@ Route::group(['prefix' => 'user/{nama}','middleware' => 'auth'],function(){
 
 Route::get('login', 'CPengguna@login');
 
-Route::get('register', 'CPengguna@register');
+Route::get('registera7x', 'CPengguna@register');
 
 Route::group(['prefix' => 'konfirmasi','middleware' => 'auth'],function(){
     Route::get('mahasiswa/{id_user}','CPengguna@konfirmasi_mahasiswa');
