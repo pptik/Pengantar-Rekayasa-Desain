@@ -104,8 +104,8 @@ foreach ($resume_topik as $resume_topik1) {
         <div class="container">
             <div class="row">
                 <div class="col s12 center-align">
-                    <a href="http://localhost/prd/"><img
-                                src="http://localhost/prd/core/resources/assets/images/logoShortcutIcon.png"/></a>
+                    <a href="{{url('/')}}"><img
+                                src="{{url('/')}}/core/resources/assets/images/logoShortcutIcon.png"/></a>
                     <p class="blue-text thin">© 2016 PPTIK Institut Teknologi Bandung</p>
                 </div>
             </div>

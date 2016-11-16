@@ -9,13 +9,11 @@
   <component name="ChangeListManager">
     <list default="true" id="3d134dff-a0d3-4782-bd96-54cf28f11390" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/app/Http/Controllers/CAdministrator.php" afterPath="$PROJECT_DIR$/core/app/Http/Controllers/CAdministrator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/app/Http/Controllers/CPengguna.php" afterPath="$PROJECT_DIR$/core/app/Http/Controllers/CPengguna.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/app/Http/routes.php" afterPath="$PROJECT_DIR$/core/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/administrator/materi/materi.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/administrator/materi/materi.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/administrator/pengguna/universitas.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/administrator/pengguna/universitas.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/dashboard.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/dashboard.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/laporan_topik.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/laporan_topik.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_auth.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_auth.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/sub_topik.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/sub_topik.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/topik.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/topik.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/ubah_laporan.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/ubah_laporan.blade.php" />
     </list>
     <ignored path="radiolskk.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,48 +41,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/app/Http/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="181" column="71" selection-start-line="181" selection-start-column="53" selection-end-line="181" selection-end-column="71" />
-              <folding>
-                <element signature="e#2835#3570#1#PHP" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CPengguna.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/app/Http/Controllers/CPengguna.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="186" column="37" selection-start-line="186" selection-start-column="37" selection-end-line="186" selection-end-column="37" />
-              <folding>
-                <element signature="e#4826#5071#0#PHP" expanded="false" />
-                <element signature="e#5630#6627#0#PHP" expanded="false" />
-                <element signature="e#19229#19479#0#PHP" expanded="false" />
-                <element signature="e#20003#20277#0#PHP" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="universitas.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/resources/views/layout/administrator/pengguna/universitas.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="48" column="51" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
-              <folding>
-                <element signature="e#2936#3356#0#HTML" expanded="false" />
-                <element signature="e#3389#3815#0#HTML" expanded="false" />
-                <element signature="e#4780#5502#0#HTML" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CAdministrator.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CAdministrator.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/app/Http/Controllers/CAdministrator.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="40">
@@ -108,21 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/resources/views/layout/dashboard.blade.php">
+      <file leaf-file-name="template.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/resources/views/layout/administrator/template.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="69" column="46" selection-start-line="69" selection-start-column="46" selection-end-line="69" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="materi.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/resources/views/layout/administrator/materi/materi.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+            <state relative-caret-position="390">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -131,8 +78,8 @@
       <file leaf-file-name="register.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/resources/views/layout/register.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="49" column="26" selection-start-line="41" selection-start-column="20" selection-end-line="49" selection-end-column="26" />
+            <state relative-caret-position="301">
+              <caret line="130" column="99" selection-start-line="130" selection-start-column="37" selection-end-line="130" selection-end-column="99" />
               <folding />
             </state>
           </provider>
@@ -141,26 +88,79 @@
       <file leaf-file-name="profile_pengguna_auth.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_auth.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="132" column="52" selection-start-line="132" selection-start-column="52" selection-end-line="132" selection-end-column="52" />
+            <state relative-caret-position="166">
+              <caret line="308" column="18" selection-start-line="302" selection-start-column="12" selection-end-line="308" selection-end-column="18" />
               <folding>
-                <marker date="1479298026000" expanded="false" signature="12424:12438" ph="..." />
+                <element signature="e#13408#13763#0#HTML" expanded="false" />
+                <marker date="1479303067000" expanded="false" signature="12424:12438" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="topik3.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/resources/assets/images/topik3.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="topik.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/resources/views/layout/topik.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="141" column="18" selection-start-line="141" selection-start-column="18" selection-end-line="141" selection-end-column="18" />
+              <folding>
+                <element signature="e#5119#5474#0#HTML" expanded="false" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="topik6.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/resources/assets/images/topik6.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="sub_topik.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/resources/views/layout/sub_topik.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="154" column="18" selection-start-line="154" selection-start-column="18" selection-end-line="154" selection-end-column="18" />
+              <folding>
+                <element signature="e#6950#7305#0#HTML" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="laporan_topik.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/resources/views/layout/laporan_topik.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="173" column="18" selection-start-line="173" selection-start-column="18" selection-end-line="173" selection-end-column="18" />
+              <folding>
+                <element signature="e#7188#7543#0#HTML" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ubah_laporan.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/resources/views/layout/ubah_laporan.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="104" column="28" selection-start-line="104" selection-start-column="28" selection-end-line="104" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bimbingan_materi.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/resources/views/layout/mahasiswa/bimbingan_materi.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2312">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tambah_bimbingan.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/resources/views/layout/mahasiswa/tambah_bimbingan.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2507">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -207,27 +207,27 @@
         <option value="$PROJECT_DIR$/core/resources/views/layout/administrator/pengguna/mahasiswa.blade.php" />
         <option value="$PROJECT_DIR$/core/resources/views/layout/administrator/pengguna/dosen.blade.php" />
         <option value="$PROJECT_DIR$/core/app/MTopik.php" />
-        <option value="$PROJECT_DIR$/core/resources/views/layout/topik.blade.php" />
         <option value="$PROJECT_DIR$/core/app/Http/Controllers/CTopik.php" />
         <option value="$PROJECT_DIR$/core/resources/views/layout/administrator/template.blade.php" />
         <option value="$PROJECT_DIR$/core/app/MSubTopik.php" />
         <option value="$PROJECT_DIR$/core/config/database.php" />
         <option value="$PROJECT_DIR$/core/resources/views/layout/administrator/materi/sub_materi.blade.php" />
-        <option value="$PROJECT_DIR$/core/resources/views/layout/ubah_laporan.blade.php" />
         <option value="$PROJECT_DIR$/core/app/Http/Controllers/CResume.php" />
-        <option value="$PROJECT_DIR$/core/resources/views/layout/laporan_topik.blade.php" />
-        <option value="$PROJECT_DIR$/core/resources/views/layout/sub_topik.blade.php" />
         <option value="$PROJECT_DIR$/core/resources/views/layout/login.blade.php" />
         <option value="$PROJECT_DIR$/core/resources/views/layout/register.blade.php" />
         <option value="$PROJECT_DIR$/core/resources/views/layout/daftar_topik.blade.php" />
         <option value="$PROJECT_DIR$/core/resources/views/layout/index.blade.php" />
-        <option value="$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_auth.blade.php" />
         <option value="$PROJECT_DIR$/core/resources/views/layout/dashboard.blade.php" />
         <option value="$PROJECT_DIR$/core/resources/views/layout/administrator/materi/materi.blade.php" />
         <option value="$PROJECT_DIR$/core/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/core/app/Http/Controllers/CPengguna.php" />
         <option value="$PROJECT_DIR$/core/resources/views/layout/administrator/pengguna/universitas.blade.php" />
         <option value="$PROJECT_DIR$/core/app/Http/Controllers/CAdministrator.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_auth.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/topik.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/sub_topik.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/laporan_topik.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/ubah_laporan.blade.php" />
       </list>
     </option>
   </component>
@@ -348,6 +348,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mahasiswa" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -738,7 +768,7 @@
       <workItem from="1478401119692" duration="23294000" />
       <workItem from="1479082054670" duration="232000" />
       <workItem from="1479083764601" duration="22851000" />
-      <workItem from="1479263689569" duration="12933000" />
+      <workItem from="1479263689569" duration="13813000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1477519271247</created>
@@ -751,7 +781,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="434510000" />
+    <option name="totallyTimeSpent" value="435390000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="726" extended-state="6" />
@@ -851,20 +881,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/resources/views/errors/503.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-326">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/resources/assets/semantic/src/site/views/ad.overrides">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/resources/assets/semantic/dist/semantic.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323745">
@@ -893,13 +909,6 @@
           <folding>
             <element signature="e#2977#3227#0#PHP" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/topik.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-210">
-          <caret line="71" column="40" selection-start-line="71" selection-start-column="40" selection-end-line="71" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -980,13 +989,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/administrator/template.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/app/MSubTopik.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1059,35 +1061,6 @@
         <state relative-caret-position="175">
           <caret line="78" column="29" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/ubah_laporan.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="92" column="50" selection-start-line="92" selection-start-column="50" selection-end-line="92" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/laporan_topik.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="148" column="30" selection-start-line="144" selection-start-column="24" selection-end-line="148" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/sub_topik.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="115" column="88" selection-start-line="115" selection-start-column="88" selection-end-line="115" selection-end-column="88" />
-          <folding>
-            <element signature="e#4052#4072#0#HTML" expanded="true" />
-            <element signature="e#4226#4245#0#HTML" expanded="true" />
-            <element signature="e#4575#4594#0#HTML" expanded="true" />
-            <element signature="e#5463#5482#0#HTML" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1165,16 +1138,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_auth.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="132" column="52" selection-start-line="132" selection-start-column="52" selection-end-line="132" selection-end-column="52" />
-          <folding>
-            <marker date="1479298026000" expanded="false" signature="12424:12438" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/resources/views/layout/administrator/materi/materi.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -1214,14 +1177,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/register.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="49" column="26" selection-start-line="41" selection-start-column="20" selection-end-line="49" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/resources/views/layout/administrator/pengguna/universitas.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1253,6 +1208,87 @@
             <element signature="e#14878#14946#0#PHP" expanded="false" />
             <element signature="e#15090#15141#0#PHP" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/administrator/template.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="130" column="99" selection-start-line="130" selection-start-column="37" selection-end-line="130" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_auth.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="308" column="18" selection-start-line="302" selection-start-column="12" selection-end-line="308" selection-end-column="18" />
+          <folding>
+            <element signature="e#13408#13763#0#HTML" expanded="false" />
+            <marker date="1479303067000" expanded="false" signature="12424:12438" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/topik.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="141" column="18" selection-start-line="141" selection-start-column="18" selection-end-line="141" selection-end-column="18" />
+          <folding>
+            <element signature="e#5119#5474#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/sub_topik.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="154" column="18" selection-start-line="154" selection-start-column="18" selection-end-line="154" selection-end-column="18" />
+          <folding>
+            <element signature="e#6950#7305#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/laporan_topik.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="173" column="18" selection-start-line="173" selection-start-column="18" selection-end-line="173" selection-end-column="18" />
+          <folding>
+            <element signature="e#7188#7543#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/ubah_laporan.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="104" column="28" selection-start-line="104" selection-start-column="28" selection-end-line="104" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/mahasiswa/bimbingan_materi.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2312">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/mahasiswa/tambah_bimbingan.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2507">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
