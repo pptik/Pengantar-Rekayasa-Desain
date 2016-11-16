@@ -91,22 +91,44 @@ foreach ($topik as $topik1) {
                 <li>
                     <div class="collapsible-header active"><h5
                                 class="thin"><?php echo $query_sub_topik1->nama_sub_topik;?></h5></div>
-                    <div class="collapsible-body">
-                        <p>
+                    <div class="collapsible-body" style="padding:1em;">
+
                         <?php
-                        if ($query_sub_topik1->tipe == 2) {
-                            echo "<a class='waves-effect waves-light btn-large' href='".$query_sub_topik1->isi_sub_topik."' target='_blank'><i class='material-icons left'>file_download</i>Unduh</a>";
-                        } else if ($query_sub_topik1->tipe == 1) {
-                            echo $query_sub_topik1->isi_sub_topik;
+                        if ($query_sub_topik1->tipe == 1) {//teks
+                        ?>
+                        <h4 style="padding: 0;"><?php echo $query_sub_topik1->deskripsi;?></h4>
+                        <br/>
+                        <?php echo $query_sub_topik1->isi_sub_topik?>
+                        <?php
+                        }
+                        else if ($query_sub_topik1->tipe == 2) {//file
+                        ?>
+                        <p style="padding: 0;"><?php echo $query_sub_topik1->deskripsi;?></p>
+                        <br/>
+                        <a class='waves-effect waves-light btn-large'
+                           href='<?php echo $query_sub_topik1->isi_sub_topik?>'
+                           target='_blank'><i class='material-icons left'>file_download</i>Unduh</a>
+                        <?php
+                        } else if ($query_sub_topik1->tipe == 3) {
+                            ?>
+                            <div class="center-align video-container">
+                                <iframe width="853" height="480"
+                                        src="<?php echo $query_sub_topik1->isi_sub_topik;?>"
+                                        frameborder="0" allowfullscreen></iframe>
+                            </div>
+
+                            <br/>
+                            <p style="padding: 0;"><?php echo $query_sub_topik1->deskripsi;?></p>
+                            <?php
                         }
                         ?>
                         </p>
                     </div>
                 </li>
-                <?php
-                }
-                ?>
-                        <!--<li>
+            <?php
+            }
+            ?>
+            <!--<li>
                     <div class="collapsible-header"><h5 class="thin">Pengantar</h5></div>
                     <div class="collapsible-body">
                         <p><img class="responsive-img" src="http://ichef.bbci.co.uk/news/624/cpsprodpb/8F50/production/_89888663_gettyimages-512251810.jpg"><br/>The BBC understands that Facebook's security systems prevented Mr Zuckerberg's Instagram account from being accessed. The photos-sharing service is owned by Facebook.The passwords were encoded, but in a form that appears to have been relatively easy to unravel.The account, on.The passwords were encoded, but in a form that appears to have been relatively easy to unravel.The account, on </p>

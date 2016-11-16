@@ -91,7 +91,7 @@ foreach ($resume_topik as $resume_topik1) {
                 <form action="{{url('resume/video')}}" method="post">
                     <input type="hidden" name="_token" value="{{ csrf_token() }}"/>
                     <input type="hidden" name="id_topik" value="<?php echo $id_topik;?>"/>
-                    <input type="text" placeholder="Link embed video youtube, contoh: //www.youtube.com/embed/Q8TXgCzxEnw?rel=0" name="video"/>
+                    <input type="text" placeholder="https://www.youtube.com/embed/2igPl-MTfTQ" name="video"/>
                     <div class="file-field input-field">
                         <button type="submit" class="waves-effect waves-light btn blue lighten-2">Kirim</button>
                     </div>

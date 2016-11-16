@@ -96,7 +96,7 @@ foreach ($topik as $topik1) {
                 if(count($status_pengerjaan) == 0){
                 ?>
                 <a href="../laporan/ubah/<?php echo str_replace(' ', '-', strtolower($nama_topik));?>"
-                   class="waves-effect waves-light btn btn-large <?php echo $class_warna;?>">Ketentuan resume</a>
+                   class="waves-effect waves-light btn btn-large <?php echo $class_warna;?>">Perbaharui link</a>
                 <?php
                 }else {
                 foreach ($status_pengerjaan as $status_pengerjaan1) {
@@ -118,9 +118,9 @@ foreach ($topik as $topik1) {
             <div class="row">
                 <div class="col s12">
                     <div class="card-panel white thin">
-                        @if ( Session::has('berhasil_upload_video') )
+                        @if ( Session::has('message') )
                             <div class="chip red lighten-2 white-text thin">
-                                Link embed video berhasil diperbaharui. Hasilnya ditampilkan dibawah ini.
+                                {{ Session::get('message') }}
                             </div>
                             <br/>
                             <br/>
@@ -144,7 +144,7 @@ foreach ($topik as $topik1) {
                         ?>
                         <div class="center-align video-container">
                             <iframe width="853" height="480"
-                                    src="http://localhost/prd/core/resources/assets/user_non_admin_assets/videos/<?php echo $berkas_video;?>"
+                                    src="<?php echo $berkas_video;?>"
                                     frameborder="0" allowfullscreen></iframe>
                         </div>
                         <?php

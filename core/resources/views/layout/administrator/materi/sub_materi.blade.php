@@ -103,7 +103,7 @@
                                 echo $sub_materi->isi_sub_topik;
                                 break;
                             case 2://file
-                                echo "<a class='ui teal button' type='button' href='" . $sub_materi->isi_sub_topik . "'>Download</a>";
+                                echo "<a class='ui teal button' type='button' href='" . $sub_materi->isi_sub_topik . "' target='_blank'>Download</a>";
                                 break;
                             case 3://video
                             ?>

@@ -236,7 +236,46 @@ class CAdministrator extends Controller
                 return Redirect::to('administrator/sub_materi');
                 break;
             case 2://file
-                ;break;
+                $this->validate($request,[
+                    "topik" => "required",
+                    "judul" => "required",
+                    "deskripsi" => "required",
+                    "tipe" => "required",
+                    "isi-sub-materi-file" => "required"
+                ]);
+
+                $sub_topik = new MSubTopik();
+                $sub_topik->id_topik = $request["topik"];
+                $sub_topik->nama_sub_topik = $request["judul"];
+                $sub_topik->deskripsi = $request["deskripsi"];
+
+                //Proses upload ke FTP
+                $rename_berkas = $this->random_string(50) . '.' . Input::file('isi-sub-materi-file')->getClientOriginalExtension();
+
+                $ftp_server = "167.205.7.228";
+                $ftp_conn = ftp_connect($ftp_server) or die("Could not connect to $ftp_server");
+
+                $login = ftp_login($ftp_conn, "ftpmanager", "Sabuga@123");
+
+                if (true === $login) {
+
+                    ftp_put($ftp_conn, "/Assets/VidyaNusa/Materi/" . $rename_berkas, Input::file('isi-sub-materi-file')->getPathName(), FTP_BINARY);
+                    ftp_close($ftp_conn);
+
+
+                } else {
+                    ftp_close($ftp_conn);
+                }
+
+
+                //Akhir proses upload ke FTP
+                $sub_topik->isi_sub_topik = 'http://167.205.7.228:8089/VidyaNusa/Materi/' . $rename_berkas;
+                $sub_topik->tipe = 2;
+                $sub_topik->save();
+
+                Session::flash('message', 'Sub materi berhasil dibuat');
+                return Redirect::to('administrator/sub_materi');
+                break;
             case 3://video
                 $this->validate($request,[
                     "topik" => "required",
@@ -256,7 +295,7 @@ class CAdministrator extends Controller
 
                 Session::flash('message', 'Sub materi berhasil dibuat');
                 return Redirect::to('administrator/sub_materi');
-                ;break;
+                break;
         }
     }
 

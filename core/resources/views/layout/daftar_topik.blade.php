@@ -36,6 +36,7 @@
             <br/>
             <br/>
             <?php
+                $counter = 1;
             foreach ($topik as $topik1) {
             ?>
             <div class="col s12 m6 l4">
@@ -48,7 +49,7 @@
 
                         <div align="center" class="font-13">
                             <div class="chip">
-                                <?php echo $topik1->id;?>
+                                <?php echo $counter;?>
                             </div>
                             <br/>
                             <?php echo $topik1->nama_topik;?>
@@ -58,7 +59,7 @@
                     <div class="card-reveal">
                         <div align="center">
                             <div class="chip">
-                                <?php echo $topik1->id;?>
+                                <?php echo $counter;?>
                             </div>
                         </div>
 
@@ -75,6 +76,7 @@
 
             </div>
             <?php
+            $counter++;
             }
             ?>
         </div>

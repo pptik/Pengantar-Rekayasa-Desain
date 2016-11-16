@@ -62,11 +62,6 @@ class CResume extends Controller
     {
         $user = Auth::user();
 
-        DB::table('resume_topik')
-            ->where('id', $_POST['id_topik'])
-            ->where('id_pengguna', $user->id)
-            ->update(['berkas_video' => $_POST['video']]);
-
         $nama_topik = NULL;
 
         //Mengambil nama topik dari id topik
@@ -78,8 +73,22 @@ class CResume extends Controller
         foreach ($query_id_topik as $query_id_topik1) {
             $nama_topik = $query_id_topik1->nama_topik;
         }
-        Session::flash('berhasil_upload_video', '');
-        return Redirect::to('topik/laporan/' . str_replace(' ', '-', strtolower($nama_topik)) . '');
+
+
+        $update = DB::table('resume_topik')
+            ->where('id_topik', $_POST['id_topik'])
+            ->where('id_pengguna', $user->id)
+            ->update(['berkas_video' => $_POST['video']]);
+
+        if($update){//berhasil
+            Session::flash('message', 'Link embed video berhasil diperbaharui');
+            return Redirect::to('topik/laporan/' . str_replace(' ', '-', strtolower($nama_topik)) . '');
+        }//tdk berhasil
+        else{
+            Session::flash('message', 'Terjadi kesalahan');
+            return Redirect::to('topik/laporan/' . str_replace(' ', '-', strtolower($nama_topik)) . '');
+        }
+
     }
 
     public function berkas()
