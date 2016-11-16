@@ -184,7 +184,7 @@ Route::group(['prefix' => 'administrator'],function(){
     Route::post('tambah_materi','CAdministrator@tambah_materi');
     Route::post('tambah_sub_materi','CAdministrator@tambah_sub_materi');
     Route::post('ubah_materi','CAdministrator@ubah_materi');
-    Route::get('hapus_materi/{id}','CAdministrator@hapus_materi');
+    //Route::get('hapus_materi/{id}','CAdministrator@hapus_materi');
     Route::get('hapus_sub_materi/{id}','CAdministrator@hapus_sub_materi');
 
 });

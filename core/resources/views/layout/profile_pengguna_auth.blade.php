@@ -130,8 +130,10 @@
                         <?php
                         //Menampilkan daftar topik yang sudah dikerjakan bila ada
                         $query_topik_sudah_dikerjakan = DB::table('mahasiswa_mengambil_topik')
+                                ->select('nama_topik')
                                 ->join('topik', 'topik.id', '=', 'mahasiswa_mengambil_topik.id_topik')
                                 ->where('id_pengguna', '=', $user->id)
+                                ->distinct()
                                 ->get();
                         if(count($query_topik_sudah_dikerjakan != 0)){
 
@@ -147,6 +149,7 @@
                             if(count($query_topik_sudah_dikerjakan) != 0){
                             foreach ($query_topik_sudah_dikerjakan as $query_topik_sudah_dikerjakan1) {
                             ?>
+
                             <div class="chip"><?php echo $query_topik_sudah_dikerjakan1->nama_topik;?></div>
                             <?php
                             }
@@ -255,7 +258,7 @@
                                 </span>
                             </span>
                         </li>
-                        <li class="collection-item" style="margin: 0.5em;">
+                        <!--<li class="collection-item" style="margin: 0.5em;">
                             <span class="blue-text">Fakultas</span>
                             <br/>
                             <span class="thin">
@@ -286,7 +289,7 @@
 
                                 ?>
                                 </span>
-                        </li>
+                        </li>-->
                     </ul>
                 </div>
                 <div id="test2" class="col s12"></div>

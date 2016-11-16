@@ -114,11 +114,7 @@
                                         <i class="edit icon"></i>
                                     </button>
                                 </div>
-                                <div class="eight column wide">
-                                    <a class="circular ui icon button hapus" href="{{url('administrator/hapus_materi')}}/<?php echo $materi->id;?>" onclick="return confirm('Apakah anda yakin akan menghapus materi ini? Data yang berhubungan dengan materi ini akan dihapus.')">
-                                        <i class="delete icon"></i>
-                                    </a>
-                                </div>
+
                             </div>
                         </td>
                     </tr>

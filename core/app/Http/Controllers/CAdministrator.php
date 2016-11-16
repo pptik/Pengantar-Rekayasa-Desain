@@ -58,7 +58,9 @@ class CAdministrator extends Controller
         $this->validate($request, [
             'username' => 'required|unique:users',
             'email' => 'required|email|unique:users',
-            'password' => 'required|min:8'
+            'password' => 'required|min:8',
+            'nama_depan' => 'required',
+            'nama_belakang' => 'required'
         ]);
 
         //ke tabel user
@@ -66,13 +68,12 @@ class CAdministrator extends Controller
         $user->peran = 5;//peran universitas
         $user->email = $request['email'];
         //$user->nim = $request['nim'];
-        //$user->nama_depan = $request['nama_depan'];
-        //$user->nama_belakang = $request['nama_belakang'];
+        $user->nama_depan = $request['nama_depan'];
+        $user->nama_belakang = $request['nama_belakang'];
         $user->username = $request['username'];
         $user->universitas = 0;
         //$user->fakultas = $request['fakultas'];
         $user->status_konfirmasi = 1;
-        $user->password_asli = $request['password'];
         $user->password = bcrypt($request['password']);
         $user->save();
 
@@ -377,6 +378,11 @@ class CAdministrator extends Controller
             //bimbingan
             DB::table('bimbingan')
                 ->where('topik', '=', $id)
+                ->delete();
+
+            //mahasiswa mengambil topik
+            DB::table('mahasiswa_mengambil_topik')
+                ->where('id_topik', '=', $id)
                 ->delete();
 
             Session::flash('message', 'Materi berhasil di hapus');

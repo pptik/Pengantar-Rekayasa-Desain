@@ -45,6 +45,15 @@
                         {{ Session::get('message') }}
                     </div>
                 @endif
+                @if (count($errors) > 0)
+                    <div class="ui ignored negative message">
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                @endif
                 <div class="ui grid">
                     <div class="four wide column">
                         <button class="ui primary button tambah">
@@ -79,16 +88,32 @@
                                     </div>
                                 </div>
                                 <div class="ui grid">
+                                    <div class="seven wide column">
+                                        <div class="field">
+                                            <label>Nama depan</label>
+                                            <input type="text" name="nama_depan">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ui grid">
+                                    <div class="seven wide column">
+                                        <div class="field">
+                                            <label>Nama belakang</label>
+                                            <input type="text" name="nama_belakang">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ui grid">
                                     <div class="five wide column">
                                         <div class="ui action input">
                                             <input type="text" placeholder="Password"
                                                    id="field-generate-password-tambah" name="password" readonly>
-                                            <button class="ui button" id="button-generate-password-tambah" type="button">Generate
+                                            <button class="ui button" id="button-generate-password-tambah"
+                                                    type="button">Generate
                                             </button>
                                         </div>
                                     </div>
                                 </div>
-
 
 
                                 <!--<div class="field">
@@ -98,7 +123,6 @@
                                 <br/>
                                 <div class="field">
                                     <button type="submit" class="ui primary button">Submit</button>
-                                    <div class="ui red button">Batal</div>
                                 </div>
                             </form>
                         </div>
@@ -169,7 +193,8 @@
                                     <div class="ui action input">
                                         <input type="text" placeholder="Tekan tombol generate"
                                                id="field-generate-password-reset" name="password" readonly>
-                                        <button class="ui button" id="button-generate-password-reset" type="button">Generate
+                                        <button class="ui button" id="button-generate-password-reset" type="button">
+                                            Generate
                                         </button>
                                     </div>
                                 </div>
@@ -207,7 +232,7 @@
     });
 
     $('.tambah').click(function(){
-        $('#tambah-universitas').modal('show');
+    $('#tambah-universitas').modal('show');
     });
 
 

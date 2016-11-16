@@ -185,7 +185,6 @@ class CPengguna extends Controller
         $user->universitas = $request['universitas'];
         $user->fakultas = $request['fakultas'];
         $user->status_konfirmasi = 0;
-        $user->password_asli = $request['password'];
         $user->password = bcrypt($request['password']);
         $user->save();
 

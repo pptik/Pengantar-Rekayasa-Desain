@@ -39,19 +39,39 @@
 
     if (count($topik_terakhir_yang_diambil) == 0) {
         $topik_terakhir = 0;
+    }else if(count($topik_terakhir_yang_diambil) > 0){
+        foreach ($topik_terakhir_yang_diambil as $topik_terakhir_yang_diambil_1) {
+            $topik_terakhir = $topik_terakhir_yang_diambil_1->id_topik;
+        }
+    }
+    //echo "Topik terakhir yang diambil ".$topik_terakhir;
+    /*if (count($topik_terakhir_yang_diambil) == 0) {
+        $topik_terakhir = 0;
     } else {
         foreach ($topik_terakhir_yang_diambil as $topik_terakhir_yang_diambil1) {
 
             $topik_terakhir = $topik_terakhir_yang_diambil1->id_topik;
 
         }
-    }
+    }*/
+
 
     //ambil nama topik terakhir yang harus dikerjakan
     $nama_topik_terakhir = NULL;
+    $id_topik_terakhir = NULL;
+    if($topik_terakhir == 0){
+        $ambil_topik_terakhir_di_tabel = DB::table('topik')->orderBy('id','asc')->take(1)->get();
+
+
+        foreach ($ambil_topik_terakhir_di_tabel as $ambil_topik_terakhir_di_tabel_1) {
+            $id_topik_terakhir = $ambil_topik_terakhir_di_tabel_1->id;
+        }
+    }else if($topik_terakhir != 0){
+        $id_topik_terakhir = $topik_terakhir+1;
+    }
     $query_nama_topik_terakhir = DB::table('topik')
             ->select('nama_topik')
-            ->where('id', '=', $topik_terakhir + 1)
+            ->where('id', '=', $id_topik_terakhir)
             ->get();
 
     foreach ($query_nama_topik_terakhir as $query_nama_topik_terakhir1) {
@@ -154,7 +174,23 @@
                             <br/>
                             <div class="col s12 center-align">
                                 <?php
-                                if ($topik1->id - $topik_terakhir <= 1) {
+                                //Cara cek nya topik id this di kurangi - 1 hasilnya <= topik_terakhir
+                                //echo "Topik terakhir yang diambil ".$topik_terakhir;
+                                $topik_terakhir_di_tabelf = NULL;
+                                if($topik_terakhir == 0){
+                                    $topik_terakhir_di_tabel = DB::table('topik')->orderBy('id','asc')->take(1)->get();
+
+
+                                    foreach ($topik_terakhir_di_tabel as $topik_terakhir_di_tabel_1) {
+                                        $topik_terakhir_di_tabelf = $topik_terakhir_di_tabel_1->id;
+                                    }
+                                }else if($topik_terakhir != 0){
+                                    $topik_terakhir_di_tabelf = $topik_terakhir+1;
+                                }
+
+                                //echo "pengkondisian ".($topik1->id-$topik_terakhir_di_tabelf);
+
+                                if (($topik1->id-$topik_terakhir_di_tabelf) <= 0) {
                                 ?>
                                 <a class="btn waves-effect waves-light red lighten-2" type="button"
                                    name="action"
