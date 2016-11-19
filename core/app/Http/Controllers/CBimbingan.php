@@ -119,11 +119,11 @@ class CBimbingan extends Controller
 
         if (count($nama_materi) != 0) {
             switch ($user->peran) {
-                case 2:
+                case 2://dosen
 
                     ;
                     break;
-                case 4:
+                case 4://mahasiswa
                     $topik = DB::table('topik')
                         ->get();
 
@@ -142,6 +142,7 @@ class CBimbingan extends Controller
 
                     $bimbingan = DB::table('bimbingan')
                         ->where('mahasiswa', '=', $id_mahasiswa_val)
+                        ->where('topik', '=', $id_materi)
                         ->get();
 
                     $dosen = DB::table('dosen')
@@ -166,6 +167,10 @@ class CBimbingan extends Controller
         }
 
     }
+
+    /*public function materi_detail(){
+        return "detail bimbingan";
+    }*/
 
     public function tambah_bimbingan($id_materi)
     {

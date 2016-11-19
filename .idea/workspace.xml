@@ -2,7 +2,7 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/core/app/Http/Controllers/CTopik.php" description="$mahasiswa_mengambil_topik = ;" line="69" />
-    <bookmark url="file://$PROJECT_DIR$/core/app/Http/routes.php" description="resume" line="70" />
+    <bookmark url="file://$PROJECT_DIR$/core/app/Http/routes.php" description="resume" line="71" />
     <bookmark url="file://$PROJECT_DIR$/core/app/Http/Controllers/CBimbingan.php" description="switch ($user){" line="33" />
     <bookmark url="file://$PROJECT_DIR$/core/resources/views/layout/administrator/pengguna/universitas.blade.php" line="263" />
   </component>
@@ -10,11 +10,9 @@
     <list default="true" id="3d134dff-a0d3-4782-bd96-54cf28f11390" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/app/Http/Controllers/CBimbingan.php" afterPath="$PROJECT_DIR$/core/app/Http/Controllers/CBimbingan.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/app/Http/Controllers/CResume.php" afterPath="$PROJECT_DIR$/core/app/Http/Controllers/CResume.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/app/Http/routes.php" afterPath="$PROJECT_DIR$/core/app/Http/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/mahasiswa/bimbingan_materi.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/mahasiswa/bimbingan_materi.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/mahasiswa/tambah_bimbingan.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/mahasiswa/tambah_bimbingan.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/template.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/template.blade.php" />
     </list>
     <ignored path="radiolskk.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,12 +43,40 @@
       <file leaf-file-name="CBimbingan.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/app/Http/Controllers/CBimbingan.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="248" column="63" selection-start-line="248" selection-start-column="63" selection-end-line="248" selection-end-column="63" />
+            <state relative-caret-position="104">
+              <caret line="172" column="7" selection-start-line="170" selection-start-column="4" selection-end-line="172" selection-end-column="7" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
                 <element signature="e#2990#3240#0#PHP" expanded="false" />
-                <marker date="1479566325000" expanded="false" signature="6704:6757" ph="..." />
+                <element signature="e#3246#5222#0#PHP" expanded="false" />
+                <marker date="1479571058000" expanded="false" signature="6863:6916" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bimbingan_materi.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/resources/views/layout/mahasiswa/bimbingan_materi.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="237" column="63" selection-start-line="237" selection-start-column="63" selection-end-line="237" selection-end-column="63" />
+              <folding>
+                <element signature="e#7578#7599#0#HTML" expanded="true" />
+                <element signature="e#8655#13191#0#HTML" expanded="false" />
+                <element signature="e#9182#11551#0#HTML" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/app/Http/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="32" column="82" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="84" />
+              <folding>
+                <element signature="e#1370#1612#0#PHP" expanded="false" />
+                <element signature="e#3159#3894#1#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -89,14 +115,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tambah_bimbingan.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tambah_bimbingan.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/resources/views/layout/mahasiswa/tambah_bimbingan.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="151" column="128" selection-start-line="151" selection-start-column="128" selection-end-line="151" selection-end-column="128" />
+            <state relative-caret-position="186">
+              <caret line="162" column="58" selection-start-line="162" selection-start-column="58" selection-end-line="162" selection-end-column="58" />
               <folding>
-                <element signature="e#10109#10532#0#HTML" expanded="false" />
-                <element signature="e#10705#10900#0#HTML" expanded="false" />
+                <element signature="e#10478#10901#0#HTML" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -112,23 +137,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/app/Http/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="35" column="50" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="50" />
-              <folding>
-                <element signature="e#1285#1527#0#PHP" expanded="false" />
-                <element signature="e#3074#3809#1#PHP" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="template.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/resources/views/layout/template.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
+            <state relative-caret-position="273">
               <caret line="58" column="79" selection-start-line="58" selection-start-column="79" selection-end-line="58" selection-end-column="79" />
               <folding />
             </state>
@@ -140,16 +152,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
               <caret line="43" column="22" selection-start-line="39" selection-start-column="16" selection-end-line="43" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bimbingan_materi.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/resources/views/layout/mahasiswa/bimbingan_materi.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="142" column="49" selection-start-line="142" selection-start-column="49" selection-end-line="142" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -225,10 +227,10 @@
         <option value="$PROJECT_DIR$/core/resources/views/layout/ubah_laporan.blade.php" />
         <option value="$PROJECT_DIR$/core/app/Http/Controllers/CResume.php" />
         <option value="$PROJECT_DIR$/core/resources/views/layout/template.blade.php" />
-        <option value="$PROJECT_DIR$/core/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/core/resources/views/layout/mahasiswa/tambah_bimbingan.blade.php" />
         <option value="$PROJECT_DIR$/core/app/Http/Controllers/CBimbingan.php" />
+        <option value="$PROJECT_DIR$/core/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/core/resources/views/layout/mahasiswa/bimbingan_materi.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/mahasiswa/tambah_bimbingan.blade.php" />
       </list>
     </option>
   </component>
@@ -690,7 +692,7 @@
       <workItem from="1479082054670" duration="232000" />
       <workItem from="1479083764601" duration="22851000" />
       <workItem from="1479263689569" duration="15317000" />
-      <workItem from="1479449703186" duration="7217000" />
+      <workItem from="1479449703186" duration="11277000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1477519271247</created>
@@ -703,7 +705,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="444111000" />
+    <option name="totallyTimeSpent" value="448171000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="726" extended-state="6" />
@@ -754,7 +756,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/core/app/Http/routes.php</url>
-          <line>76</line>
+          <line>77</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
@@ -764,7 +766,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/core/app/Http/Controllers/CBimbingan.php</url>
-          <line>309</line>
+          <line>314</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
@@ -774,7 +776,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/core/app/Http/Controllers/CBimbingan.php</url>
-          <line>169</line>
+          <line>174</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
@@ -1093,14 +1095,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/template.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="58" column="79" selection-start-line="58" selection-start-column="79" selection-end-line="58" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/app/MBimbingan.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1138,17 +1132,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="35" column="50" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="50" />
-          <folding>
-            <element signature="e#1285#1527#0#PHP" expanded="false" />
-            <element signature="e#3074#3809#1#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/resources/views/layout/login.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -1159,32 +1142,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/app/Http/Controllers/CBimbingan.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="248" column="63" selection-start-line="248" selection-start-column="63" selection-end-line="248" selection-end-column="63" />
+        <state relative-caret-position="104">
+          <caret line="172" column="7" selection-start-line="170" selection-start-column="4" selection-end-line="172" selection-end-column="7" />
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
             <element signature="e#2990#3240#0#PHP" expanded="false" />
-            <marker date="1479566325000" expanded="false" signature="6704:6757" ph="..." />
+            <element signature="e#3246#5222#0#PHP" expanded="false" />
+            <marker date="1479571058000" expanded="false" signature="6863:6916" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="32" column="82" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="84" />
+          <folding>
+            <element signature="e#1370#1612#0#PHP" expanded="false" />
+            <element signature="e#3159#3894#1#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/template.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="58" column="79" selection-start-line="58" selection-start-column="79" selection-end-line="58" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/mahasiswa/bimbingan_materi.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="237" column="63" selection-start-line="237" selection-start-column="63" selection-end-line="237" selection-end-column="63" />
+          <folding>
+            <element signature="e#7578#7599#0#HTML" expanded="true" />
+            <element signature="e#8655#13191#0#HTML" expanded="false" />
+            <element signature="e#9182#11551#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/resources/views/layout/mahasiswa/tambah_bimbingan.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="151" column="128" selection-start-line="151" selection-start-column="128" selection-end-line="151" selection-end-column="128" />
+        <state relative-caret-position="186">
+          <caret line="162" column="58" selection-start-line="162" selection-start-column="58" selection-end-line="162" selection-end-column="58" />
           <folding>
-            <element signature="e#10109#10532#0#HTML" expanded="false" />
-            <element signature="e#10705#10900#0#HTML" expanded="false" />
+            <element signature="e#10478#10901#0#HTML" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/mahasiswa/bimbingan_materi.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="142" column="49" selection-start-line="142" selection-start-column="49" selection-end-line="142" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>

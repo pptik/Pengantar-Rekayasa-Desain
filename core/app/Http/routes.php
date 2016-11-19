@@ -30,6 +30,7 @@ Route::group(['prefix' => 'bimbingan','middleware' => 'auth'],function(){
 });
 
 Route::get('bimbingan/materi/{id_materi}','CBimbingan@materi');
+/*Route::get('bimbingan/materi/detail/{id_bimbingan}','CBimbingan@materi_detail');*/
 
 Route::get('bimbingan/tambah_bimbingan/{id_materi}','CBimbingan@tambah_bimbingan');
 

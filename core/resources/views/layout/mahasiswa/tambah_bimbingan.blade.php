@@ -157,6 +157,10 @@
                                                 <input type="hidden" name="topik" value="<?php echo $penanda;?>"/>
 
                                                 <div class="row">
+                                                    <div class="chip">
+                                                        Setelah anda menekan tombol kirim, anda tidak dapat mengubah & menghapus pertanyaan.
+                                                        <i class="close material-icons">close</i>
+                                                    </div>
                                                     <div class="input-field col s12">
                                                         <select name="dosen">
                                                             <option value="" disabled selected>-</option>
@@ -190,7 +194,7 @@
                                                 <br/>
                                                 <div class="row">
                                                     <div class="input-field col s12">
-                                                        <label for="permasalahan">Permasalahan</label>
+                                                        <label for="permasalahan">Pertanyaan</label>
                                                     </div>
                                                 </div>
                                                 <div class="row">

@@ -110,13 +110,15 @@
                                     $topik_id = $topik->id;
                                     ?>
                                     <li class="collection-item"><a
-                                                href="{{url('bimbingan/materi')}}/<?php echo $topik->id;?>" style="color: red;"><?php echo $topik->nama_topik;?></a>
+                                                href="{{url('bimbingan/materi')}}/<?php echo $topik->id;?>"
+                                                style="color: red;"><?php echo $topik->nama_topik;?></a>
                                     </li>
                                     <?php
                                     }else{
                                     ?>
                                     <li class="collection-item"><a
-                                                href="{{url('bimbingan/materi')}}/<?php echo $topik->id;?>" style="margin-left: 3px;"><?php echo $topik->nama_topik;?></a>
+                                                href="{{url('bimbingan/materi')}}/<?php echo $topik->id;?>"
+                                                style="margin-left: 3px;"><?php echo $topik->nama_topik;?></a>
                                     </li>
                                     <?php
                                     }
@@ -146,15 +148,100 @@
                                             </div>
                                         @endif
                                         <br>
-                                        <a href="{{url('bimbingan/tambah_bimbingan/')}}/<?php echo $topik_id;?>" class="waves-effect waves-light btn"
+                                        <a href="{{url('bimbingan/tambah_bimbingan/')}}/<?php echo $topik_id;?>"
+                                           class="waves-effect waves-light btn"
                                            style="margin: 5px 5px -12px 5px;text-transform: capitalize;">
                                             tambah
                                         </a>
+                                        <br/>
+                                        <br/>
+                                        <div style="padding: 1em;">
+                                            <?php
+                                                $counter = 1;
+                                            foreach ($bimbingan_materi as $bimbingan) {
+                                            ?>
+                                            <a href="#modalDetailBimbingan<?php echo $counter;?>" class="modal-trigger">
+
+                                                <?php echo $bimbingan->judul;?>
+                                                <div class="chip">
+                                                    <?php
+                                                    echo date('d M Y h.i.s A', strtotime($bimbingan->created_at));
+                                                    //echo $bimbingan->created_at;
+                                                    ?>
+                                                </div>
+
+                                            </a>
+
+                                                <!-- Modal Structure -->
+                                                <div id="modalDetailBimbingan<?php echo $counter;?>" class="modal modal-fixed-footer">
+                                                    <div class="modal-content">
+                                                        <h4><?php echo $bimbingan->judul;?></h4>
+                                                        <p>
+                                                            Diajukan kepada:
+                                                            <br/>
+                                                            <small>
+                                                                <?php
+                                                                    //ambil nama dosen
+                                                                    $idUniversitas = NULL;
+                                                                    $namaDosen = NULL;
+
+                                                                    $getDosen = DB::table('dosen')
+
+                                                                                ->join('users','users.id','=','dosen.id_users')
+                                                                                ->where('dosen.id','=',$bimbingan->dosen)
+                                                                                ->get();
+
+                                                                    foreach ($getDosen as $dosen) {
+                                                                        $idUniversitas = $dosen->universitas;
+                                                                        $namaDosen = $dosen->nama_depan.$dosen->nama_belakang;
+                                                                    }
+
+                                                                    //ambil universitas
+                                                                    $namaUniversitas = NULL;
+                                                                    $getUniversitas = DB::table('universitas')
+                                                                        ->join('users','users.id','=','universitas.id_users')
+                                                                        ->where('universitas.id','=',$idUniversitas)
+                                                                        ->get();
+
+                                                                foreach ($getUniversitas as $universitas) {
+                                                                  $namaUniversitas = $universitas->nama_depan.' '.$universitas->nama_belakang;
+                                                                }
+                                                                    echo $namaDosen.' - '.$namaUniversitas;
+                                                                ?>
+                                                            </small>
+                                                        </p>
+                                                        <br/>
+                                                        <p>
+                                                            Pertanyaan:
+                                                            <br/>
+                                                            <small><?php echo $bimbingan->permasalahan;?></small>
+                                                        </p>
+                                                        <br/>
+                                                        <p>
+                                                            Jawaban:
+                                                            <br/>
+                                                            <small>
+                                                            <?php
+                                                                if($bimbingan->penyelesaian != NULL){
+                                                                    echo $bimbingan->penyelesaian;
+                                                                }else{
+                                                                    echo "[Pertanyaan ini belum di jawab]";
+                                                                }
+                                                            ?>
+                                                            </small>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            <br/>
+                                            <br/>
+                                            <?php
+                                                    $counter++;
+                                            }
+                                            ?>
+                                        </div>
                                     </div>
                                 </div>
-                                <ul class="collection" style="padding: 0;margin: 0;">
-                                    {{--<li class="collection-item">Ambil ladang</li>--}}
-                                </ul>
+
 
 
                             </div>
@@ -185,6 +272,8 @@
 
 @section('js')
     $(document).ready(function(){
+
+
 
     $('select').material_select();
 
