@@ -136,7 +136,15 @@
                             </div>
                             <div class="card-content" style="padding: 0em;">
                                 <div class="row">
+
                                     <div class="col s12">
+
+                                        @if ( Session::has('message') )
+                                            <br/>
+                                            <div class="chip red lighten-2 white-text thin">
+                                                {{ Session::get('message') }}
+                                            </div>
+                                        @endif
                                         <br>
                                         <a href="{{url('bimbingan/tambah_bimbingan/')}}/<?php echo $topik_id;?>" class="waves-effect waves-light btn"
                                            style="margin: 5px 5px -12px 5px;text-transform: capitalize;">

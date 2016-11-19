@@ -33,6 +33,11 @@ Route::get('bimbingan/materi/{id_materi}','CBimbingan@materi');
 
 Route::get('bimbingan/tambah_bimbingan/{id_materi}','CBimbingan@tambah_bimbingan');
 
+Route::group(['prefix' => 'proses_tambah_bimbingan','middleware' => 'auth'],function(){
+    Route::post('mahasiswa','CBimbingan@proses_tambah_bimbingan_mahasiswa');
+    Route::post('dosen','CBimbingan@proses_tambah_bimbingan_dosen');
+});
+
 Route::get('lupa_password','CPengguna@lupa_password');
 
 Route::post('lupa_password_send','CPengguna@lupa_password_send');

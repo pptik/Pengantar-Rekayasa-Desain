@@ -20,6 +20,8 @@ use Auth;
 
 class CResume extends Controller
 {
+
+
     public function random_string($length)
     {
         $key = '';

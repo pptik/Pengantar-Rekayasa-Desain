@@ -1,6 +1,6 @@
 @extends('layout.template')
 @section('judul-halaman')
-    <title>Bimbingan | PRD Online Course</title>
+    <title>Tambah Bimbingan | PRD Online Course</title>
 @endsection
 @section('konten')
     <?php
@@ -91,7 +91,7 @@
             <br/>
 
             <div class="row" style="padding: 0 11em 0 11em;" class='thin'>
-                <div class="col s3">
+                <div class="col s12 m12 l3">
                     <div class="card horizontal">
                         <div class="card-stacked">
                             <div class="card-action grey">
@@ -129,7 +129,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col s9">
+                <div class="col s12 m12 l9">
                     <div class="card horizontal">
                         <div class="card-stacked">
                             <div class="card-action grey">
@@ -140,20 +140,67 @@
                                     <div class="col s12">
                                         <br>
                                         <div class="row">
-                                            <form class="col s12">
+                                            @if (count($errors) > 0)
+                                                <div class="card container col m12 red white-text">
+                                                    <ul>
+                                                        @foreach ($errors->all() as $error)
+                                                            <li>{{ $error }}</li>
+                                                        @endforeach
+                                                    </ul>
+                                                </div>
+                                            @endif
+                                            <form class="col s12" method="post" action="{{url('proses_tambah_bimbingan/mahasiswa')}}">
+                                                <input type="hidden" name="_token" value="{{ csrf_token() }}"/>
+                                                <input type="hidden" name="id" value="<?php echo $user->id;?>"/>
+                                                <input type="hidden" name="universitas"
+                                                       value="<?php echo $user->universitas;?>"/>
+                                                <input type="hidden" name="topik" value="<?php echo $penanda;?>"/>
+
                                                 <div class="row">
-                                                    <div class="input-field col s6">
-                                                        <input placeholder="Pengantar" id="first_name" type="text"
-                                                               class="validate" disabled>
-                                                        <label for="first_name">Pengantar</label>
+                                                    <div class="input-field col s12">
+                                                        <select name="dosen">
+                                                            <option value="" disabled selected>-</option>
+                                                            <?php
+                                                            foreach ($dosens as $dosen) {
+                                                                //ambil nama universitas
+                                                                $universitas = DB::table('users')
+                                                                                ->join('universitas','universitas.id_users','=','users.id')
+                                                                                ->where('universitas.id','=',$dosen->id_universitas)
+                                                                                ->get();
+
+                                                                $namaUniversitas = NULL;
+                                                                foreach ($universitas as $univ){
+                                                                    $namaUniversitas = $univ->nama_depan.' '.$univ->nama_belakang;
+                                                                }
+                                                            ?>
+                                                            <option value="<?php echo $dosen->id_dosen;?>"><?php echo $dosen->nama_depan . " " . $dosen->nama_belakang;?> - <?php echo $namaUniversitas;?></option>
+                                                            <?php
+                                                            }
+                                                            ?>
+                                                        </select>
+                                                        <label>Dosen</label>
                                                     </div>
                                                 </div>
                                                 <div class="row">
                                                     <div class="input-field col s12">
-                                                        <input disabled value="I am not editable" id="disabled"
-                                                               type="text" class="validate">
-                                                        <label for="disabled">Disabled</label>
+                                                        <input id="judul" type="text" class="validate" name="judul">
+                                                        <label for="judul">Judul</label>
                                                     </div>
+                                                </div>
+                                                <br/>
+                                                <div class="row">
+                                                    <div class="input-field col s12">
+                                                        <label for="permasalahan">Permasalahan</label>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="input-field col s12">
+                                                        <textarea name="permasalahan" id="permasalahan" rows="10"
+                                                                  cols="80"></textarea>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <button class="waves-effect waves-light btn">kirim</button>
                                                 </div>
                                             </form>
                                         </div>
@@ -214,5 +261,6 @@
     selectYears: 15 // Creates a dropdown of 15 years to control year
     });
 
+    CKEDITOR.replace( 'permasalahan' );
     });
 @endsection

@@ -11,6 +11,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\DB;
 use Input;
+use Session;
 
 class CBimbingan extends Controller
 {
@@ -155,7 +156,7 @@ class CBimbingan extends Controller
                         ->with('topik2', $topik)
                         ->with('topik3', $topik)
                         ->with('topik_dipilih', $topik_dipilih)
-                        ->with('bimbingan_materi', $bimbingan);;
+                        ->with('bimbingan_materi', $bimbingan);
                     break;//mahasiswa
             }
 
@@ -195,13 +196,14 @@ class CBimbingan extends Controller
             ->get();
 
         $dosen = DB::table('dosen')
-            ->select('*', 'dosen.id as id_dosen')
+            ->select('*', 'dosen.id as id_dosen','users.universitas as id_universitas')
             ->join('users', 'users.id', '=', 'dosen.id_users')
             ->where('users.universitas', '=', $user->universitas)
+            ->orderBy('users.nama_depan','asc')
             ->get();
 
         return view('layout.mahasiswa.tambah_bimbingan')
-            ->with('dosen', $dosen)
+            ->with('dosens', $dosen)
             ->with('topik', $topik)
             ->with('topik2', $topik)
             ->with('topik3', $topik)
@@ -210,6 +212,42 @@ class CBimbingan extends Controller
         }else{
             return view('errors.404');
         }
+    }
+
+    public function proses_tambah_bimbingan_dosen(Request $request){
+        $this->validate($request,[
+
+        ]);
+    }
+    public function proses_tambah_bimbingan_mahasiswa(Request $request){
+        $this->validate($request,[
+            "id" => "required",
+            "universitas" => "required",
+            "topik" => "required",
+            "dosen" => "required",
+            "judul" => "required",
+            "permasalahan" => "required"
+        ]);
+
+        $bimbingan = new MBimbingan();
+        $bimbingan->universitas = $request["universitas"];
+        $bimbingan->topik = $request["topik"];
+
+        //ambil id mahasiswa dari request id
+        $idMahasiswa = NULL;
+        $getIDMahasiswas = DB::table('mahasiswa')->where('id_users','=',$request["id"])->get();
+        foreach ($getIDMahasiswas as $getIDMahasiswa) {
+            $idMahasiswa = $getIDMahasiswa->id;
+        }
+        $bimbingan->mahasiswa = $idMahasiswa;
+
+        $bimbingan->dosen= $request["dosen"];
+        $bimbingan->judul= $request["judul"];
+        $bimbingan->permasalahan= $request["permasalahan"];
+        $bimbingan->save();
+
+        Session::flash("message", "Bimbingan berhasil dilakukan.");
+        return Redirect::to('bimbingan/materi/'.$request["topik"].'');
     }
 
     public function lakukan_bimbingan(Request $request)

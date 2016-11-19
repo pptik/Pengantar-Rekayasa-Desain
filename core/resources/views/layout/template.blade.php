@@ -56,6 +56,7 @@ header('Content-Type: text/html');?>
 <script src="{{url('/')}}/core/resources/assets/js/jquery.dataTables.min.js"></script>
 <script src="{{url('/')}}/core/resources/assets/js/jquery.lazyload.min.js"></script>
 <script src="{{url('/')}}/core/resources/assets/bower_components/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="{{url('/')}}/core/resources/assets/ckeditor/ckeditor.js"></script>
 <script>
     @yield('js')
 </script>
