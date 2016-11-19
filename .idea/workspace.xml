@@ -8,10 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d134dff-a0d3-4782-bd96-54cf28f11390" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/resources/views/layout/dosen/bimbingan_backup_sebelum_ganti_layout.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/dosen/bimbingan.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/dosen/bimbingan.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/keamanan.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/keamanan.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_auth.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_auth.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_ubah.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_ubah.blade.php" />
     </list>
     <ignored path="radiolskk.iws" />
@@ -43,7 +41,7 @@
       <file leaf-file-name="CPengguna.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/app/Http/Controllers/CPengguna.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-993">
+            <state relative-caret-position="222">
               <caret line="468" column="57" selection-start-line="468" selection-start-column="36" selection-end-line="468" selection-end-column="57" />
               <folding>
                 <element signature="e#4826#5071#0#PHP" expanded="false" />
@@ -55,7 +53,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="keamanan.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="keamanan.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/resources/views/layout/keamanan.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
@@ -65,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile_pengguna_ubah.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="profile_pengguna_ubah.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_ubah.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="222">
-              <caret line="136" column="40" selection-start-line="136" selection-start-column="40" selection-end-line="136" selection-end-column="40" />
+              <caret line="228" column="54" selection-start-line="228" selection-start-column="54" selection-end-line="228" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -78,11 +76,9 @@
       <file leaf-file-name="profile_pengguna_auth.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_auth.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="136" column="40" selection-start-line="131" selection-start-column="24" selection-end-line="136" selection-end-column="40" />
-              <folding>
-                <marker date="1479303067000" expanded="false" signature="12424:12438" ph="..." />
-              </folding>
+            <state relative-caret-position="195">
+              <caret line="235" column="30" selection-start-line="232" selection-start-column="28" selection-end-line="235" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -138,7 +134,6 @@
         <option value="$PROJECT_DIR$/core/app/Http/Controllers/CPengguna.php" />
         <option value="$PROJECT_DIR$/core/resources/views/layout/administrator/pengguna/universitas.blade.php" />
         <option value="$PROJECT_DIR$/core/app/Http/Controllers/CAdministrator.php" />
-        <option value="$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_auth.blade.php" />
         <option value="$PROJECT_DIR$/core/resources/views/layout/topik.blade.php" />
         <option value="$PROJECT_DIR$/core/resources/views/layout/sub_topik.blade.php" />
         <option value="$PROJECT_DIR$/core/resources/views/layout/laporan_topik.blade.php" />
@@ -149,8 +144,9 @@
         <option value="$PROJECT_DIR$/core/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/core/resources/views/layout/mahasiswa/bimbingan_materi.blade.php" />
         <option value="$PROJECT_DIR$/core/resources/views/layout/mahasiswa/tambah_bimbingan.blade.php" />
-        <option value="$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_ubah.blade.php" />
         <option value="$PROJECT_DIR$/core/resources/views/layout/keamanan.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_auth.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_ubah.blade.php" />
       </list>
     </option>
   </component>
@@ -642,7 +638,7 @@
       <workItem from="1479082054670" duration="232000" />
       <workItem from="1479083764601" duration="22851000" />
       <workItem from="1479263689569" duration="15317000" />
-      <workItem from="1479449703186" duration="11968000" />
+      <workItem from="1479449703186" duration="12463000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1477519271247</created>
@@ -655,7 +651,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="448862000" />
+    <option name="totallyTimeSpent" value="449357000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="726" extended-state="6" />
@@ -1115,27 +1111,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_auth.blade.php">
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/keamanan.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="136" column="40" selection-start-line="131" selection-start-column="24" selection-end-line="136" selection-end-column="40" />
-          <folding>
-            <marker date="1479303067000" expanded="false" signature="12424:12438" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_ubah.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="136" column="40" selection-start-line="136" selection-start-column="40" selection-end-line="136" selection-end-column="40" />
+        <state relative-caret-position="195">
+          <caret line="131" column="40" selection-start-line="131" selection-start-column="40" selection-end-line="131" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/app/Http/Controllers/CPengguna.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-993">
+        <state relative-caret-position="222">
           <caret line="468" column="57" selection-start-line="468" selection-start-column="36" selection-end-line="468" selection-end-column="57" />
           <folding>
             <element signature="e#4826#5071#0#PHP" expanded="false" />
@@ -1146,10 +1132,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/keamanan.blade.php">
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_auth.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="131" column="40" selection-start-line="131" selection-start-column="40" selection-end-line="131" selection-end-column="40" />
+          <caret line="235" column="30" selection-start-line="232" selection-start-column="28" selection-end-line="235" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_ubah.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="228" column="54" selection-start-line="228" selection-start-column="54" selection-end-line="228" selection-end-column="54" />
           <folding />
         </state>
       </provider>

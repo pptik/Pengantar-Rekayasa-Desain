@@ -230,7 +230,19 @@
                                 </span>
                         </li>
                         <li class="collection-item" style="margin: 0.5em;">
+                            <?php
+                            switch ($user->peran){
+                            case 4://mahasiswa
+                            ?>
                             <span class="blue-text">NIM</span>
+                            <?php
+                            ;break;
+                                case 2://dosen?>
+                                <span class="blue-text">NIP</span>
+<?php
+                                    ;break;
+                            }
+                            ?>
                             <br/>
                             <span class="thin">
                                 <?php
@@ -258,38 +270,38 @@
                                 </span>
                             </span>
                         </li>
-                        <!--<li class="collection-item" style="margin: 0.5em;">
+                    <!--<li class="collection-item" style="margin: 0.5em;">
                             <span class="blue-text">Fakultas</span>
                             <br/>
                             <span class="thin">
                                 <?php
-                                if ($fakultas == NULL) {
-                                    echo "-";
-                                } else {
-                                    echo $fakultas;
-                                }
+                    if ($fakultas == NULL) {
+                        echo "-";
+                    } else {
+                        echo $fakultas;
+                    }
 
-                                ?>
-                                </span>
-                        </li>
-                        <li class="collection-item" style="margin: 0.5em;">
-                            <span class="blue-text">Dosen Pengampu</span>
-                            <br/>
-                            <span class="thin">
-                                <?php
-                                if ($dosen_pengampu == NULL) {
-                                    echo "-";
-                                } else {
-                                    foreach ($dosen_pengampu as $dosen_pengampu) {
+                    ?>
+                            </span>
+                    </li>
+                    <li class="collection-item" style="margin: 0.5em;">
+                        <span class="blue-text">Dosen Pengampu</span>
+                        <br/>
+                        <span class="thin">
+                            <?php
+                    if ($dosen_pengampu == NULL) {
+                        echo "-";
+                    } else {
+                        foreach ($dosen_pengampu as $dosen_pengampu) {
 
-                                        $dosen_pengampu->nama_depan;
+                            $dosen_pengampu->nama_depan;
 
-                                    }
-                                }
+                        }
+                    }
 
-                                ?>
-                                </span>
-                        </li>-->
+                    ?>
+                            </span>
+                    </li>-->
                     </ul>
                 </div>
                 <div id="test2" class="col s12"></div>

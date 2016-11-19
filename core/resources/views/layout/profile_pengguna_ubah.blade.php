@@ -220,8 +220,16 @@
                                     <div class="input-field col s12">
                                         <input value="<?php echo $nim;?>" id="nim" type="text" class="validate"
                                                name="nim">
-                                        <label for="nim">NIM (apabila anda mahasiswa) / NIP (apabila anda
-                                            pengajar)</label>
+                                        <?php
+                                        switch ($user->peran){
+                                            case 4://mahasiswa
+                                                ?>
+                                        <label for="nim">NIM</label>
+                                        <?php ;break;
+                                        case 2://dosen?>
+                                        <label for="nim">NIP</label>
+<?php ;break;
+                                        }?>
                                     </div>
                                 </div>
                             </li>
