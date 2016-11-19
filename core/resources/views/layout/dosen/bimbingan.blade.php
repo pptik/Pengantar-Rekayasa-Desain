@@ -52,6 +52,7 @@
                     </a>
                     <!-- Dropdown Structure -->
                     <ul id='dropdown1' class='dropdown-content'>
+                        <li></li>
                         <li><a href="{{url('logout')}}">Keluar</a></li>
                     </ul>
                 </li>
@@ -74,8 +75,8 @@
                     <div class="center-align">
 
                         <h5>Bimbingan</h5>
-                        <p class="thin">Berikut daftar bimbingan yang dilakukan mahasiswa terhadap anda sebagai dosen
-                            pengampu.
+                        <p class="thin">Apabila ada yang ingin anda tanyakan kepada dosen silahkan lakukan bimbingan
+                            pada menu dibawah.
                             <br/>Bimbingan dibagi berdasarkan dengan nama topik yang berada pada tab.
                         </p>
                     </div>
@@ -84,175 +85,58 @@
             </div>
             <br/>
 
-            <div class="row">
-                <br/>
-                @if (count($errors) > 0)
-                    <div class="card container col m12 red white-text">
-                        <ul>
-                            @foreach ($errors->all() as $error)
-                                <li>{{ $error }}</li>
-                            @endforeach
-                        </ul>
-                    </div>
-                @endif
-
-
-                <div id="modal1" class="modal">
-                    <div class="modal-content">
-                        <h5 class="center-align">Jawab</h5>
-                        <p class="thin center-align">Silahkan menjawab pertanyaan atas bimbingan yang diajukan oleh mahasiswa.</p>
-                        <form action="{{url('dosen/jawab_bimbingan')}}" method="post"
-                              enctype="multipart/form-data">
-                            <input type="hidden" name="_token" value="{{ csrf_token() }}"/>
-
-                            <div class="row">
-                                Tanggal Bimbingan:
+            <div class="row" style="padding: 0 11em 0 11em;" class='thin'>
+                <div class="col s3">
+                    <div class="card horizontal">
+                        <div class="card-stacked">
+                            <div class="card-action grey">
+                                <a href="#" class="white-text" style="text-transform: capitalize;">Materi</a>
                             </div>
-                            <div class="row">
-                                Judul:
-                            </div>
-                            <div class="row">
-                                Permasalahan:
-                            </div>
-                            <div class="row">
-                                Berkas permasalahan:
+                            <div class="card-content" style="padding: 0;">
+                                <ul class="collection" style="padding: 0;margin: 0;">
+                                    {{--<li class="collection-item" style="border-left: 3px solid #2196F3;">Pengantar</li>
+                                    <li class="collection-item" style="margin-left: 3px;">Set Kegiatan I</li>
+                                    <li class="collection-item" style="margin-left: 3px;">Set Kegiatan II</li>
+                                    <li class="collection-item" style="margin-left: 3px;">Set Kegiatan III</li>--}}
+                                    <?php
+                                    foreach ($topik as $topik){
+                                    ?>
+                                    <li class="collection-item"><a href="{{url('bimbingan/materi')}}/<?php echo $topik->id;?>"><?php echo $topik->nama_topik;?></a></li>
+                                    <?php
+                                    }
+                                    ?>
+                                </ul>
                             </div>
 
-                            <div class="file-field input-field row" align="right">
-                                <button type="submit" class="btn waves-teal waves-effect col s2 offset-s10">Kirim
-                                </button>
-                            </div>
-
-                        </form>
+                        </div>
                     </div>
                 </div>
+                <div class="col s9">
+                    <div class="card horizontal">
+                        <div class="card-stacked">
+                            <div class="card-action grey">
+                                <a href="#" class="white-text" style="text-transform: capitalize;">Daftar Bimbingan</a>
+                            </div>
+                            <div class="card-content" style="padding: 1em;">
+                                {{--<div class="row">
+                                    <div class="col s3 offset-s9">
+                                        <a class="waves-effect waves-light btn"
+                                           style="margin: 5px 5px -12px 5px;text-transform: capitalize;">
+                                            tambah
+                                        </a>
+                                    </div>
+                                </div>
+                                <ul class="collection" style="padding: 0;margin: 0;">
+                                    <li class="collection-item">Ambil ladang</li>
+                                </ul>--}}
+                                Pilih materi pada bagian kiri terlebih dahulu untuk melakukan bimbingan.
 
-                <div class="col s12">
-                    <ul class="tabs" style="font-size: smaller;">
-                        <?php
-                        $tab_counter = 1;
-                        foreach ($topik as $topik) {
-                        ?>
-                        <li class="tab col s3"><a
-                                    href="#test<?php echo $tab_counter;?>"><?php echo $topik->nama_topik;?></a></li>
-                        <?php
-                        $tab_counter++;
-                        }
-                        ?>
-                    </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
                 </div>
-                <?php
-                $tab_counter2 = 1;
-                foreach ($topik2 as $topik2) {
-                ?>
-                <div id="test<?php echo $tab_counter2;?>" class="col s12">
-                    <br/>
-                    <?php
-                    $id_dosen = DB::table('dosen')
-                            ->where('id_users', '=', $user->id)
-                            ->get();
-
-                    $id_dosen_val = NULL;
-                    foreach ($id_dosen as $id_dosen) {
-                        $id_dosen_val = $id_dosen->id;
-                    }
-
-                    $bimbingan_detail = DB::table('bimbingan')
-                            ->where('dosen', '=', $id_dosen_val)
-                            ->where('topik', '=', $tab_counter2)
-                            ->orderBy('created_at', 'desc')
-                            ->get();
-                    ?>
-                    <table class="highlight">
-                        <thead>
-                        <tr style="color: #58b0f5">
-                            <th data-field="id" style="font-weight: lighter;">No</th>
-                            <th data-field="id" style="font-weight: lighter;">Judul</th>
-                            <th data-field="name" style="font-weight: lighter;">Tanggal Bimbingan</th>
-                            <th data-field="price" style="font-weight: lighter;">Permasalahan</th>
-                            <th data-field="price" style="font-weight: lighter;">Berkas Permasalahan</th>
-                            {{--<th data-field="price" style="font-weight: lighter;">Status</th>--}}
-                            <th data-field="price" style="font-weight: lighter;">Penyelesaian</th>
-                            <th data-field="price" style="font-weight: lighter;">Berkas Penyelesaian</th>
-                            <th data-field="price" style="font-weight: lighter;">Aksi</th>
-                        </tr>
-                        </thead>
-
-                        <tbody style="font-weight: lighter;">
-                        <?php
-                        $no = 1;
-                        foreach ($bimbingan_detail as $bimbingan_detail) {
-                        ?>
-                        <tr>
-                            <td><?php echo $no;?></td>
-                            <td><?php echo $bimbingan_detail->judul;?></td>
-                            <td><?php echo $bimbingan_detail->tanggal;?></td>
-                            <td><?php echo $bimbingan_detail->permasalahan;?></td>
-                            <td>
-                                <?php
-                                if($bimbingan_detail->url_berkas_permasalahan != NULL){
-                                ?>
-                                <a class="waves-effect waves-light btn text-white"
-                                   href="<?php echo $bimbingan_detail->url_berkas_permasalahan;?>" target="_blank">Unduh</a>
-                                <?php
-                                }else {
-                                    echo "-";
-                                }
-                                ?>
-                            </td>
-                        {{--<td>
-                            Tombol Jawab
-                        </td>--}}
-                        <!--<td>
-                                <?php
-                        if ($bimbingan_detail->status == 0) {
-                            echo "<i class='material-icons tooltipped' data-position='top' data-delay='50' data-tooltip='Belum dilihat'>cancel</i>";
-                        } else if ($bimbingan_detail->status == 1) {
-                            echo "<i class='material-icons tooltipped' data-position='top' data-delay='50' data-tooltip='Sudah dilihat'>check_circle</i>";
-                        }
-
-                        ?>
-                                </td>-->
-                            <td><?php
-                                if ($bimbingan_detail->penyelesaian != NULL) {
-                                    $bimbingan_detail->penyelesaian;
-                                } else {
-                                    echo "-";
-                                }
-                                ?></td>
-                            <td>
-                                <?php
-                                if($bimbingan_detail->url_berkas_penyelesaian != NULL){
-                                ?>
-                                <a class="waves-effect waves-light btn text-white"
-                                   href="<?php echo $bimbingan_detail->url_berkas_penyelesaian;?>" target="_blank">Unduh</a>
-                                <?php
-                                }else {
-                                    echo "-";
-                                }
-                                ?>
-
-
-                            </td>
-                            <td>
-                                <!--<a class="waves-effect waves-light btn text-white"
-                                   href="<?php echo $bimbingan_detail->url_berkas_penyelesaian;?>" target="_blank">Jawab</a>-->
-                                <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Jawab</a>
-                            </td>
-                        </tr>
-                        <?php
-                        $no++;
-                        }
-                        ?>
-                        </tbody>
-                    </table>
-                </div>
-
-                <?php
-                $tab_counter2++;
-                }
-                ?>
-
             </div>
         </div>
     </div>

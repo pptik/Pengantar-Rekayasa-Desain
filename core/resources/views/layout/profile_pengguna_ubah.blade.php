@@ -130,8 +130,10 @@
                         <?php
                         //Menampilkan daftar topik yang sudah dikerjakan bila ada
                         $query_topik_sudah_dikerjakan = DB::table('mahasiswa_mengambil_topik')
+                                ->select('nama_topik')
                                 ->join('topik', 'topik.id', '=', 'mahasiswa_mengambil_topik.id_topik')
                                 ->where('id_pengguna', '=', $user->id)
+                                ->distinct()
                                 ->get();
                         if(count($query_topik_sudah_dikerjakan != 0)){
 

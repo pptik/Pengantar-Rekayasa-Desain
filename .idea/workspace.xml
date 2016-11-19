@@ -8,11 +8,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d134dff-a0d3-4782-bd96-54cf28f11390" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/resources/views/layout/dosen/bimbingan_backup_sebelum_ganti_layout.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/app/Http/Controllers/CBimbingan.php" afterPath="$PROJECT_DIR$/core/app/Http/Controllers/CBimbingan.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/app/Http/routes.php" afterPath="$PROJECT_DIR$/core/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/mahasiswa/bimbingan_materi.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/mahasiswa/bimbingan_materi.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/mahasiswa/tambah_bimbingan.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/mahasiswa/tambah_bimbingan.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/dosen/bimbingan.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/dosen/bimbingan.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/keamanan.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/keamanan.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_ubah.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_ubah.blade.php" />
     </list>
     <ignored path="radiolskk.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,129 +40,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CBimbingan.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/app/Http/Controllers/CBimbingan.php">
+      <file leaf-file-name="CPengguna.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/app/Http/Controllers/CPengguna.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="172" column="7" selection-start-line="170" selection-start-column="4" selection-end-line="172" selection-end-column="7" />
+            <state relative-caret-position="-993">
+              <caret line="468" column="57" selection-start-line="468" selection-start-column="36" selection-end-line="468" selection-end-column="57" />
               <folding>
-                <element signature="e#40#68#0#PHP" expanded="true" />
-                <element signature="e#2990#3240#0#PHP" expanded="false" />
-                <element signature="e#3246#5222#0#PHP" expanded="false" />
-                <marker date="1479571058000" expanded="false" signature="6863:6916" ph="..." />
+                <element signature="e#4826#5071#0#PHP" expanded="false" />
+                <element signature="e#5630#6627#0#PHP" expanded="false" />
+                <element signature="e#19229#19479#0#PHP" expanded="false" />
+                <element signature="e#20003#20277#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bimbingan_materi.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/resources/views/layout/mahasiswa/bimbingan_materi.blade.php">
+      <file leaf-file-name="keamanan.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/resources/views/layout/keamanan.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="237" column="63" selection-start-line="237" selection-start-column="63" selection-end-line="237" selection-end-column="63" />
+            <state relative-caret-position="195">
+              <caret line="131" column="40" selection-start-line="131" selection-start-column="40" selection-end-line="131" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile_pengguna_ubah.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_ubah.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="136" column="40" selection-start-line="136" selection-start-column="40" selection-end-line="136" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile_pengguna_auth.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_auth.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="136" column="40" selection-start-line="131" selection-start-column="24" selection-end-line="136" selection-end-column="40" />
               <folding>
-                <element signature="e#7578#7599#0#HTML" expanded="true" />
-                <element signature="e#8655#13191#0#HTML" expanded="false" />
-                <element signature="e#9182#11551#0#HTML" expanded="false" />
+                <marker date="1479303067000" expanded="false" signature="12424:12438" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/app/Http/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="32" column="82" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="84" />
-              <folding>
-                <element signature="e#1370#1612#0#PHP" expanded="false" />
-                <element signature="e#3159#3894#1#PHP" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CAdministrator.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/app/Http/Controllers/CAdministrator.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="94" column="22" selection-start-line="94" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
-              <folding>
-                <element signature="e#733#834#0#PHP" expanded="false" />
-                <element signature="e#840#1179#0#PHP" expanded="false" />
-                <element signature="e#2620#2949#0#PHP" expanded="false" />
-                <element signature="e#2955#3256#0#PHP" expanded="false" />
-                <element signature="e#3262#3605#0#PHP" expanded="false" />
-                <element signature="e#4264#4514#0#PHP" expanded="false" />
-                <element signature="e#14031#14078#0#PHP" expanded="false" />
-                <element signature="e#14247#14309#0#PHP" expanded="false" />
-                <element signature="e#14441#14489#0#PHP" expanded="false" />
-                <element signature="e#14639#14687#0#PHP" expanded="false" />
-                <element signature="e#14878#14946#0#PHP" expanded="false" />
-                <element signature="e#15090#15141#0#PHP" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MBimbingan.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/app/MBimbingan.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tambah_bimbingan.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/core/resources/views/layout/mahasiswa/tambah_bimbingan.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="162" column="58" selection-start-line="162" selection-start-column="58" selection-end-line="162" selection-end-column="58" />
-              <folding>
-                <element signature="e#10478#10901#0#HTML" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/resources/views/layout/login.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="42" column="30" selection-start-line="40" selection-start-column="24" selection-end-line="42" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/resources/views/layout/template.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="58" column="79" selection-start-line="58" selection-start-column="79" selection-end-line="58" selection-end-column="79" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sub_materi.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/resources/views/layout/administrator/materi/sub_materi.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="43" column="22" selection-start-line="39" selection-start-column="16" selection-end-line="43" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/resources/views/layout/administrator/template.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="83" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="83" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -197,8 +117,6 @@
         <option value="$PROJECT_DIR$/core/resources/views/layout/universitas/pengguna/mahasiswa.blade.php" />
         <option value="$PROJECT_DIR$/core/resources/views/layout/universitas/pengguna/dosen.blade.php" />
         <option value="$PROJECT_DIR$/core/resources/views/layout/mahasiswa/bimbingan.blade.php" />
-        <option value="$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_ubah.blade.php" />
-        <option value="$PROJECT_DIR$/core/resources/views/layout/keamanan.blade.php" />
         <option value="$PROJECT_DIR$/core/app/Http/Kernel.php" />
         <option value="$PROJECT_DIR$/core/app/Http/Middleware/Administrator.php" />
         <option value="$PROJECT_DIR$/core/resources/assets/semantic/dist/semantic.css" />
@@ -231,6 +149,8 @@
         <option value="$PROJECT_DIR$/core/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/core/resources/views/layout/mahasiswa/bimbingan_materi.blade.php" />
         <option value="$PROJECT_DIR$/core/resources/views/layout/mahasiswa/tambah_bimbingan.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_ubah.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/keamanan.blade.php" />
       </list>
     </option>
   </component>
@@ -401,6 +321,36 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dosen" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -478,24 +428,24 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../vidyanusa" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="SearchEverywhereHistoryKey" value="CB&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CBimbingan.php&#10;template&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/template.blade.php&#10;login&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/login.blade.php&#10;CBim&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CBimbingan.php&#10;rout&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/routes.php&#10;CBI&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CBimbingan.php&#10;CResume&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CResume.php&#10;CTopi&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CTopik.php&#10;CAd&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CAdministrator.php&#10;routes&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/routes.php&#10;regis&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/register.blade.php&#10;dashboard&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/dashboard.blade.php&#10;register&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/register.blade.php&#10;profile_pengguna_auth&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/profile_pengguna_auth.blade.php&#10;cpengg&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CPengguna.php&#10;index&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/index.blade.php&#10;dafta&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/daftar_topik.blade.php&#10;reg&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/register.blade.php&#10;sub_topik&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/sub_topik.blade.php&#10;ubah_&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/ubah_laporan.blade.php&#10;cad&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CAdministrator.php&#10;laporan&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/laporan_topik.blade.php&#10;dashb&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/dashboard.blade.php&#10;CPen&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CPengguna.php&#10;ca&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CAdministrator.php&#10;.env&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/.env&#10;database&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/config/database.php&#10;daftar_top&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/daftar_topik.blade.php&#10;CTopik&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CTopik.php&#10;mSU&#9;null&#9;null&#10;CPeng&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CPengguna.php&#10;templ&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/template.blade.php&#10;ccourse&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CCourse.php&#10;cpe&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CPengguna.php&#10;login.&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/login.blade.php&#10;regi&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/register.blade.php&#10;das&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/dashboard.blade.php&#10;ubah_la&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/ubah_laporan.blade.php&#10;ctopik&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CTopik.php&#10;CA&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CAdministrator.php&#10;daftar&#9;null&#9;null&#10;seman&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/assets/semantic/dist/semantic.css&#10;CT&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CTopik.php&#10;cadmini&#9;null&#9;null&#10;cpeng&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CPengguna.php&#10;logi&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/login.blade.php&#10;tem&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/template.blade.php&#10;cbimb&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CBimbingan.php&#10;templa&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/template.blade.php&#10;profile_pen&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/profile_pengguna_ubah.blade.php" />
+    <property name="SearchEverywhereHistoryKey" value="profile_pengguna_ubah&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/profile_pengguna_ubah.blade.php&#10;profile_pengguna_auth&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/profile_pengguna_auth.blade.php&#10;CPeng&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CPengguna.php&#10;CBimbin&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CBimbingan.php&#10;CB&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CBimbingan.php&#10;template&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/template.blade.php&#10;login&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/login.blade.php&#10;CBim&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CBimbingan.php&#10;rout&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/routes.php&#10;CBI&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CBimbingan.php&#10;CResume&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CResume.php&#10;CTopi&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CTopik.php&#10;CAd&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CAdministrator.php&#10;routes&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/routes.php&#10;regis&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/register.blade.php&#10;dashboard&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/dashboard.blade.php&#10;register&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/register.blade.php&#10;cpengg&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CPengguna.php&#10;index&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/index.blade.php&#10;dafta&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/daftar_topik.blade.php&#10;reg&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/register.blade.php&#10;sub_topik&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/sub_topik.blade.php&#10;ubah_&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/ubah_laporan.blade.php&#10;cad&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CAdministrator.php&#10;laporan&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/laporan_topik.blade.php&#10;dashb&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/dashboard.blade.php&#10;CPen&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CPengguna.php&#10;ca&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CAdministrator.php&#10;.env&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/.env&#10;database&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/config/database.php&#10;daftar_top&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/daftar_topik.blade.php&#10;CTopik&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CTopik.php&#10;mSU&#9;null&#9;null&#10;templ&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/template.blade.php&#10;ccourse&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CCourse.php&#10;cpe&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CPengguna.php&#10;login.&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/login.blade.php&#10;regi&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/register.blade.php&#10;das&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/dashboard.blade.php&#10;ubah_la&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/ubah_laporan.blade.php&#10;ctopik&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CTopik.php&#10;CA&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CAdministrator.php&#10;daftar&#9;null&#9;null&#10;seman&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/assets/semantic/dist/semantic.css&#10;CT&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CTopik.php&#10;cadmini&#9;null&#9;null&#10;cpeng&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CPengguna.php&#10;logi&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/login.blade.php&#10;tem&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/template.blade.php&#10;cbimb&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CBimbingan.php" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/core/resources/views/layout/administrator/materi" />
-      <recent name="$PROJECT_DIR$/core/resources/assets" />
-      <recent name="$PROJECT_DIR$/core/resources/assets/images" />
-      <recent name="$PROJECT_DIR$/core/resources/views/layout/mahasiswa" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/core/resources/views/layout/administrator" />
       <recent name="$PROJECT_DIR$/core/resources/assets" />
       <recent name="$PROJECT_DIR$/core/resources/assets/images" />
       <recent name="$PROJECT_DIR$/core/resources/assets/user_non_admin_assets/photo" />
       <recent name="$PROJECT_DIR$/core/resources/assets/js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core/resources/views/layout/dosen" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/core/resources/views/layout/administrator/materi" />
+      <recent name="$PROJECT_DIR$/core/resources/assets" />
+      <recent name="$PROJECT_DIR$/core/resources/assets/images" />
     </key>
   </component>
   <component name="RunManager">
@@ -692,7 +642,7 @@
       <workItem from="1479082054670" duration="232000" />
       <workItem from="1479083764601" duration="22851000" />
       <workItem from="1479263689569" duration="15317000" />
-      <workItem from="1479449703186" duration="11277000" />
+      <workItem from="1479449703186" duration="11968000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1477519271247</created>
@@ -705,13 +655,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="448171000" />
+    <option name="totallyTimeSpent" value="448862000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="726" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23909532" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41033927" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24921136" sideWeight="0.29483038" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -799,34 +749,17 @@
           <line>166</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/core/app/Http/Controllers/CPengguna.php</url>
+          <line>483</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="25" />
+      <option name="time" value="26" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/administrator/dashboard.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/app/MUniversitas.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/app/MTopik.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/app/MDosen.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -977,23 +910,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/app/Http/Controllers/CPengguna.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="186" column="37" selection-start-line="186" selection-start-column="37" selection-end-line="186" selection-end-column="37" />
-          <folding>
-            <element signature="e#4826#5071#0#PHP" expanded="false" />
-            <element signature="e#5630#6627#0#PHP" expanded="false" />
-            <element signature="e#19229#19479#0#PHP" expanded="false" />
-            <element signature="e#20003#20277#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/resources/views/layout/dashboard.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="69" column="46" selection-start-line="69" selection-start-column="46" selection-end-line="69" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1013,13 +934,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
           <caret line="130" column="99" selection-start-line="130" selection-start-column="37" selection-end-line="130" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_auth.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="308" column="18" selection-start-line="302" selection-start-column="12" selection-end-line="308" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1140,30 +1054,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/app/Http/Controllers/CBimbingan.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="172" column="7" selection-start-line="170" selection-start-column="4" selection-end-line="172" selection-end-column="7" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-            <element signature="e#2990#3240#0#PHP" expanded="false" />
-            <element signature="e#3246#5222#0#PHP" expanded="false" />
-            <marker date="1479571058000" expanded="false" signature="6863:6916" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="32" column="82" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="84" />
-          <folding>
-            <element signature="e#1370#1612#0#PHP" expanded="false" />
-            <element signature="e#3159#3894#1#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/resources/views/layout/template.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -1191,6 +1081,76 @@
           <folding>
             <element signature="e#10478#10901#0#HTML" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/dosen/bimbingan.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/app/Http/Controllers/CBimbingan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="57" column="42" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+            <element signature="e#2990#3240#0#PHP" expanded="false" />
+            <element signature="e#3246#5222#0#PHP" expanded="false" />
+            <marker date="1479571058000" expanded="false" signature="6863:6916" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="47" column="51" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="51" />
+          <folding>
+            <element signature="e#3159#3894#1#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_auth.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="136" column="40" selection-start-line="131" selection-start-column="24" selection-end-line="136" selection-end-column="40" />
+          <folding>
+            <marker date="1479303067000" expanded="false" signature="12424:12438" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_ubah.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="136" column="40" selection-start-line="136" selection-start-column="40" selection-end-line="136" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/app/Http/Controllers/CPengguna.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-993">
+          <caret line="468" column="57" selection-start-line="468" selection-start-column="36" selection-end-line="468" selection-end-column="57" />
+          <folding>
+            <element signature="e#4826#5071#0#PHP" expanded="false" />
+            <element signature="e#5630#6627#0#PHP" expanded="false" />
+            <element signature="e#19229#19479#0#PHP" expanded="false" />
+            <element signature="e#20003#20277#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/keamanan.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="131" column="40" selection-start-line="131" selection-start-column="40" selection-end-line="131" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
