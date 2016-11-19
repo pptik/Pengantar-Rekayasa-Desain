@@ -129,7 +129,7 @@
                                 <ul class="collection" style="padding: 0;margin: 0;">
                                     <li class="collection-item">Ambil ladang</li>
                                 </ul>--}}
-                                Pilih materi pada bagian kiri terlebih dahulu untuk melakukan bimbingan.
+                                Pilih materi pada bagian kiri terlebih dahulu untuk melihat detail.
 
                             </div>
 

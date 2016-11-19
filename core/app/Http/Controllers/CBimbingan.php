@@ -120,8 +120,40 @@ class CBimbingan extends Controller
         if (count($nama_materi) != 0) {
             switch ($user->peran) {
                 case 2://dosen
+                    $topik = DB::table('topik')
+                        ->get();
 
-                    ;
+                    $topik_dipilih = DB::table('topik')
+                        ->where('id', '=', $id_materi)
+                        ->get();
+
+                    $id_dosen = DB::table('dosen')
+                        ->where('id_users', '=', $user->id)
+                        ->get();
+
+                    $id_dosen_val = NULL;
+                    foreach ($id_dosen as $id_dosen) {
+                        $id_dosen_val = $id_dosen->id;
+                    }
+
+                    $bimbingan = DB::table('bimbingan')
+                        ->where('dosen', '=', $id_dosen_val)
+                        ->where('topik', '=', $id_materi)
+                        ->get();
+
+                    $dosen = DB::table('dosen')
+                        ->select('*', 'dosen.id as id_dosen')
+                        ->join('users', 'users.id', '=', 'dosen.id_users')
+                        ->where('users.universitas', '=', $user->universitas)
+                        ->get();
+
+                    return view('layout.dosen.bimbingan_materi')
+                        ->with('dosen', $dosen)
+                        ->with('topik', $topik)
+                        ->with('topik2', $topik)
+                        ->with('topik3', $topik)
+                        ->with('topik_dipilih', $topik_dipilih)
+                        ->with('bimbingan_materi', $bimbingan);
                     break;
                 case 4://mahasiswa
                     $topik = DB::table('topik')
