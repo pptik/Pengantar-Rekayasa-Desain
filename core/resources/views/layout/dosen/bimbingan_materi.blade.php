@@ -147,7 +147,15 @@
                                                 {{ Session::get('message') }}
                                             </div>
                                         @endif
-
+                                        @if (count($errors) > 0)
+                                            <div class="card container col m12 red white-text">
+                                                <ul>
+                                                    @foreach ($errors->all() as $error)
+                                                        <li>{{ $error }}</li>
+                                                    @endforeach
+                                                </ul>
+                                            </div>
+                                        @endif
                                         <div style="padding: 1em;">
                                             <?php
                                             $counter = 1;
@@ -169,8 +177,8 @@
                                                 <i class="material-icons" style="color: green;">done</i>
                                                 <?php
                                                 }else {
-                                                    ?>
-                                                    <i class="material-icons" style="color: red;">cancel</i>
+                                                ?>
+                                                <i class="material-icons" style="color: red;">cancel</i>
                                                 <?php
                                                 }
                                                 ?>
@@ -180,58 +188,64 @@
                                             <div id="modalDetailBimbingan<?php echo $counter;?>"
                                                  class="modal modal-fixed-footer">
                                                 <div class="modal-content">
-                                                    <h4><?php echo $bimbingan->judul;?></h4>
-                                                    <p>
-                                                        Diajukan oleh:
+                                                    <form method="post"
+                                                          action="{{url('proses_tambah_bimbingan/dosen')}}">
+                                                        <input type="hidden" name="_token" value="{{ csrf_token() }}"/>
+                                                        <input type="hidden" name="id_bimbingan" value="<?php echo $bimbingan->id;?>"/>
+                                                        <input type="hidden" name="id_topik" value="<?php echo $bimbingan->topik;?>"/>
+                                                        <h4><?php echo $bimbingan->judul;?></h4>
+                                                        <p>
+                                                            Diajukan oleh:
+                                                            <br/>
+                                                            <small>
+                                                                <?php
+                                                                //ambil nama mahasiswa
+                                                                $idUniversitas = NULL;
+                                                                $namaMahasiswa = NULL;
+
+                                                                $getMahasiswa = DB::table('mahasiswa')
+                                                                        ->join('users', 'users.id', '=', 'mahasiswa.id_users')
+                                                                        ->where('mahasiswa.id', '=', $bimbingan->mahasiswa)
+                                                                        ->get();
+
+                                                                foreach ($getMahasiswa as $mahasiswa) {
+                                                                    $idUniversitas = $mahasiswa->universitas;
+                                                                    $namaMahasiswa = $mahasiswa->nama_depan . $mahasiswa->nama_belakang;
+                                                                }
+
+                                                                //ambil universitas
+                                                                $namaUniversitas = NULL;
+                                                                $getUniversitas = DB::table('universitas')
+                                                                        ->join('users', 'users.id', '=', 'universitas.id_users')
+                                                                        ->where('universitas.id', '=', $idUniversitas)
+                                                                        ->get();
+
+                                                                foreach ($getUniversitas as $universitas) {
+                                                                    $namaUniversitas = $universitas->nama_depan . ' ' . $universitas->nama_belakang;
+                                                                }
+                                                                echo $namaMahasiswa . ' - ' . $namaUniversitas;
+                                                                ?>
+                                                            </small>
+                                                        </p>
                                                         <br/>
-                                                        <small>
-                                                            <?php
-                                                            //ambil nama mahasiswa
-                                                            $idUniversitas = NULL;
-                                                            $namaMahasiswa = NULL;
-
-                                                            $getMahasiswa = DB::table('mahasiswa')
-                                                                    ->join('users', 'users.id', '=', 'mahasiswa.id_users')
-                                                                    ->where('mahasiswa.id', '=', $bimbingan->mahasiswa)
-                                                                    ->get();
-
-                                                            foreach ($getMahasiswa as $mahasiswa) {
-                                                                $idUniversitas = $mahasiswa->universitas;
-                                                                $namaMahasiswa = $mahasiswa->nama_depan . $mahasiswa->nama_belakang;
-                                                            }
-
-                                                            //ambil universitas
-                                                            $namaUniversitas = NULL;
-                                                            $getUniversitas = DB::table('universitas')
-                                                                    ->join('users', 'users.id', '=', 'universitas.id_users')
-                                                                    ->where('universitas.id', '=', $idUniversitas)
-                                                                    ->get();
-
-                                                            foreach ($getUniversitas as $universitas) {
-                                                                $namaUniversitas = $universitas->nama_depan . ' ' . $universitas->nama_belakang;
-                                                            }
-                                                            echo $namaMahasiswa . ' - ' . $namaUniversitas;
-                                                            ?>
-                                                        </small>
-                                                    </p>
-                                                    <br/>
-                                                    <p>
-                                                        Pertanyaan:
+                                                        <p>
+                                                            Pertanyaan:
+                                                            <br/>
+                                                            <small><?php echo $bimbingan->permasalahan;?></small>
+                                                        </p>
                                                         <br/>
-                                                        <small><?php echo $bimbingan->permasalahan;?></small>
-                                                    </p>
-                                                    <br/>
-                                                    <p>
-                                                        Jawaban anda:
-                                                        <br/>
-                                                        <textarea name="penyelesaian" class="penyelesaian">
-
+                                                        <p>
+                                                            Jawaban anda:
+                                                            <br/>
+                                                            <textarea name="penyelesaian" class="penyelesaian">
+                                                                <?php echo $bimbingan->penyelesaian;?>
                                                             </textarea>
-                                                    </p>
-                                                    <br/>
-                                                    <div class="row">
-                                                        <button class="waves-effect waves-light btn">kirim</button>
-                                                    </div>
+                                                        </p>
+                                                        <br/>
+                                                        <div class="row">
+                                                            <button class="waves-effect waves-light btn" type="submit">kirim</button>
+                                                        </div>
+                                                    </form>
                                                 </div>
                                             </div>
                                             <br/>

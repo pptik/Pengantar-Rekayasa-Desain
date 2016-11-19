@@ -157,7 +157,7 @@
                                         <br/>
                                         <div style="padding: 1em;">
                                             <?php
-                                                $counter = 1;
+                                            $counter = 1;
                                             foreach ($bimbingan_materi as $bimbingan) {
                                             ?>
                                             <a href="#modalDetailBimbingan<?php echo $counter;?>" class="modal-trigger">
@@ -169,79 +169,89 @@
                                                     //echo $bimbingan->created_at;
                                                     ?>
                                                 </div>
+                                                <?php
+                                                if ($bimbingan->penyelesaian != NULL){
 
+                                                ?>
+                                                <i class="material-icons" style="color: green;">done</i>
+                                                <?php
+                                                }else {
+                                                ?>
+                                                <i class="material-icons" style="color: red;">cancel</i>
+                                                <?php
+                                                }
+                                                ?>
                                             </a>
 
-                                                <!-- Modal Structure -->
-                                                <div id="modalDetailBimbingan<?php echo $counter;?>" class="modal modal-fixed-footer">
-                                                    <div class="modal-content">
-                                                        <h4><?php echo $bimbingan->judul;?></h4>
-                                                        <p>
-                                                            Diajukan kepada:
-                                                            <br/>
-                                                            <small>
-                                                                <?php
-                                                                    //ambil nama dosen
-                                                                    $idUniversitas = NULL;
-                                                                    $namaDosen = NULL;
-
-                                                                    $getDosen = DB::table('dosen')
-
-                                                                                ->join('users','users.id','=','dosen.id_users')
-                                                                                ->where('dosen.id','=',$bimbingan->dosen)
-                                                                                ->get();
-
-                                                                    foreach ($getDosen as $dosen) {
-                                                                        $idUniversitas = $dosen->universitas;
-                                                                        $namaDosen = $dosen->nama_depan.$dosen->nama_belakang;
-                                                                    }
-
-                                                                    //ambil universitas
-                                                                    $namaUniversitas = NULL;
-                                                                    $getUniversitas = DB::table('universitas')
-                                                                        ->join('users','users.id','=','universitas.id_users')
-                                                                        ->where('universitas.id','=',$idUniversitas)
-                                                                        ->get();
-
-                                                                foreach ($getUniversitas as $universitas) {
-                                                                  $namaUniversitas = $universitas->nama_depan.' '.$universitas->nama_belakang;
-                                                                }
-                                                                    echo $namaDosen.' - '.$namaUniversitas;
-                                                                ?>
-                                                            </small>
-                                                        </p>
+                                            <!-- Modal Structure -->
+                                            <div id="modalDetailBimbingan<?php echo $counter;?>"
+                                                 class="modal modal-fixed-footer">
+                                                <div class="modal-content">
+                                                    <h4><?php echo $bimbingan->judul;?></h4>
+                                                    <p>
+                                                        Diajukan kepada:
                                                         <br/>
-                                                        <p>
-                                                            Pertanyaan:
-                                                            <br/>
-                                                            <small><?php echo $bimbingan->permasalahan;?></small>
-                                                        </p>
-                                                        <br/>
-                                                        <p>
-                                                            Jawaban:
-                                                            <br/>
-                                                            <small>
+                                                        <small>
                                                             <?php
-                                                                if($bimbingan->penyelesaian != NULL){
-                                                                    echo $bimbingan->penyelesaian;
-                                                                }else{
-                                                                    echo "[Pertanyaan ini belum di jawab]";
-                                                                }
+                                                            //ambil nama dosen
+                                                            $idUniversitas = NULL;
+                                                            $namaDosen = NULL;
+
+                                                            $getDosen = DB::table('dosen')
+                                                                    ->join('users', 'users.id', '=', 'dosen.id_users')
+                                                                    ->where('dosen.id', '=', $bimbingan->dosen)
+                                                                    ->get();
+
+                                                            foreach ($getDosen as $dosen) {
+                                                                $idUniversitas = $dosen->universitas;
+                                                                $namaDosen = $dosen->nama_depan . $dosen->nama_belakang;
+                                                            }
+
+                                                            //ambil universitas
+                                                            $namaUniversitas = NULL;
+                                                            $getUniversitas = DB::table('universitas')
+                                                                    ->join('users', 'users.id', '=', 'universitas.id_users')
+                                                                    ->where('universitas.id', '=', $idUniversitas)
+                                                                    ->get();
+
+                                                            foreach ($getUniversitas as $universitas) {
+                                                                $namaUniversitas = $universitas->nama_depan . ' ' . $universitas->nama_belakang;
+                                                            }
+                                                            echo $namaDosen . ' - ' . $namaUniversitas;
                                                             ?>
-                                                            </small>
-                                                        </p>
-                                                    </div>
+                                                        </small>
+                                                    </p>
+                                                    <br/>
+                                                    <p>
+                                                        Pertanyaan:
+                                                        <br/>
+                                                        <small><?php echo $bimbingan->permasalahan;?></small>
+                                                    </p>
+                                                    <br/>
+                                                    <p>
+                                                        Jawaban:
+                                                        <br/>
+                                                        <small>
+                                                            <?php
+                                                            if ($bimbingan->penyelesaian != NULL) {
+                                                                echo $bimbingan->penyelesaian;
+                                                            } else {
+                                                                echo "[Pertanyaan ini belum di jawab]";
+                                                            }
+                                                            ?>
+                                                        </small>
+                                                    </p>
                                                 </div>
+                                            </div>
                                             <br/>
                                             <br/>
                                             <?php
-                                                    $counter++;
+                                            $counter++;
                                             }
                                             ?>
                                         </div>
                                     </div>
                                 </div>
-
 
 
                             </div>

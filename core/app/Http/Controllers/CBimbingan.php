@@ -253,8 +253,24 @@ class CBimbingan extends Controller
 
     public function proses_tambah_bimbingan_dosen(Request $request){
         $this->validate($request,[
-
+            "id_bimbingan" => "required",
+            "id_topik" => "required",
+            "penyelesaian" => "required"
         ]);
+
+
+        $bimbingan = DB::table('bimbingan')
+            ->where('id', $request['id_bimbingan'])
+            ->update(['penyelesaian' => $request['penyelesaian']]);
+
+        if($bimbingan){
+            Session::flash('berhasil', 'Penyelesaian berhasil di ubah.');
+            return Redirect::to('bimbingan/materi/'.$request['id_topik'].'');
+        }else{
+            Session::flash('berhasil', 'Telah terjadi kesalahan.');
+            return Redirect::to('bimbingan/materi/'.$request['id_topik'].'');
+        }
+
     }
     public function proses_tambah_bimbingan_mahasiswa(Request $request){
         $this->validate($request,[
