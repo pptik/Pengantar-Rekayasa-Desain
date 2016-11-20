@@ -12,10 +12,12 @@
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="login" class="blue-text thin">Masuk</a></li>
                 <li><a href="daftar_topik" class="blue-text thin">Topik</a></li>
+                <li><a href="kegiatan" class="blue-text thin">Kegiatan</a></li>
             </ul>
             <ul id="mobile-menu" class="side-nav">
                 <li><a href="login" class="blue-text thin">Masuk</a></li>
                 <li><a href="daftar_topik" class="blue-text thin">Topik</a></li>
+                <li><a href="kegiatan" class="blue-text thin">Kegiatan</a></li>
             </ul>
         </div>
     </nav>

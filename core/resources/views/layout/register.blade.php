@@ -13,11 +13,13 @@
                 <li><a href="login" class="blue-text thin">Masuk</a></li>
                 <li><a href="register" class="blue-text thin">Daftar</a></li>
                 <li><a href="daftar_topik" class="blue-text thin">Topik</a></li>
+                <li><a href="kegiatan" class="blue-text thin">Kegiatan</a></li>
             </ul>
             <ul id="mobile-menu" class="side-nav">
                 <li><a href="login" class="blue-text thin">Masuk</a></li>
                 <li><a href="register" class="blue-text thin">Daftar</a></li>
                 <li><a href="daftar_topik" class="blue-text thin">Topik</a></li>
+                <li><a href="kegiatan" class="blue-text thin">Kegiatan</a></li>
             </ul>
         </div>
     </nav>

@@ -61,6 +61,8 @@ Route::group(['prefix' => 'konfirmasi','middleware' => 'auth'],function(){
 
 Route::get('daftar_topik', 'CTopik@lihat_selengkapnya');
 
+Route::get('kegiatan', 'CKegiatan@index');
+
 Route::get('logout', 'CPengguna@keluar');
 
 Route::group(['prefix' => 'resume','middleware' => 'auth'],function(){
