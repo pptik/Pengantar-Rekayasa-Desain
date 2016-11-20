@@ -117,7 +117,7 @@
                             if($url_foto == NULL){
                             ?>
                             <img class="circle responsive-img "
-                                 src="http://localhost/prd/core/resources/assets/user_non_admin_assets/photos/default.jpg"
+                                 src="{{url('/')}}/core/resources/assets/user_non_admin_assets/photos/default.jpg"
                                  style="height: 8em;width:8em;">
 
                             <?php
