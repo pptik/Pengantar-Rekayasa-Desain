@@ -10,7 +10,7 @@
                 <div class="center-align">
                     <h4 class="thin">Halaman tidak ditemukan</h4>
                     <div style="margin-top: 5em;">
-                        <a class="waves-effect waves-light btn white black-text thin" href="http://localhost/prd">Kembali ke halaman utama</a>
+                        <a class="waves-effect waves-light btn white black-text thin" href="{{url('/')}}">Kembali ke halaman utama</a>
                     </div>
                 </div>
             </div>
@@ -21,7 +21,7 @@
             <div class="row">
                 <div class="col s12 center-align">
                     <a href="http://localhost/prd/"><img
-                                src="http://localhost/prd/core/resources/assets/images/logoShortcutIcon.png"/></a>
+                                src="{{url('/')}}/core/resources/assets/images/logoShortcutIcon.png"/></a>
                     <p class="blue-text thin">© 2016 PPTIK Institut Teknologi Bandung</p>
                 </div>
             </div>

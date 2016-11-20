@@ -9,8 +9,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3d134dff-a0d3-4782-bd96-54cf28f11390" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/app/Http/Controllers/CDosen.php" afterPath="$PROJECT_DIR$/core/app/Http/Controllers/CDosen.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/dosen/check_laporan.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/dosen/check_laporan.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/errors/404.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/errors/404.blade.php" />
     </list>
     <ignored path="radiolskk.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,22 +37,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/app/Http/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="65" column="20" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="20" />
-              <folding>
-                <element signature="e#3262#3997#1#PHP" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="kegiatan.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/resources/views/layout/kegiatan.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
+            <state relative-caret-position="1020">
               <caret line="68" column="33" selection-start-line="64" selection-start-column="32" selection-end-line="68" selection-end-column="33" />
               <folding />
             </state>
@@ -63,7 +50,7 @@
       <file leaf-file-name="CDosen.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/app/Http/Controllers/CDosen.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="405">
               <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
@@ -75,7 +62,7 @@
       <file leaf-file-name="CKegiatan.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/app/Http/Controllers/CKegiatan.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-495">
+            <state relative-caret-position="300">
               <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="50" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
@@ -84,7 +71,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="check_laporan.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="check_laporan.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/resources/views/layout/dosen/check_laporan.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="334">
@@ -94,10 +81,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="404.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/resources/views/errors/404.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="mahasiswa.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/resources/views/layout/administrator/pengguna/mahasiswa.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
+            <state relative-caret-position="2385">
               <caret line="159" column="39" selection-start-line="159" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
               <folding />
             </state>
@@ -107,7 +104,7 @@
       <file leaf-file-name="template.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/resources/views/layout/administrator/template.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
+            <state relative-caret-position="360">
               <caret line="24" column="83" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="83" />
               <folding />
             </state>
@@ -117,7 +114,7 @@
       <file leaf-file-name="template.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/resources/views/layout/template.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="870">
               <caret line="58" column="79" selection-start-line="58" selection-start-column="79" selection-end-line="58" selection-end-column="79" />
               <folding />
             </state>
@@ -151,7 +148,7 @@
       <file leaf-file-name="Dosen.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/app/Http/Middleware/Dosen.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="75">
               <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding>
                 <element signature="e#39#51#0#PHP" expanded="true" />
@@ -170,13 +167,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/core/app/MUniversitas.php" />
         <option value="$PROJECT_DIR$/core/resources/views/layout/universitas/dashboard.blade.php" />
         <option value="$PROJECT_DIR$/core/app/MDosen.php" />
         <option value="$PROJECT_DIR$/core/app/MMahasiswa.php" />
@@ -227,6 +220,7 @@
         <option value="$PROJECT_DIR$/core/resources/views/layout/kegiatan.blade.php" />
         <option value="$PROJECT_DIR$/core/app/Http/Controllers/CDosen.php" />
         <option value="$PROJECT_DIR$/core/resources/views/layout/dosen/check_laporan.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/errors/404.blade.php" />
       </list>
     </option>
   </component>
@@ -270,6 +264,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -557,14 +552,13 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../vidyanusa" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="SearchEverywhereHistoryKey" value="kegiatan&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/kegiatan.blade.php&#10;CKegia&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CKegiatan.php&#10;routes&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/routes.php&#10;CPengg&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CPengguna.php&#10;reg&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/register.blade.php&#10;CKegiata&#9;null&#9;null&#10;login&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/login.blade.php&#10;index&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/index.blade.php&#10;CBimbingan&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CBimbingan.php&#10;profile_pengguna_ubah&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/profile_pengguna_ubah.blade.php&#10;profile_pengguna_auth&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/profile_pengguna_auth.blade.php&#10;CPeng&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CPengguna.php&#10;CBimbin&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CBimbingan.php&#10;CB&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CBimbingan.php&#10;template&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/template.blade.php&#10;CBim&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CBimbingan.php&#10;rout&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/routes.php&#10;CBI&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CBimbingan.php&#10;CResume&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CResume.php&#10;CTopi&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CTopik.php&#10;CAd&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CAdministrator.php&#10;regis&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/register.blade.php&#10;dashboard&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/dashboard.blade.php&#10;register&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/register.blade.php&#10;cpengg&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CPengguna.php&#10;dafta&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/daftar_topik.blade.php&#10;sub_topik&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/sub_topik.blade.php&#10;ubah_&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/ubah_laporan.blade.php&#10;cad&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CAdministrator.php&#10;laporan&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/laporan_topik.blade.php&#10;dashb&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/dashboard.blade.php&#10;CPen&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CPengguna.php&#10;ca&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CAdministrator.php&#10;.env&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/.env&#10;database&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/config/database.php&#10;daftar_top&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/daftar_topik.blade.php&#10;CTopik&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CTopik.php&#10;mSU&#9;null&#9;null&#10;templ&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/template.blade.php&#10;ccourse&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CCourse.php&#10;cpe&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CPengguna.php&#10;login.&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/login.blade.php&#10;regi&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/register.blade.php&#10;das&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/dashboard.blade.php&#10;ubah_la&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/ubah_laporan.blade.php&#10;ctopik&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CTopik.php&#10;CA&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CAdministrator.php&#10;daftar&#9;null&#9;null&#10;seman&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/assets/semantic/dist/semantic.css&#10;CT&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CTopik.php" />
+    <property name="SearchEverywhereHistoryKey" value="404.&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/errors/404.blade.php&#10;kegiatan&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/kegiatan.blade.php&#10;CKegia&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CKegiatan.php&#10;routes&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/routes.php&#10;CPengg&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CPengguna.php&#10;reg&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/register.blade.php&#10;CKegiata&#9;null&#9;null&#10;login&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/login.blade.php&#10;index&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/index.blade.php&#10;CBimbingan&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CBimbingan.php&#10;profile_pengguna_ubah&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/profile_pengguna_ubah.blade.php&#10;profile_pengguna_auth&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/profile_pengguna_auth.blade.php&#10;CPeng&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CPengguna.php&#10;CBimbin&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CBimbingan.php&#10;CB&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CBimbingan.php&#10;template&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/template.blade.php&#10;CBim&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CBimbingan.php&#10;rout&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/routes.php&#10;CBI&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CBimbingan.php&#10;CResume&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CResume.php&#10;CTopi&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CTopik.php&#10;CAd&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CAdministrator.php&#10;regis&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/register.blade.php&#10;dashboard&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/dashboard.blade.php&#10;register&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/register.blade.php&#10;cpengg&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CPengguna.php&#10;dafta&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/daftar_topik.blade.php&#10;sub_topik&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/sub_topik.blade.php&#10;ubah_&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/ubah_laporan.blade.php&#10;cad&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CAdministrator.php&#10;laporan&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/laporan_topik.blade.php&#10;dashb&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/dashboard.blade.php&#10;CPen&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CPengguna.php&#10;ca&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CAdministrator.php&#10;.env&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/.env&#10;database&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/config/database.php&#10;daftar_top&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/daftar_topik.blade.php&#10;CTopik&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CTopik.php&#10;mSU&#9;null&#9;null&#10;templ&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/template.blade.php&#10;ccourse&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CCourse.php&#10;cpe&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CPengguna.php&#10;login.&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/login.blade.php&#10;regi&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/register.blade.php&#10;das&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/dashboard.blade.php&#10;ubah_la&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/ubah_laporan.blade.php&#10;ctopik&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CTopik.php&#10;CA&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CAdministrator.php&#10;daftar&#9;null&#9;null&#10;seman&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/assets/semantic/dist/semantic.css" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
@@ -778,7 +772,8 @@
       <workItem from="1479082054670" duration="232000" />
       <workItem from="1479083764601" duration="22851000" />
       <workItem from="1479263689569" duration="15317000" />
-      <workItem from="1479449703186" duration="21338000" />
+      <workItem from="1479449703186" duration="21728000" />
+      <workItem from="1479649348870" duration="208000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1477519271247</created>
@@ -791,25 +786,25 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="458232000" />
+    <option name="totallyTimeSpent" value="458830000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="726" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30210015" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3069467" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24921136" sideWeight="0.31098545" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24921136" sideWeight="0.31502423" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.49353796" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.49676898" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24921136" sideWeight="0.68901455" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24921136" sideWeight="0.68497574" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.49353796" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12942779" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -901,13 +896,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -966,7 +954,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2115">
           <caret line="141" column="18" selection-start-line="141" selection-start-column="18" selection-end-line="141" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -974,7 +961,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2310">
           <caret line="154" column="18" selection-start-line="154" selection-start-column="18" selection-end-line="154" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1006,7 +992,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1014,7 +999,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1022,7 +1006,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="43" column="22" selection-start-line="39" selection-start-column="16" selection-end-line="43" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1030,7 +1013,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1038,7 +1020,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
           <caret line="153" column="112" selection-start-line="152" selection-start-column="48" selection-end-line="153" selection-end-column="112" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1046,7 +1027,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="182" column="50" selection-start-line="182" selection-start-column="50" selection-end-line="182" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1054,7 +1034,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="79" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1062,7 +1041,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="508">
           <caret line="104" column="28" selection-start-line="104" selection-start-column="28" selection-end-line="104" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1070,7 +1048,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
           <caret line="148" column="30" selection-start-line="144" selection-start-column="24" selection-end-line="148" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1090,7 +1067,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="19" column="79" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="79" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1098,7 +1074,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="39" column="98" selection-start-line="39" selection-start-column="78" selection-end-line="39" selection-end-column="98" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1106,7 +1081,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="23" column="79" selection-start-line="23" selection-start-column="79" selection-end-line="23" selection-end-column="79" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1127,7 +1101,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
           <caret line="94" column="18" selection-start-line="88" selection-start-column="16" selection-end-line="94" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1135,7 +1108,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1143,7 +1115,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1151,7 +1122,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1159,7 +1129,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
           <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1167,7 +1136,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
           <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1191,6 +1159,76 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="65" column="20" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="20" />
+          <folding>
+            <element signature="e#3262#3997#1#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/kegiatan.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="68" column="33" selection-start-line="64" selection-start-column="32" selection-end-line="68" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/app/Http/Controllers/CDosen.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/app/Http/Controllers/CKegiatan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="50" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/dosen/check_laporan.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="138" column="71" selection-start-line="138" selection-start-column="71" selection-end-line="138" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/administrator/pengguna/mahasiswa.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2385">
+          <caret line="159" column="39" selection-start-line="159" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/administrator/template.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="83" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/template.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" column="79" selection-start-line="58" selection-start-column="79" selection-end-line="58" selection-end-column="79" />
           <folding />
         </state>
       </provider>
@@ -1219,7 +1257,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/core/app/Http/Middleware/Dosen.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="75">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <element signature="e#39#51#0#PHP" expanded="true" />
@@ -1227,72 +1265,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/template.blade.php">
+    <entry file="file://$PROJECT_DIR$/core/resources/views/errors/404.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="58" column="79" selection-start-line="58" selection-start-column="79" selection-end-line="58" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/administrator/template.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="24" column="83" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/administrator/pengguna/mahasiswa.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="159" column="39" selection-start-line="159" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="65" column="20" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="20" />
-          <folding>
-            <element signature="e#3262#3997#1#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/app/Http/Controllers/CDosen.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/app/Http/Controllers/CKegiatan.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-495">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="50" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/kegiatan.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="68" column="33" selection-start-line="64" selection-start-column="32" selection-end-line="68" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/dosen/check_laporan.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="138" column="71" selection-start-line="138" selection-start-column="71" selection-end-line="138" selection-end-column="71" />
+        <state relative-caret-position="345">
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
           <folding />
         </state>
       </provider>
