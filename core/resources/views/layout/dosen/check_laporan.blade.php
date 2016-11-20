@@ -110,19 +110,33 @@
                     ?>
                     <tr>
                         <td><?php echo $counter;?></td>
-                        <td><?php echo $laporan->nama_topik;?></td>
-                        <td><?php echo $laporan->nama_depan.' '.$laporan->nama_belakang;?></td>
+                        <td><?php
+
+                            $getTopik = DB::table('topik')->where('id','=',$laporan->id_topik)->get();
+                            foreach ($getTopik as $topik){
+                                echo $topik->nama_topik;
+                            }
+
+                            ?></td>
+                        <td><?php
+                            $getUsers = DB::table('users')->where('id','=',$laporan->id_pengguna)->get();
+                                $nim = NULL;
+                            foreach ($getUsers as $users){
+                                echo $users->nama_depan . ' ' . $users->nama_belakang;
+                                $nim = $users->nim;
+                            }
+                            ?></td>
                         <td>
                             <?php
-                                if($laporan->nim != NULL){
-                                echo $laporan->nama_depan.' '.$laporan->nama_belakang;
-                                }else if($laporan->nim == NULL){
+                                if($nim != NULL){
+                                echo $nim;
+                                }else if($nim == NULL){
                                     echo "-";
                                 }
                             ?>
                         </td>
                         <td>
-                            button
+                            <a href="<?php echo $laporan->berkas_video;?>" target="_blank">Lihat</a>
                         </td>
                     </tr>
                     <?php

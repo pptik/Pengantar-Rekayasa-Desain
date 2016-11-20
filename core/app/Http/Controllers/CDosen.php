@@ -29,6 +29,7 @@ class CDosen extends Controller
     public function check_laporan(){
         $laporan = DB::table('resume_topik')
                     ->select('id_topik','id_pengguna','berkas_video')
+                    ->whereNotNull('berkas_video')
                     ->distinct()
                     ->get();
 
