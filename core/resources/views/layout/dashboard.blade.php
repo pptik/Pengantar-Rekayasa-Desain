@@ -31,7 +31,7 @@
             ->get();
 
     foreach ($query_universitas as $query_universitas) {
-     $universitas = $query_universitas->nama_depan.' '.$query_universitas->nama_belakang;
+        $universitas = $query_universitas->nama_depan . ' ' . $query_universitas->nama_belakang;
     }
 
     //ambil id topik terakhir yang diambil user
@@ -39,7 +39,7 @@
 
     if (count($topik_terakhir_yang_diambil) == 0) {
         $topik_terakhir = 0;
-    }else if(count($topik_terakhir_yang_diambil) > 0){
+    } else if (count($topik_terakhir_yang_diambil) > 0) {
         foreach ($topik_terakhir_yang_diambil as $topik_terakhir_yang_diambil_1) {
             $topik_terakhir = $topik_terakhir_yang_diambil_1->id_topik;
         }
@@ -59,15 +59,15 @@
     //ambil nama topik terakhir yang harus dikerjakan
     $nama_topik_terakhir = NULL;
     $id_topik_terakhir = NULL;
-    if($topik_terakhir == 0){
-        $ambil_topik_terakhir_di_tabel = DB::table('topik')->orderBy('id','asc')->take(1)->get();
+    if ($topik_terakhir == 0) {
+        $ambil_topik_terakhir_di_tabel = DB::table('topik')->orderBy('id', 'asc')->take(1)->get();
 
 
         foreach ($ambil_topik_terakhir_di_tabel as $ambil_topik_terakhir_di_tabel_1) {
             $id_topik_terakhir = $ambil_topik_terakhir_di_tabel_1->id;
         }
-    }else if($topik_terakhir != 0){
-        $id_topik_terakhir = $topik_terakhir+1;
+    } else if ($topik_terakhir != 0) {
+        $id_topik_terakhir = $topik_terakhir + 1;
     }
     $query_nama_topik_terakhir = DB::table('topik')
             ->select('nama_topik')
@@ -86,6 +86,13 @@
                         class="material-icons black-text">menu</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="{{url('bimbingan')}}" class="blue-text thin">Bimbingan</a></li>
+                <?php
+                if($user->peran == 2){
+                ?>
+                <li><a href="{{url('dosen/check_laporan')}}" class="blue-text thin">Laporan</a></li>
+                <?php
+                }
+                ?>
                 <li><a href="{{url('user')}}/<?php echo $username;?>/profil" class="blue-text thin">Profil</a></li>
                 <li>
                     <!-- Dropdown Trigger -->
@@ -128,16 +135,16 @@
                 </div>
                 <?php
                 //ambil data topik
-                    $counter = 1;
+                $counter = 1;
                 foreach ($topik as $topik1) {
                 ?>
                 <div class="col s12 m6 l4">
                     <div class="card">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <!--<img class="activator"
+                        <!--<img class="activator"
                                  src="{{url('/')}}/core/resources/assets/images/<?php echo $topik1->thumbnail;?>">-->
-                                <img class="activator"
-                                     src="<?php echo $topik1->thumbnail;?>">
+                            <img class="activator"
+                                 src="<?php echo $topik1->thumbnail;?>">
                         </div>
                         <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4">
@@ -158,7 +165,7 @@
                                 </div>
                             </div>
 
-                    <span class="card-title">
+                            <span class="card-title">
                         <i class="material-icons right">close</i></span>
                             <br/>
                             <br/>
@@ -169,7 +176,7 @@
 
                             </span>
 
-                            <!--<p class="valign-wrapper"><?php echo $topik1->deskripsi_singkat;?></p>-->
+                        <!--<p class="valign-wrapper"><?php echo $topik1->deskripsi_singkat;?></p>-->
                             <br/>
                             <br/>
                             <div class="col s12 center-align">
@@ -177,20 +184,20 @@
                                 //Cara cek nya topik id this di kurangi - 1 hasilnya <= topik_terakhir
                                 //echo "Topik terakhir yang diambil ".$topik_terakhir;
                                 $topik_terakhir_di_tabelf = NULL;
-                                if($topik_terakhir == 0){
-                                    $topik_terakhir_di_tabel = DB::table('topik')->orderBy('id','asc')->take(1)->get();
+                                if ($topik_terakhir == 0) {
+                                    $topik_terakhir_di_tabel = DB::table('topik')->orderBy('id', 'asc')->take(1)->get();
 
 
                                     foreach ($topik_terakhir_di_tabel as $topik_terakhir_di_tabel_1) {
                                         $topik_terakhir_di_tabelf = $topik_terakhir_di_tabel_1->id;
                                     }
-                                }else if($topik_terakhir != 0){
-                                    $topik_terakhir_di_tabelf = $topik_terakhir+1;
+                                } else if ($topik_terakhir != 0) {
+                                    $topik_terakhir_di_tabelf = $topik_terakhir + 1;
                                 }
 
                                 //echo "pengkondisian ".($topik1->id-$topik_terakhir_di_tabelf);
 
-                                if (($topik1->id-$topik_terakhir_di_tabelf) <= 0) {
+                                if (($topik1->id - $topik_terakhir_di_tabelf) <= 0) {
                                 ?>
                                 <a class="btn waves-effect waves-light red lighten-2" type="button"
                                    name="action"

@@ -48,6 +48,13 @@
                         class="material-icons black-text">menu</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="{{url('bimbingan')}}" class="blue-text thin">Bimbingan</a></li>
+                <?php
+                if($user->peran == 2){
+                ?>
+                <li><a href="{{url('dosen/check_laporan')}}" class="blue-text thin">Laporan</a></li>
+                <?php
+                }
+                ?>
                 <li><a href="{{url('user')}}/<?php echo $username;?>/profil" class="blue-text thin">Profil</a></li>
                 <li>
                     <!-- Dropdown Trigger -->

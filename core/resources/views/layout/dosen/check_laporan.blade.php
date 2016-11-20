@@ -81,10 +81,9 @@
                 <div class="col s12">
                     <div class="center-align">
 
-                        <h5>Bimbingan</h5>
-                        <p class="thin">Apabila ada yang ingin anda tanyakan kepada dosen silahkan lakukan bimbingan
-                            pada menu dibawah.
-                            <br/>Bimbingan dibagi berdasarkan dengan nama topik yang berada pada tab.
+                        <h5>Laporan</h5>
+                        <p class="thin">
+                            Di bawah ini merupakan laporan berupa resume yang dikumpulkan oleh mahasiswa.
                         </p>
                     </div>
 
@@ -93,57 +92,45 @@
             <br/>
 
             <div class="row" style="padding: 0 11em 0 11em;" class='thin'>
-                <div class="col s3">
-                    <div class="card horizontal">
-                        <div class="card-stacked">
-                            <div class="card-action grey">
-                                <a href="#" class="white-text" style="text-transform: capitalize;">Materi</a>
-                            </div>
-                            <div class="card-content" style="padding: 0;">
-                                <ul class="collection" style="padding: 0;margin: 0;">
-                                    {{--<li class="collection-item" style="border-left: 3px solid #2196F3;">Pengantar</li>
-                                    <li class="collection-item" style="margin-left: 3px;">Set Kegiatan I</li>
-                                    <li class="collection-item" style="margin-left: 3px;">Set Kegiatan II</li>
-                                    <li class="collection-item" style="margin-left: 3px;">Set Kegiatan III</li>--}}
-                                    <?php
-                                    foreach ($topik as $topik){
-                                    ?>
-                                    <li class="collection-item"><a href="{{url('bimbingan/materi')}}/<?php echo $topik->id;?>"><?php echo $topik->nama_topik;?></a></li>
-                                    <?php
-                                    }
-                                    ?>
-                                </ul>
-                            </div>
+                <table id="laporan">
+                    <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Topik</th>
+                        <th>Nama</th>
+                        <th>NIM</th>
+                        <th>Video</th>
+                    </tr>
+                    </thead>
 
-                        </div>
-                    </div>
-                </div>
-                <div class="col s9">
-                    <div class="card horizontal">
-                        <div class="card-stacked">
-                            <div class="card-action grey">
-                                <a href="#" class="white-text" style="text-transform: capitalize;">Daftar Bimbingan</a>
-                            </div>
-                            <div class="card-content" style="padding: 1em;">
-                                {{--<div class="row">
-                                    <div class="col s3 offset-s9">
-                                        <a class="waves-effect waves-light btn"
-                                           style="margin: 5px 5px -12px 5px;text-transform: capitalize;">
-                                            tambah
-                                        </a>
-                                    </div>
-                                </div>
-                                <ul class="collection" style="padding: 0;margin: 0;">
-                                    <li class="collection-item">Ambil ladang</li>
-                                </ul>--}}
-                                Pilih materi pada bagian kiri terlebih dahulu untuk melihat detail.
-
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
+                    <tbody>
+                    <?php
+                    $counter = 1;
+                    foreach ($getLaporan as $laporan){
+                    ?>
+                    <tr>
+                        <td><?php echo $counter;?></td>
+                        <td><?php echo $laporan->nama_topik;?></td>
+                        <td><?php echo $laporan->nama_depan.' '.$laporan->nama_belakang;?></td>
+                        <td>
+                            <?php
+                                if($laporan->nim != NULL){
+                                echo $laporan->nama_depan.' '.$laporan->nama_belakang;
+                                }else if($laporan->nim == NULL){
+                                    echo "-";
+                                }
+                            ?>
+                        </td>
+                        <td>
+                            button
+                        </td>
+                    </tr>
+                    <?php
+                    $counter++;
+                    }
+                    ?>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
@@ -185,6 +172,8 @@
     selectMonths: true, // Creates a dropdown to control month
     selectYears: 15 // Creates a dropdown of 15 years to control year
     });
+
+    $('#laporan').DataTable();
 
     });
 @endsection

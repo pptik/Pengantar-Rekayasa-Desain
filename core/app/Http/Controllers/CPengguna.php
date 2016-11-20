@@ -379,7 +379,7 @@ class CPengguna extends Controller
             'password' => $request['password']
         );
 
-        if (Auth::attempt($userdata)) {//username dan password sesuai
+        if (Auth::attempt($userdata)) {//email dan password sesuai
 
             $id_pengguna = NULL;
             $id_universitas = NULL;

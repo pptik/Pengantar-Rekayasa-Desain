@@ -8,27 +8,33 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use DB;
 
-class CKegiatan extends Controller
+class CDosen extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
+    public function __construct()
+    {
+        $this->middleware('auth');
+        $this->middleware('dosen');
+    }
+
     public function index()
     {
         //
-        $resume = DB::table('resume_topik')
-                    ->select('id_pengguna','id_topik','berkas_video')
-                    /*->join('topik','topik.id','=','resume_topik.id_topik')
-                    ->join('users','users.id','=','resume_topik.id_pengguna')*/
-                    ->whereNotNull('berkas_video')
+    }
+
+    public function check_laporan(){
+        $laporan = DB::table('resume_topik')
+                    ->select('id_topik','id_pengguna','berkas_video')
                     ->distinct()
                     ->get();
 
-        return view('layout.kegiatan')->with('resume',$resume);
+        return view('layout.dosen.check_laporan')
+                    ->with('getLaporan',$laporan);
     }
-
     /**
      * Show the form for creating a new resource.
      *

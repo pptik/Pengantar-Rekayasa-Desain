@@ -25,6 +25,8 @@ Route::get('user/{nama}','CPengguna@profile_pengguna');
 
 Route::get('bimbingan','CBimbingan@index');
 
+Route::get('dosen/check_laporan','CDosen@check_laporan');
+
 Route::group(['prefix' => 'bimbingan','middleware' => 'auth'],function(){
     Route::post('lakukan_bimbingan','CBimbingan@lakukan_bimbingan');
 });

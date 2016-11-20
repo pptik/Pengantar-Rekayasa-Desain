@@ -51,16 +51,30 @@
                         <small>
                             <div class="row">
                                 <i class="tiny material-icons left">info_outline</i>
-                                <?php echo $resume->nama_topik;?>
+                                <?php
+                                    $getTopik = DB::table('topik')->where('id','=',$resume->id_topik)->get();
+                                    foreach ($getTopik as $topik){
+                                        echo $topik->nama_topik;
+                                    }
+                                ?>
                             </div>
                             <div class="row">
                             <i class="tiny material-icons left">perm_identity</i>
-                            <?php echo $resume->nama_depan . ' ' . $resume->nama_belakang;?>
+                            <?php
+                                $universitas=NULL;
+                                $getUsers = DB::table('users')->where('id','=',$resume->id_pengguna)->get();
+                                foreach ($getUsers as $users){
+                                    echo $users->nama_depan . ' ' . $users->nama_belakang;
+                                    $universitas = $users->universitas;
+                                }
+
+                                //echo $resume->nama_depan . ' ' . $resume->nama_belakang;
+                            ?>
                             </div>
                             <?php
                             $getUniversitas = DB::table('users')
                                     ->join('universitas', 'universitas.id_users', '=', 'users.id')
-                                    ->where('universitas.id', '=', $resume->universitas)
+                                    ->where('universitas.id', '=', $universitas)
                                     ->get();
                             foreach ($getUniversitas as $universitas) {
                                 ?>

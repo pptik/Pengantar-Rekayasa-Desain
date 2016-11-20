@@ -45,6 +45,13 @@
                         class="material-icons black-text">menu</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="{{url('bimbingan')}}" class="blue-text thin">Bimbingan</a>
+                <?php
+                if($user->peran == 2){
+                ?>
+                <li><a href="{{url('dosen/check_laporan')}}" class="blue-text thin">Laporan</a></li>
+                <?php
+                }
+                ?>
                 <li><a href="{{url('user')}}/<?php echo $user->username;?>/profil" class="blue-text thin">Profil</a>
                 </li>
                 <li>
@@ -62,6 +69,13 @@
             </ul>
             <ul id="mobile-menu" class="side-nav">
                 <li><a href="{{url('bimbingan')}}" class="blue-text thin">Bimbingan</a>
+                <?php
+                if($user->peran == 2){
+                ?>
+                <li><a href="{{url('dosen/check_laporan')}}" class="blue-text thin">Laporan</a></li>
+                <?php
+                }
+                ?>
                 <li><a href="{{url('user')}}/<?php echo $user->username;?>/profil" class="blue-text thin">Profil</a>
                 </li>
                 <li><a href="{{url('logout')}}" class="blue-text thin">Keluar</a></li>
