@@ -64,6 +64,7 @@ class CPengguna extends Controller
                         ->select('universitas.id as id_universitas','users.nama_depan as universitas_nama_depan'
                             ,'users.nama_belakang as universitas_nama_belakang')
                         ->join('users','users.id','=','universitas.id_users')
+                        ->orderBy('universitas_nama_depan','asc')
             ->get();
 
         $fakultas = DB::table('fakultas')
