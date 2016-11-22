@@ -417,9 +417,9 @@ class CPengguna extends Controller
 
     public function profile_pengguna($nama)
     {
-
+        return Redirect::to('/');
         //Ambil nama
-        $query_nama = DB::table('users')
+        /*$query_nama = DB::table('users')
             ->select('*', 'fakultas.nama as fakultas', 'universitas.nama as universitas')
             ->join('universitas', 'universitas.id', '=', 'users.universitas')
             ->join('fakultas', 'fakultas.id', '=', 'users.fakultas')
@@ -431,7 +431,7 @@ class CPengguna extends Controller
                 ->with('query_nama', $query_nama);
         } else {
             return view('errors.404');
-        }
+        }*/
 
 
     }
