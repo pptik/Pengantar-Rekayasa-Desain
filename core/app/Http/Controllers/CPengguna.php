@@ -136,7 +136,7 @@ class CPengguna extends Controller
 
         $user = Auth::user();
         $this->validate($request, [
-            'password_sekarang' => 'required|min:8',
+            'password_sekarang' => 'required',
             'password' => 'required|min:8|confirmed',
         ]);
 
