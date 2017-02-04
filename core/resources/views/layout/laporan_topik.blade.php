@@ -91,6 +91,7 @@ foreach ($topik as $topik1) {
                 $status_pengerjaan = DB::table('resume_topik')
                         ->where('id_topik', '=', $id_topik)
                         ->where('id_pengguna', '=', $user->id)
+						->whereNotNull('berkas_video')
                         ->get();
 
                 if(count($status_pengerjaan) == 0){

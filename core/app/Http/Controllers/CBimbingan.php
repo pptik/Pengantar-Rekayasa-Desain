@@ -235,7 +235,7 @@ class CBimbingan extends Controller
         $dosen = DB::table('dosen')
             ->select('*', 'dosen.id as id_dosen','users.universitas as id_universitas')
             ->join('users', 'users.id', '=', 'dosen.id_users')
-            ->where('users.universitas', '=', $user->universitas)
+            //->where('users.universitas', '=', $user->universitas)
             ->orderBy('users.nama_depan','asc')
             ->get();
 

@@ -180,6 +180,11 @@ Route::group(['prefix' => 'topik','middleware' => 'auth'], function () {
 
 Route::get('administrator','CAdministrator@index');
 
+Route::group(['prefix' => 'api'],function(){
+    Route::get('submitted_task','CAPI@submitted_task');
+    Route::get('submitted_task/{id_universitas}','CAPI@submitted_task_user');
+});
+
 Route::group(['prefix' => 'administrator'],function(){
     Route::get('pengguna','CAdministrator@pengguna');
     Route::get('pengguna/mahasiswa','CAdministrator@mahasiswa');
