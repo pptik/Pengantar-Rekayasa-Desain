@@ -134,7 +134,7 @@ foreach ($resume_topik as $resume_topik1) {
     accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
     });
 
-    CKEDITOR.replace( 'editor1' );
+    //CKEDITOR.replace( 'editor1' );
 
     $('ul.tabs').tabs();
 

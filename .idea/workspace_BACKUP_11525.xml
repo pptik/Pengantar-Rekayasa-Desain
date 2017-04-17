@@ -1,0 +1,2352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/core/app/Http/Controllers/CTopik.php" description="$mahasiswa_mengambil_topik = ;" line="69" />
+    <bookmark url="file://$PROJECT_DIR$/core/app/Http/routes.php" description="resume" line="77" />
+    <bookmark url="file://$PROJECT_DIR$/core/app/Http/Controllers/CBimbingan.php" description="switch ($user){" line="33" />
+    <bookmark url="file://$PROJECT_DIR$/core/resources/views/layout/administrator/pengguna/universitas.blade.php" line="263" />
+  </component>
+  <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="3d134dff-a0d3-4782-bd96-54cf28f11390" name="Default" comment="" />
+||||||| merged common ancestors
+    <list default="true" id="3d134dff-a0d3-4782-bd96-54cf28f11390" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/app/Http/Controllers/CDosen.php" afterPath="$PROJECT_DIR$/core/app/Http/Controllers/CDosen.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/dosen/check_laporan.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/dosen/check_laporan.blade.php" />
+    </list>
+=======
+    <list default="true" id="3d134dff-a0d3-4782-bd96-54cf28f11390" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/app/Http/Controllers/CPengguna.php" afterPath="$PROJECT_DIR$/core/app/Http/Controllers/CPengguna.php" />
+    </list>
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+    <ignored path="radiolskk.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="radiolskk" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="CPengguna.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/app/Http/Controllers/CPengguna.php">
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="1905">
+              <caret line="509" column="57" selection-start-line="509" selection-start-column="36" selection-end-line="509" selection-end-column="57" />
+||||||| merged common ancestors
+            <state relative-caret-position="132">
+              <caret line="65" column="20" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="20" />
+=======
+            <state relative-caret-position="313">
+              <caret line="213" column="48" selection-start-line="213" selection-start-column="35" selection-end-line="213" selection-end-column="48" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+              <folding>
+                <element signature="e#372#1340#0#PHP" expanded="false" />
+                <element signature="e#1346#1419#0#PHP" expanded="false" />
+                <element signature="e#1425#1999#0#PHP" expanded="false" />
+                <element signature="e#2005#2093#0#PHP" expanded="false" />
+                <element signature="e#2099#2748#0#PHP" expanded="false" />
+                <element signature="e#3664#4724#0#PHP" expanded="false" />
+                <element signature="e#4730#9780#0#PHP" expanded="false" />
+                <element signature="e#9786#10954#0#PHP" expanded="false" />
+                <element signature="e#10960#12601#0#PHP" expanded="false" />
+                <element signature="e#12607#13264#0#PHP" expanded="false" />
+                <element signature="e#15940#17145#0#PHP" expanded="false" />
+                <element signature="e#17151#17276#0#PHP" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file leaf-file-name="profile_pengguna_ubah.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_ubah.blade.php">
+||||||| merged common ancestors
+      <file leaf-file-name="kegiatan.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/resources/views/layout/kegiatan.blade.php">
+=======
+      <file leaf-file-name="CPengguna.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/app/Http/Controllers/CPengguna.php">
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+          <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+            <state relative-caret-position="165">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+||||||| merged common ancestors
+            <state relative-caret-position="334">
+              <caret line="68" column="33" selection-start-line="64" selection-start-column="32" selection-end-line="68" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CDosen.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/app/Http/Controllers/CDosen.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+              <folding>
+                <element signature="e#40#68#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CKegiatan.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/app/Http/Controllers/CKegiatan.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-495">
+              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="50" />
+              <folding>
+                <element signature="e#40#68#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="check_laporan.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/resources/views/layout/dosen/check_laporan.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="138" column="71" selection-start-line="138" selection-start-column="71" selection-end-line="138" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mahasiswa.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/resources/views/layout/administrator/pengguna/mahasiswa.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="159" column="39" selection-start-line="159" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/resources/views/layout/administrator/template.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="24" column="83" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="83" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/resources/views/layout/template.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="58" column="79" selection-start-line="58" selection-start-column="79" selection-end-line="58" selection-end-column="79" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CAdministrator.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/app/Http/Controllers/CAdministrator.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="43" selection-start-line="22" selection-start-column="8" selection-end-line="23" selection-end-column="43" />
+              <folding>
+                <element signature="e#40#58#0#PHP" expanded="true" />
+                <element signature="e#733#834#0#PHP" expanded="false" />
+                <element signature="e#840#1179#0#PHP" expanded="false" />
+                <element signature="e#2620#2949#0#PHP" expanded="false" />
+                <element signature="e#2955#3256#0#PHP" expanded="false" />
+                <element signature="e#3262#3605#0#PHP" expanded="false" />
+                <element signature="e#4264#4514#0#PHP" expanded="false" />
+                <element signature="e#14031#14078#0#PHP" expanded="false" />
+                <element signature="e#14247#14309#0#PHP" expanded="false" />
+                <element signature="e#14441#14489#0#PHP" expanded="false" />
+                <element signature="e#14639#14687#0#PHP" expanded="false" />
+                <element signature="e#14878#14946#0#PHP" expanded="false" />
+                <element signature="e#15090#15141#0#PHP" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dosen.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/app/Http/Middleware/Dosen.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <element signature="e#39#51#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+=======
+            <state relative-caret-position="214">
+              <caret line="138" column="44" selection-start-line="138" selection-start-column="44" selection-end-line="138" selection-end-column="44" />
+              <folding>
+                <element signature="e#4886#5131#0#PHP" expanded="false" />
+                <element signature="e#19323#19573#0#PHP" expanded="false" />
+                <element signature="e#20097#20371#0#PHP" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mahasiswa.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/resources/views/layout/administrator/pengguna/mahasiswa.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2340">
+              <caret line="156" column="14" selection-start-line="156" selection-start-column="14" selection-end-line="156" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/resources/views/layout/template.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="870">
+              <caret line="58" column="79" selection-start-line="58" selection-start-column="79" selection-end-line="58" selection-end-column="79" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="materi.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/resources/views/layout/administrator/materi/materi.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4050">
+              <caret line="270" column="29" selection-start-line="270" selection-start-column="4" selection-end-line="270" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CBimbingan.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/app/Http/Controllers/CBimbingan.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3300">
+              <caret line="242" column="36" selection-start-line="242" selection-start-column="36" selection-end-line="242" selection-end-column="36" />
+              <folding>
+                <element signature="e#437#513#0#PHP" expanded="false" />
+                <element signature="e#2990#3240#0#PHP" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/resources/views/layout/register.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="39" column="98" selection-start-line="39" selection-start-column="78" selection-end-line="39" selection-end-column="98" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Muhammad Ilham Fadillah &lt;emilhamep@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+<<<<<<< HEAD
+||||||| merged common ancestors
+        <option value="$PROJECT_DIR$/core/app/MUniversitas.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/universitas/dashboard.blade.php" />
+        <option value="$PROJECT_DIR$/core/app/MDosen.php" />
+        <option value="$PROJECT_DIR$/core/app/MMahasiswa.php" />
+        <option value="$PROJECT_DIR$/core/app/MBimbingan.php" />
+        <option value="$PROJECT_DIR$/core/app/Http/Controllers/CCourse.php" />
+        <option value="$PROJECT_DIR$/core/.env" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/universitas/pengguna/mahasiswa.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/universitas/pengguna/dosen.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/mahasiswa/bimbingan.blade.php" />
+        <option value="$PROJECT_DIR$/core/app/Http/Middleware/Administrator.php" />
+        <option value="$PROJECT_DIR$/core/resources/assets/semantic/dist/semantic.css" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/administrator/dashboard.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/administrator/pengguna/mahasiswa.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/administrator/pengguna/dosen.blade.php" />
+        <option value="$PROJECT_DIR$/core/app/MTopik.php" />
+        <option value="$PROJECT_DIR$/core/app/Http/Controllers/CTopik.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/administrator/template.blade.php" />
+=======
+        <option value="$PROJECT_DIR$/core/resources/views/layout/universitas/dashboard.blade.php" />
+        <option value="$PROJECT_DIR$/core/app/MDosen.php" />
+        <option value="$PROJECT_DIR$/core/app/MMahasiswa.php" />
+        <option value="$PROJECT_DIR$/core/app/MBimbingan.php" />
+        <option value="$PROJECT_DIR$/core/app/Http/Controllers/CCourse.php" />
+        <option value="$PROJECT_DIR$/core/.env" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/universitas/pengguna/mahasiswa.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/universitas/pengguna/dosen.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/mahasiswa/bimbingan.blade.php" />
+        <option value="$PROJECT_DIR$/core/app/Http/Middleware/Administrator.php" />
+        <option value="$PROJECT_DIR$/core/resources/assets/semantic/dist/semantic.css" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/administrator/dashboard.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/administrator/pengguna/dosen.blade.php" />
+        <option value="$PROJECT_DIR$/core/app/MTopik.php" />
+        <option value="$PROJECT_DIR$/core/app/Http/Controllers/CTopik.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/administrator/template.blade.php" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+        <option value="$PROJECT_DIR$/core/app/MSubTopik.php" />
+        <option value="$PROJECT_DIR$/core/config/database.php" />
+<<<<<<< HEAD
+||||||| merged common ancestors
+        <option value="$PROJECT_DIR$/core/resources/views/layout/administrator/materi/sub_materi.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/administrator/materi/materi.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/administrator/pengguna/universitas.blade.php" />
+        <option value="$PROJECT_DIR$/core/app/Http/Controllers/CAdministrator.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/topik.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/sub_topik.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/laporan_topik.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/ubah_laporan.blade.php" />
+=======
+        <option value="$PROJECT_DIR$/core/resources/views/layout/administrator/materi/sub_materi.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/administrator/materi/materi.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/administrator/pengguna/universitas.blade.php" />
+        <option value="$PROJECT_DIR$/core/app/Http/Controllers/CAdministrator.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/topik.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/sub_topik.blade.php" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+        <option value="$PROJECT_DIR$/core/app/Http/Controllers/CResume.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/template.blade.php" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/core/app/Http/Controllers/CBimbingan.php" />
+||||||| merged common ancestors
+        <option value="$PROJECT_DIR$/core/resources/views/layout/mahasiswa/tambah_bimbingan.blade.php" />
+        <option value="$PROJECT_DIR$/core/app/Http/Controllers/CBimbingan.php" />
+=======
+        <option value="$PROJECT_DIR$/core/resources/views/layout/mahasiswa/tambah_bimbingan.blade.php" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+        <option value="$PROJECT_DIR$/core/resources/views/layout/mahasiswa/bimbingan_materi.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/daftar_topik.blade.php" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/core/app/Http/Controllers/CPengguna.php" />
+||||||| merged common ancestors
+        <option value="$PROJECT_DIR$/core/resources/views/layout/register.blade.php" />
+        <option value="$PROJECT_DIR$/core/app/Http/Controllers/CPengguna.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/dashboard.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/dosen/bimbingan.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/dosen/bimbingan_materi.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_auth.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_ubah.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/keamanan.blade.php" />
+        <option value="$PROJECT_DIR$/core/app/Http/routes.php" />
+=======
+        <option value="$PROJECT_DIR$/core/resources/views/layout/register.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/dashboard.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/dosen/bimbingan.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/dosen/bimbingan_materi.blade.php" />
+        <option value="$PROJECT_DIR$/core/app/Http/routes.php" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+        <option value="$PROJECT_DIR$/core/app/Http/Kernel.php" />
+        <option value="$PROJECT_DIR$/core/app/Http/Middleware/Dosen.php" />
+        <option value="$PROJECT_DIR$/core/app/Http/Controllers/CKegiatan.php" />
+        <option value="$PROJECT_DIR$/core/app/Http/Controllers/CDosen.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_auth.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_ubah.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/register.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/sub_topik.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/topik.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/ubah_laporan.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/ubah_laporan_backup.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/kegiatan.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/laporan_topik.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/laporan_topik_backup.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/login.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/lupa_password.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/index.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/keamanan.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/universitas/pengguna/dosen.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/universitas/pengguna/mahasiswa.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/universitas/dashboard.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/mahasiswa/bimbingan.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/mahasiswa/bimbingan_backup_sebelum_ganti_layout.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/mahasiswa/tambah_bimbingan.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/dosen/bimbingan.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/dosen/bimbingan_backup_sebelum_ganti_layout.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/dosen/bimbingan_materi.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/dosen/check_laporan.blade.php" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/core/resources/views/errors/404.blade.php" />
+        <option value="$PROJECT_DIR$/core/app/Http/Controllers/CAdministrator.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/administrator/materi/materi.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/administrator/materi/sub_materi.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/administrator/pengguna/dosen.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/administrator/pengguna/mahasiswa.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/administrator/pengguna/universitas.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/administrator/dashboard.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/administrator/template.blade.php" />
+        <option value="$PROJECT_DIR$/core/config/app.php" />
+        <option value="$PROJECT_DIR$/core/composer.json" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/dashboard.blade.php" />
+        <option value="$PROJECT_DIR$/core/app/Http/Controllers/CAPI.php" />
+        <option value="$PROJECT_DIR$/core/.env" />
+        <option value="$PROJECT_DIR$/core/app/Http/routes.php" />
+||||||| merged common ancestors
+=======
+        <option value="$PROJECT_DIR$/core/resources/views/errors/404.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/keamanan.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_auth.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_ubah.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/ubah_laporan.blade.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/laporan_topik.blade.php" />
+        <option value="$PROJECT_DIR$/core/app/Http/Controllers/CBimbingan.php" />
+        <option value="$PROJECT_DIR$/core/resources/views/layout/administrator/pengguna/mahasiswa.blade.php" />
+        <option value="$PROJECT_DIR$/core/app/Http/Controllers/CPengguna.php" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+<<<<<<< HEAD
+    <option name="width" value="1276" />
+    <option name="height" value="800" />
+||||||| merged common ancestors
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="726" />
+=======
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="773" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+<<<<<<< HEAD
+              <option name="myItemId" value="universitas" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="universitas" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pengguna" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mahasiswa" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dosen" />
+||||||| merged common ancestors
+              <option name="myItemId" value="dosen" />
+=======
+              <option name="myItemId" value="administrator" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="administrator" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="materi" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+<<<<<<< HEAD
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="administrator" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="materi" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+||||||| merged common ancestors
+=======
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="errors" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+<<<<<<< HEAD
+    <property name="SearchEverywhereHistoryKey" value="profile_pengguna_ubah&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/profile_pengguna_ubah.blade.php&#10;profile_pengguna_auth&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/profile_pengguna_auth.blade.php&#10;.env&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/.env&#10;CP&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CPengguna.php&#10;dash&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/dashboard.blade.php&#10;routes&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/routes.php&#10;das&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/dashboard.blade.php&#10;dashb&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/administrator/dashboard.blade.php&#10;app.php&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/config/app.php&#10;app&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/bootstrap/app.php&#10;compos&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/composer.json&#10;CAP&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CAPI.php&#10;kegiatan&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/kegiatan.blade.php&#10;CKegia&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CKegiatan.php&#10;CPengg&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CPengguna.php&#10;reg&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/register.blade.php&#10;CKegiata&#9;null&#9;null&#10;login&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/login.blade.php&#10;index&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/index.blade.php&#10;CBimbingan&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CBimbingan.php&#10;CPeng&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CPengguna.php&#10;CBimbin&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CBimbingan.php&#10;CB&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CBimbingan.php&#10;template&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/template.blade.php&#10;CBim&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CBimbingan.php&#10;rout&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/routes.php&#10;CBI&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CBimbingan.php&#10;CResume&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CResume.php&#10;CTopi&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CTopik.php&#10;CAd&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CAdministrator.php&#10;regis&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/register.blade.php&#10;dashboard&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/dashboard.blade.php&#10;register&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/register.blade.php&#10;cpengg&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CPengguna.php&#10;dafta&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/daftar_topik.blade.php&#10;sub_topik&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/sub_topik.blade.php&#10;ubah_&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/ubah_laporan.blade.php&#10;cad&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CAdministrator.php&#10;laporan&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/laporan_topik.blade.php&#10;CPen&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CPengguna.php&#10;ca&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CAdministrator.php&#10;database&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/config/database.php&#10;daftar_top&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/daftar_topik.blade.php&#10;CTopik&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CTopik.php&#10;mSU&#9;null&#9;null&#10;templ&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/template.blade.php&#10;ccourse&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CCourse.php&#10;cpe&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CPengguna.php&#10;login.&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/login.blade.php&#10;regi&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/register.blade.php" />
+||||||| merged common ancestors
+    <property name="SearchEverywhereHistoryKey" value="kegiatan&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/kegiatan.blade.php&#10;CKegia&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CKegiatan.php&#10;routes&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/routes.php&#10;CPengg&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CPengguna.php&#10;reg&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/register.blade.php&#10;CKegiata&#9;null&#9;null&#10;login&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/login.blade.php&#10;index&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/index.blade.php&#10;CBimbingan&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CBimbingan.php&#10;profile_pengguna_ubah&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/profile_pengguna_ubah.blade.php&#10;profile_pengguna_auth&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/profile_pengguna_auth.blade.php&#10;CPeng&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CPengguna.php&#10;CBimbin&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CBimbingan.php&#10;CB&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CBimbingan.php&#10;template&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/template.blade.php&#10;CBim&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CBimbingan.php&#10;rout&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/routes.php&#10;CBI&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CBimbingan.php&#10;CResume&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CResume.php&#10;CTopi&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CTopik.php&#10;CAd&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CAdministrator.php&#10;regis&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/register.blade.php&#10;dashboard&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/dashboard.blade.php&#10;register&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/register.blade.php&#10;cpengg&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CPengguna.php&#10;dafta&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/daftar_topik.blade.php&#10;sub_topik&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/sub_topik.blade.php&#10;ubah_&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/ubah_laporan.blade.php&#10;cad&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CAdministrator.php&#10;laporan&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/laporan_topik.blade.php&#10;dashb&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/dashboard.blade.php&#10;CPen&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CPengguna.php&#10;ca&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CAdministrator.php&#10;.env&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/.env&#10;database&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/config/database.php&#10;daftar_top&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/daftar_topik.blade.php&#10;CTopik&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CTopik.php&#10;mSU&#9;null&#9;null&#10;templ&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/template.blade.php&#10;ccourse&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CCourse.php&#10;cpe&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CPengguna.php&#10;login.&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/login.blade.php&#10;regi&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/register.blade.php&#10;das&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/dashboard.blade.php&#10;ubah_la&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/ubah_laporan.blade.php&#10;ctopik&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CTopik.php&#10;CA&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CAdministrator.php&#10;daftar&#9;null&#9;null&#10;seman&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/assets/semantic/dist/semantic.css&#10;CT&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CTopik.php" />
+=======
+    <property name="SearchEverywhereHistoryKey" value=".env&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/.env&#10;template&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/template.blade.php&#10;CPeng&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CPengguna.php&#10;regis&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/register.blade.php&#10;CBimbin&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CBimbingan.php&#10;CPengg&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CPengguna.php&#10;topik&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/topik.blade.php&#10;CTopi&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CTopik.php&#10;routes&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/routes.php&#10;404.&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/errors/404.blade.php&#10;kegiatan&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/kegiatan.blade.php&#10;CKegia&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CKegiatan.php&#10;reg&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/register.blade.php&#10;CKegiata&#9;null&#9;null&#10;login&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/login.blade.php&#10;index&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/index.blade.php&#10;CBimbingan&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CBimbingan.php&#10;profile_pengguna_ubah&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/profile_pengguna_ubah.blade.php&#10;profile_pengguna_auth&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/profile_pengguna_auth.blade.php&#10;CB&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CBimbingan.php&#10;CBim&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CBimbingan.php&#10;rout&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/routes.php&#10;CBI&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CBimbingan.php&#10;CResume&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CResume.php&#10;CAd&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CAdministrator.php&#10;dashboard&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/dashboard.blade.php&#10;register&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/register.blade.php&#10;cpengg&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CPengguna.php&#10;dafta&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/daftar_topik.blade.php&#10;sub_topik&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/sub_topik.blade.php&#10;ubah_&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/ubah_laporan.blade.php&#10;cad&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CAdministrator.php&#10;laporan&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/laporan_topik.blade.php&#10;dashb&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/dashboard.blade.php&#10;CPen&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CPengguna.php&#10;ca&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CAdministrator.php&#10;database&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/config/database.php&#10;daftar_top&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/daftar_topik.blade.php&#10;CTopik&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CTopik.php&#10;mSU&#9;null&#9;null&#10;templ&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/template.blade.php&#10;ccourse&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CCourse.php&#10;cpe&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CPengguna.php&#10;login.&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/login.blade.php&#10;regi&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/register.blade.php&#10;das&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/dashboard.blade.php&#10;ubah_la&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/resources/views/layout/ubah_laporan.blade.php&#10;ctopik&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CTopik.php&#10;CA&#9;FILE&#9;file:///Applications/MAMP/htdocs/prd/core/app/Http/Controllers/CAdministrator.php&#10;daftar&#9;null&#9;null" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core/resources/views/layout/administrator" />
+      <recent name="$PROJECT_DIR$/core/resources/views/layout/dosen" />
+      <recent name="$PROJECT_DIR$/core/resources/views/layout" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/core/resources/views/layout/administrator/materi" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core/resources/views/layout/administrator" />
+      <recent name="$PROJECT_DIR$/core/resources/assets" />
+      <recent name="$PROJECT_DIR$/core/resources/assets/images" />
+      <recent name="$PROJECT_DIR$/core/resources/assets/user_non_admin_assets/photo" />
+      <recent name="$PROJECT_DIR$/core/resources/assets/js" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d134dff-a0d3-4782-bd96-54cf28f11390" name="Default" comment="" />
+      <created>1462365098338</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1462365098338</updated>
+      <workItem from="1462365100207" duration="27042000" />
+      <workItem from="1462764059659" duration="112000" />
+      <workItem from="1462768661231" duration="2966000" />
+      <workItem from="1462850623405" duration="750000" />
+      <workItem from="1462875260507" duration="586000" />
+      <workItem from="1462939835921" duration="1649000" />
+      <workItem from="1463093323274" duration="460000" />
+      <workItem from="1463136322927" duration="471000" />
+      <workItem from="1463716435323" duration="293000" />
+      <workItem from="1463722857364" duration="594000" />
+      <workItem from="1463724699570" duration="809000" />
+      <workItem from="1463726992253" duration="543000" />
+      <workItem from="1463728999682" duration="1181000" />
+      <workItem from="1463754245881" duration="28000" />
+      <workItem from="1464415067897" duration="269000" />
+      <workItem from="1464441186768" duration="14000" />
+      <workItem from="1464562655178" duration="639000" />
+      <workItem from="1464577166195" duration="2992000" />
+      <workItem from="1464668502604" duration="149000" />
+      <workItem from="1464668727391" duration="15958000" />
+      <workItem from="1464699354494" duration="6672000" />
+      <workItem from="1464748270658" duration="1899000" />
+      <workItem from="1464753488218" duration="12835000" />
+      <workItem from="1464788405974" duration="487000" />
+      <workItem from="1464798282801" duration="54000" />
+      <workItem from="1464826870195" duration="494000" />
+      <workItem from="1464838020122" duration="9874000" />
+      <workItem from="1464921614933" duration="3483000" />
+      <workItem from="1464935613559" duration="13795000" />
+      <workItem from="1464962112501" duration="7893000" />
+      <workItem from="1465125621086" duration="2120000" />
+      <workItem from="1465136574246" duration="2005000" />
+      <workItem from="1465196614900" duration="1994000" />
+      <workItem from="1465208425778" duration="1289000" />
+      <workItem from="1465211363039" duration="1295000" />
+      <workItem from="1465219329429" duration="7889000" />
+      <workItem from="1465250382197" duration="2254000" />
+      <workItem from="1465256425145" duration="225000" />
+      <workItem from="1465266445534" duration="7671000" />
+      <workItem from="1465357686666" duration="2081000" />
+      <workItem from="1465456564158" duration="519000" />
+      <workItem from="1465790385375" duration="8141000" />
+      <workItem from="1465813261717" duration="498000" />
+      <workItem from="1465830481432" duration="222000" />
+      <workItem from="1465872591169" duration="8938000" />
+      <workItem from="1465904825763" duration="571000" />
+      <workItem from="1465915720916" duration="21000" />
+      <workItem from="1465917801621" duration="1624000" />
+      <workItem from="1465979839560" duration="3860000" />
+      <workItem from="1466048514748" duration="905000" />
+      <workItem from="1466062829877" duration="324000" />
+      <workItem from="1466118610971" duration="438000" />
+      <workItem from="1466150676460" duration="616000" />
+      <workItem from="1466260783192" duration="71000" />
+      <workItem from="1466267996239" duration="2176000" />
+      <workItem from="1466392984064" duration="2927000" />
+      <workItem from="1466481878312" duration="525000" />
+      <workItem from="1466730119374" duration="612000" />
+      <workItem from="1466739623636" duration="19000" />
+      <workItem from="1467042082999" duration="152000" />
+      <workItem from="1467071726217" duration="197000" />
+      <workItem from="1467095241494" duration="4005000" />
+      <workItem from="1469506271990" duration="309000" />
+      <workItem from="1469719117245" duration="296000" />
+      <workItem from="1469852359375" duration="61000" />
+      <workItem from="1469853882401" duration="219000" />
+      <workItem from="1469886948059" duration="609000" />
+      <workItem from="1469970755760" duration="1219000" />
+      <workItem from="1470196212711" duration="2615000" />
+      <workItem from="1470211456709" duration="666000" />
+      <workItem from="1470483754959" duration="613000" />
+      <workItem from="1470636223628" duration="1132000" />
+      <workItem from="1470668199528" duration="371000" />
+      <workItem from="1470715065215" duration="1136000" />
+      <workItem from="1470752462158" duration="1740000" />
+      <workItem from="1470776335384" duration="823000" />
+      <workItem from="1470790605976" duration="2172000" />
+      <workItem from="1470884144034" duration="1341000" />
+      <workItem from="1470909912781" duration="266000" />
+      <workItem from="1470925962863" duration="199000" />
+      <workItem from="1470953076493" duration="2231000" />
+      <workItem from="1470989317396" duration="610000" />
+      <workItem from="1471001203921" duration="299000" />
+      <workItem from="1471012468351" duration="624000" />
+      <workItem from="1471254388810" duration="497000" />
+      <workItem from="1471317788014" duration="2714000" />
+      <workItem from="1471492335810" duration="527000" />
+      <workItem from="1472113043422" duration="163000" />
+      <workItem from="1472118151089" duration="1042000" />
+      <workItem from="1472197742003" duration="279000" />
+      <workItem from="1472523131674" duration="1213000" />
+      <workItem from="1472533679854" duration="3193000" />
+      <workItem from="1472604507620" duration="1479000" />
+      <workItem from="1472614685105" duration="3687000" />
+      <workItem from="1472623685749" duration="4529000" />
+      <workItem from="1472694181706" duration="3833000" />
+      <workItem from="1472737035378" duration="309000" />
+      <workItem from="1472973973746" duration="1103000" />
+      <workItem from="1473069391482" duration="8565000" />
+      <workItem from="1473199701253" duration="9904000" />
+      <workItem from="1473218919993" duration="4158000" />
+      <workItem from="1473228888625" duration="5671000" />
+      <workItem from="1473257192240" duration="218000" />
+      <workItem from="1473314897318" duration="1656000" />
+      <workItem from="1473328714025" duration="791000" />
+      <workItem from="1473341780617" duration="426000" />
+      <workItem from="1473375094569" duration="4801000" />
+      <workItem from="1473491031008" duration="47000" />
+      <workItem from="1473860183401" duration="12191000" />
+      <workItem from="1473875969095" duration="30456000" />
+      <workItem from="1474068792665" duration="4539000" />
+      <workItem from="1474139194315" duration="102000" />
+      <workItem from="1474851500208" duration="601000" />
+      <workItem from="1474857340620" duration="2550000" />
+      <workItem from="1474884947856" duration="167000" />
+      <workItem from="1476057890787" duration="68000" />
+      <workItem from="1476060310040" duration="114000" />
+      <workItem from="1476145241022" duration="364000" />
+      <workItem from="1476864283574" duration="654000" />
+      <workItem from="1477367071017" duration="477000" />
+      <workItem from="1477368424845" duration="5039000" />
+      <workItem from="1477571635522" duration="623000" />
+      <workItem from="1477636665082" duration="10081000" />
+      <workItem from="1477888421737" duration="4758000" />
+      <workItem from="1477906529912" duration="1930000" />
+      <workItem from="1477953789447" duration="590000" />
+      <workItem from="1477954465045" duration="4107000" />
+      <workItem from="1478213337175" duration="26179000" />
+      <workItem from="1478387594592" duration="8079000" />
+      <workItem from="1478401119692" duration="23294000" />
+      <workItem from="1479082054670" duration="232000" />
+      <workItem from="1479083764601" duration="22851000" />
+      <workItem from="1479263689569" duration="15317000" />
+<<<<<<< HEAD
+      <workItem from="1479449703186" duration="21728000" />
+      <workItem from="1486247304535" duration="3765000" />
+      <workItem from="1487867814695" duration="851000" />
+      <workItem from="1491444828216" duration="87000" />
+      <workItem from="1491445024449" duration="4986000" />
+      <workItem from="1491891805564" duration="4735000" />
+      <workItem from="1492094398894" duration="133000" />
+      <workItem from="1492388157314" duration="78000" />
+||||||| merged common ancestors
+      <workItem from="1479449703186" duration="21338000" />
+=======
+      <workItem from="1479449703186" duration="21728000" />
+      <workItem from="1479649348870" duration="455000" />
+      <workItem from="1479651773629" duration="3025000" />
+      <workItem from="1479743041020" duration="286000" />
+      <workItem from="1479785120887" duration="201000" />
+      <workItem from="1479804787938" duration="1175000" />
+      <workItem from="1479875906283" duration="29000" />
+      <workItem from="1479969221752" duration="277000" />
+      <workItem from="1479999478142" duration="640000" />
+      <workItem from="1480364961491" duration="755000" />
+      <workItem from="1480476731611" duration="1123000" />
+      <workItem from="1480821101152" duration="86000" />
+      <workItem from="1480864746639" duration="887000" />
+      <workItem from="1481181026658" duration="23000" />
+      <workItem from="1481188810015" duration="33000" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+    </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1477519271247</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1477519271247</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="473257000" />
+||||||| merged common ancestors
+    <option name="totallyTimeSpent" value="458232000" />
+=======
+    <option name="totallyTimeSpent" value="467617000" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+  </component>
+  <component name="ToolWindowManager">
+<<<<<<< HEAD
+    <frame x="0" y="0" width="1276" height="800" extended-state="6" />
+    <editor active="false" />
+||||||| merged common ancestors
+    <frame x="0" y="23" width="1280" height="726" extended-state="6" />
+    <editor active="true" />
+=======
+    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
+    <editor active="true" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+    <layout>
+<<<<<<< HEAD
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3363047" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+||||||| merged common ancestors
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30210015" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37560582" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24858756" sideWeight="0.34359807" order="0" side_tool="true" content_ui="tabs" />
+||||||| merged common ancestors
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24921136" sideWeight="0.31098545" order="0" side_tool="true" content_ui="tabs" />
+=======
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24816446" sideWeight="0.37560582" order="0" side_tool="true" content_ui="tabs" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.49676898" order="1" side_tool="false" content_ui="tabs" />
+||||||| merged common ancestors
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.49353796" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.49676898" order="1" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.49353796" order="1" side_tool="false" content_ui="tabs" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24858756" sideWeight="0.65640193" order="2" side_tool="false" content_ui="tabs" />
+||||||| merged common ancestors
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24921136" sideWeight="0.68901455" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24816446" sideWeight="0.6243942" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.49353796" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.11581921" sideWeight="0.49675852" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/core/app/Http/Controllers/CPengguna.php</url>
+          <line>604</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/core/app/Http/routes.php</url>
+          <line>83</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/core/app/Http/Controllers/CPengguna.php</url>
+          <line>191</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/core/app/Http/Controllers/CBimbingan.php</url>
+          <line>362</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/core/app/Http/Controllers/CBimbingan.php</url>
+          <line>119</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/core/app/Http/Controllers/CBimbingan.php</url>
+          <line>206</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/core/app/Http/Controllers/CPengguna.php</url>
+          <line>404</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/core/app/Http/Middleware/Administrator.php</url>
+          <line>8</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/core/app/Http/Controllers/CAdministrator.php</url>
+          <line>140</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+<<<<<<< HEAD
+||||||| merged common ancestors
+          <url>file://$PROJECT_DIR$/core/app/Http/Controllers/CAdministrator.php</url>
+          <line>166</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/core/app/Http/Controllers/CPengguna.php</url>
+          <line>483</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+=======
+          <url>file://$PROJECT_DIR$/core/app/Http/Controllers/CAdministrator.php</url>
+          <line>166</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/core/app/Http/Controllers/CPengguna.php</url>
+          <line>484</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+          <url>file://$PROJECT_DIR$/core/app/Http/Controllers/CBimbingan.php</url>
+          <line>138</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/core/app/Http/Controllers/CAPI.php</url>
+          <line>58</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="29" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/core/app/Http/Controllers/CDosen.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/app/Http/Controllers/CKegiatan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/vendor/laravel/framework/src/Illuminate/Foundation/Console/EnvironmentCommand.php">
+||||||| merged common ancestors
+    <entry file="file://$PROJECT_DIR$/core/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+=======
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="90">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+||||||| merged common ancestors
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/profile_pengguna.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/send_email.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="133" column="67" selection-start-line="133" selection-start-column="67" selection-end-line="133" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+||||||| merged common ancestors
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/topik.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2115">
+          <caret line="141" column="18" selection-start-line="141" selection-start-column="18" selection-end-line="141" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+=======
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/sub_topik.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="123">
+          <caret line="152" column="67" selection-start-line="152" selection-start-column="67" selection-end-line="152" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/template.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="58" column="79" selection-start-line="58" selection-start-column="79" selection-end-line="58" selection-end-column="79" />
+||||||| merged common ancestors
+        <state relative-caret-position="2310">
+          <caret line="154" column="18" selection-start-line="154" selection-start-column="18" selection-end-line="154" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/app/Http/Controllers/CTopik.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="40" column="32" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="32" />
+          <folding>
+            <element signature="e#396#619#0#PHP" expanded="false" />
+          </folding>
+=======
+        <state relative-caret-position="2310">
+          <caret line="154" column="18" selection-start-line="154" selection-start-column="18" selection-end-line="154" selection-end-column="18" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/topik.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="148">
+          <caret line="139" column="67" selection-start-line="139" selection-start-column="67" selection-end-line="139" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/ubah_laporan.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="108" column="52" selection-start-line="108" selection-start-column="52" selection-end-line="108" selection-end-column="52" />
+||||||| merged common ancestors
+        <state relative-caret-position="150">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="e#277#527#0#PHP" expanded="false" />
+            <element signature="e#533#1529#0#PHP" expanded="false" />
+            <element signature="e#1534#2584#0#PHP" expanded="false" />
+            <element signature="e#2590#4589#0#PHP" expanded="false" />
+            <element signature="e#4595#5340#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/administrator/materi/materi.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+          <folding />
+=======
+        <state relative-caret-position="150">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/ubah_laporan_backup.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="148">
+          <caret line="154" column="52" selection-start-line="154" selection-start-column="52" selection-end-line="154" selection-end-column="52" />
+||||||| merged common ancestors
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/daftar_topik.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="270">
+          <caret line="18" column="79" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
+||||||| merged common ancestors
+        <state relative-caret-position="192">
+          <caret line="43" column="22" selection-start-line="39" selection-start-column="16" selection-end-line="43" selection-end-column="22" />
+          <folding />
+=======
+        <state relative-caret-position="192">
+          <caret line="43" column="22" selection-start-line="39" selection-start-column="16" selection-end-line="43" selection-end-column="22" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/laporan_topik.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="148">
+          <caret line="172" column="52" selection-start-line="172" selection-start-column="52" selection-end-line="172" selection-end-column="52" />
+||||||| merged common ancestors
+        <state relative-caret-position="210">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding />
+=======
+        <state relative-caret-position="210">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/laporan_topik_backup.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="148">
+          <caret line="187" column="52" selection-start-line="187" selection-start-column="52" selection-end-line="187" selection-end-column="52" />
+||||||| merged common ancestors
+        <state relative-caret-position="237">
+          <caret line="153" column="112" selection-start-line="152" selection-start-column="48" selection-end-line="153" selection-end-column="112" />
+          <folding />
+=======
+        <state relative-caret-position="237">
+          <caret line="153" column="112" selection-start-line="152" selection-start-column="48" selection-end-line="153" selection-end-column="112" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="148">
+          <caret line="87" column="52" selection-start-line="87" selection-start-column="52" selection-end-line="87" selection-end-column="52" />
+||||||| merged common ancestors
+        <state relative-caret-position="357">
+          <caret line="182" column="50" selection-start-line="182" selection-start-column="50" selection-end-line="182" selection-end-column="50" />
+          <folding />
+=======
+        <state relative-caret-position="357">
+          <caret line="182" column="50" selection-start-line="182" selection-start-column="50" selection-end-line="182" selection-end-column="50" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/lupa_password.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="148">
+          <caret line="50" column="52" selection-start-line="50" selection-start-column="52" selection-end-line="50" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="181" column="52" selection-start-line="181" selection-start-column="52" selection-end-line="181" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/keamanan.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="264" column="52" selection-start-line="264" selection-start-column="52" selection-end-line="264" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/kegiatan.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="104" column="52" selection-start-line="104" selection-start-column="52" selection-end-line="104" selection-end-column="52" />
+||||||| merged common ancestors
+        <state relative-caret-position="270">
+          <caret line="18" column="79" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/ubah_laporan.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="104" column="28" selection-start-line="104" selection-start-column="28" selection-end-line="104" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/laporan_topik.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="148" column="30" selection-start-line="144" selection-start-column="24" selection-end-line="148" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/app/Http/Controllers/CBimbingan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="57" column="52" selection-start-line="57" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+            <element signature="e#437#513#0#PHP" expanded="false" />
+            <element signature="e#2990#3240#0#PHP" expanded="false" />
+          </folding>
+=======
+        <state relative-caret-position="270">
+          <caret line="18" column="79" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/universitas/pengguna/dosen.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="148">
+          <caret line="155" column="52" selection-start-line="155" selection-start-column="52" selection-end-line="155" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/universitas/pengguna/mahasiswa.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="154" column="52" selection-start-line="154" selection-start-column="52" selection-end-line="154" selection-end-column="52" />
+||||||| merged common ancestors
+        <state relative-caret-position="285">
+          <caret line="19" column="79" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="39" column="98" selection-start-line="39" selection-start-column="78" selection-end-line="39" selection-end-column="98" />
+          <folding />
+=======
+        <state relative-caret-position="285">
+          <caret line="19" column="79" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="79" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/universitas/dashboard.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="148">
+          <caret line="124" column="52" selection-start-line="124" selection-start-column="52" selection-end-line="124" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/mahasiswa/bimbingan_backup_sebelum_ganti_layout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="311" column="52" selection-start-line="311" selection-start-column="52" selection-end-line="311" selection-end-column="52" />
+||||||| merged common ancestors
+        <state relative-caret-position="75">
+          <caret line="23" column="79" selection-start-line="23" selection-start-column="79" selection-end-line="23" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/app/Http/Controllers/CPengguna.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="381" column="46" selection-start-line="381" selection-start-column="46" selection-end-line="381" selection-end-column="46" />
+          <folding>
+            <element signature="e#4826#5071#0#PHP" expanded="false" />
+            <element signature="e#5630#6627#0#PHP" expanded="false" />
+            <element signature="e#19226#19476#0#PHP" expanded="false" />
+            <element signature="e#20000#20274#0#PHP" expanded="false" />
+          </folding>
+=======
+        <state relative-caret-position="75">
+          <caret line="23" column="79" selection-start-line="23" selection-start-column="79" selection-end-line="23" selection-end-column="79" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/mahasiswa/bimbingan_materi.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="148">
+          <caret line="273" column="67" selection-start-line="273" selection-start-column="48" selection-end-line="273" selection-end-column="67" />
+||||||| merged common ancestors
+        <state relative-caret-position="318">
+          <caret line="94" column="18" selection-start-line="88" selection-start-column="16" selection-end-line="94" selection-end-column="18" />
+          <folding />
+=======
+        <state relative-caret-position="318">
+          <caret line="94" column="18" selection-start-line="88" selection-start-column="16" selection-end-line="94" selection-end-column="18" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/mahasiswa/tambah_bimbingan.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="148">
+          <caret line="236" column="52" selection-start-line="236" selection-start-column="52" selection-end-line="236" selection-end-column="52" />
+||||||| merged common ancestors
+        <state relative-caret-position="300">
+          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+          <folding />
+=======
+        <state relative-caret-position="300">
+          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/mahasiswa/bimbingan.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="148">
+          <caret line="150" column="52" selection-start-line="150" selection-start-column="52" selection-end-line="150" selection-end-column="52" />
+||||||| merged common ancestors
+        <state relative-caret-position="252">
+          <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+          <folding />
+=======
+        <state relative-caret-position="252">
+          <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/dosen/bimbingan_backup_sebelum_ganti_layout.blade.php">
+||||||| merged common ancestors
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_auth.blade.php">
+=======
+    <entry file="file://$PROJECT_DIR$/core/app/Http/Kernel.php">
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="148">
+          <caret line="266" column="52" selection-start-line="266" selection-start-column="52" selection-end-line="266" selection-end-column="52" />
+||||||| merged common ancestors
+        <state relative-caret-position="330">
+          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+          <folding />
+=======
+        <state relative-caret-position="217">
+          <caret line="29" column="55" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="55" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/dosen/bimbingan_materi.blade.php">
+||||||| merged common ancestors
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_ubah.blade.php">
+=======
+    <entry file="file://$PROJECT_DIR$/core/app/Http/Middleware/EncryptCookies.php">
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="148">
+          <caret line="285" column="52" selection-start-line="285" selection-start-column="52" selection-end-line="285" selection-end-column="52" />
+||||||| merged common ancestors
+        <state relative-caret-position="139">
+          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+          <folding />
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/dosen/check_laporan.blade.php">
+||||||| merged common ancestors
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/keamanan.blade.php">
+=======
+    <entry file="file://$PROJECT_DIR$/core/app/Http/Middleware/Administrator.php">
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="148">
+          <caret line="158" column="52" selection-start-line="158" selection-start-column="52" selection-end-line="158" selection-end-column="52" />
+||||||| merged common ancestors
+        <state relative-caret-position="139">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+          <folding />
+=======
+        <state relative-caret-position="180">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/dosen/bimbingan.blade.php">
+||||||| merged common ancestors
+    <entry file="file://$PROJECT_DIR$/core/app/Http/Kernel.php">
+=======
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/kegiatan.blade.php">
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="148">
+          <caret line="157" column="52" selection-start-line="157" selection-start-column="52" selection-end-line="157" selection-end-column="52" />
+||||||| merged common ancestors
+        <state relative-caret-position="217">
+          <caret line="29" column="55" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="55" />
+          <folding />
+=======
+        <state relative-caret-position="1020">
+          <caret line="68" column="33" selection-start-line="64" selection-start-column="32" selection-end-line="68" selection-end-column="33" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/core/resources/views/errors/404.blade.php">
+||||||| merged common ancestors
+    <entry file="file://$PROJECT_DIR$/core/app/Http/Middleware/EncryptCookies.php">
+=======
+    <entry file="file://$PROJECT_DIR$/core/app/Http/Controllers/CDosen.php">
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="360">
+          <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+||||||| merged common ancestors
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+=======
+        <state relative-caret-position="405">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/core/resources/views/errors/503.blade.php">
+||||||| merged common ancestors
+    <entry file="file://$PROJECT_DIR$/core/app/Http/Middleware/Administrator.php">
+=======
+    <entry file="file://$PROJECT_DIR$/core/app/Http/Controllers/CKegiatan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/dosen/check_laporan.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2070">
+          <caret line="138" column="71" selection-start-line="138" selection-start-column="71" selection-end-line="138" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/errors/404.blade.php">
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+||||||| merged common ancestors
+        <state relative-caret-position="180">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+=======
+        <state relative-caret-position="180">
+          <caret line="12" column="104" selection-start-line="12" selection-start-column="92" selection-end-line="12" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/administrator/template.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="83" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="83" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/app/Http/Controllers/CAdministrator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="458" column="0" selection-start-line="458" selection-start-column="0" selection-end-line="458" selection-end-column="0" />
+          <folding>
+<<<<<<< HEAD
+            <element signature="e#359#621#0#PHP" expanded="false" />
+||||||| merged common ancestors
+            <element signature="e#40#58#0#PHP" expanded="true" />
+=======
+            <element signature="e#40#58#0#PHP" expanded="false" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+            <element signature="e#733#834#0#PHP" expanded="false" />
+            <element signature="e#840#1179#0#PHP" expanded="false" />
+            <element signature="e#1185#2614#0#PHP" expanded="false" />
+            <element signature="e#2620#2949#0#PHP" expanded="false" />
+            <element signature="e#2955#3256#0#PHP" expanded="false" />
+            <element signature="e#3262#3605#0#PHP" expanded="false" />
+            <element signature="e#3611#4049#0#PHP" expanded="false" />
+            <element signature="e#4055#4258#0#PHP" expanded="false" />
+            <element signature="e#4264#4514#0#PHP" expanded="false" />
+            <element signature="e#4520#6051#0#PHP" expanded="false" />
+            <element signature="e#6057#9554#0#PHP" expanded="false" />
+            <element signature="e#9560#11793#0#PHP" expanded="false" />
+            <element signature="e#11799#12820#0#PHP" expanded="false" />
+            <element signature="e#12826#13424#0#PHP" expanded="false" />
+            <element signature="e#13430#13911#0#PHP" expanded="false" />
+            <element signature="e#13917#14119#0#PHP" expanded="false" />
+            <element signature="e#14125#14667#0#PHP" expanded="false" />
+            <element signature="e#14787#14834#0#PHP" expanded="false" />
+            <element signature="e#15003#15065#0#PHP" expanded="false" />
+            <element signature="e#15197#15245#0#PHP" expanded="false" />
+            <element signature="e#15395#15443#0#PHP" expanded="false" />
+            <element signature="e#15634#15702#0#PHP" expanded="false" />
+            <element signature="e#15846#15897#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/administrator/materi/materi.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="300">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+||||||| merged common ancestors
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#39#51#0#PHP" expanded="true" />
+          </folding>
+=======
+        <state relative-caret-position="75">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/keamanan.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="118" column="50" selection-start-line="118" selection-start-column="50" selection-end-line="118" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_auth.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="119" column="50" selection-start-line="119" selection-start-column="50" selection-end-line="119" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_ubah.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="126" column="50" selection-start-line="126" selection-start-column="50" selection-end-line="126" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/app/Http/Controllers/CTopik.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360">
+          <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
+          <folding>
+            <element signature="e#396#619#0#PHP" expanded="false" />
+          </folding>
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/administrator/materi/sub_materi.blade.php">
+||||||| merged common ancestors
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/template.blade.php">
+=======
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/topik.blade.php">
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="300">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+||||||| merged common ancestors
+        <state relative-caret-position="255">
+          <caret line="58" column="79" selection-start-line="58" selection-start-column="79" selection-end-line="58" selection-end-column="79" />
+          <folding />
+=======
+        <state relative-caret-position="-26">
+          <caret line="141" column="18" selection-start-line="141" selection-start-column="18" selection-end-line="141" selection-end-column="18" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/administrator/pengguna/dosen.blade.php">
+||||||| merged common ancestors
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/administrator/template.blade.php">
+=======
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/ubah_laporan.blade.php">
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="300">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+||||||| merged common ancestors
+        <state relative-caret-position="34">
+          <caret line="24" column="83" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="83" />
+          <folding />
+=======
+        <state relative-caret-position="79">
+          <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/laporan_topik.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="93" column="54" selection-start-line="93" selection-start-column="24" selection-end-line="93" selection-end-column="54" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/administrator/pengguna/mahasiswa.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="300">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/administrator/pengguna/universitas.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+||||||| merged common ancestors
+        <state relative-caret-position="247">
+          <caret line="159" column="39" selection-start-line="159" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+=======
+        <state relative-caret-position="2340">
+          <caret line="156" column="14" selection-start-line="156" selection-start-column="14" selection-end-line="156" selection-end-column="14" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/administrator/template.blade.php">
+||||||| merged common ancestors
+    <entry file="file://$PROJECT_DIR$/core/app/Http/routes.php">
+=======
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/template.blade.php">
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="525">
+          <caret line="45" column="83" selection-start-line="45" selection-start-column="83" selection-end-line="45" selection-end-column="83" />
+||||||| merged common ancestors
+        <state relative-caret-position="132">
+          <caret line="65" column="20" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="20" />
+          <folding>
+            <element signature="e#3262#3997#1#PHP" expanded="false" />
+          </folding>
+=======
+        <state relative-caret-position="870">
+          <caret line="58" column="79" selection-start-line="58" selection-start-column="79" selection-end-line="58" selection-end-column="79" />
+          <folding />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/core/bootstrap/app.php">
+||||||| merged common ancestors
+    <entry file="file://$PROJECT_DIR$/core/app/Http/Controllers/CDosen.php">
+=======
+    <entry file="file://$PROJECT_DIR$/core/app/Http/Controllers/CBimbingan.php">
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+||||||| merged common ancestors
+        <state relative-caret-position="240">
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+=======
+        <state relative-caret-position="3300">
+          <caret line="242" column="36" selection-start-line="242" selection-start-column="36" selection-end-line="242" selection-end-column="36" />
+          <folding>
+            <element signature="e#437#513#0#PHP" expanded="false" />
+            <element signature="e#2990#3240#0#PHP" expanded="false" />
+          </folding>
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/core/config/app.php">
+||||||| merged common ancestors
+    <entry file="file://$PROJECT_DIR$/core/app/Http/Controllers/CKegiatan.php">
+=======
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/register.blade.php">
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="360">
+          <caret line="147" column="0" selection-start-line="147" selection-start-column="0" selection-end-line="147" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/administrator/dashboard.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/dashboard.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="87" column="116" selection-start-line="87" selection-start-column="116" selection-end-line="87" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/vendor/firebase/php-jwt/src/JWT.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/app/Http/Controllers/CAPI.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="103" column="10" selection-start-line="103" selection-start-column="10" selection-end-line="103" selection-end-column="10" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+            <element signature="e#222#701#0#PHP" expanded="false" />
+            <element signature="e#707#1102#0#PHP" expanded="false" />
+            <element signature="e#1108#1651#0#PHP" expanded="false" />
+            <marker date="1491458916000" expanded="true" signature="361:650" ph="SELECT U.id,... users" />
+            <marker date="1491458916000" expanded="true" signature="780:1044" ph="SELECT UN.id... universitas" />
+            <marker date="1491458916000" expanded="true" signature="1191:1600" ph="SELECT U.id,... users" />
+          </folding>
+||||||| merged common ancestors
+        <state relative-caret-position="-495">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="50" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+=======
+        <state relative-caret-position="585">
+          <caret line="39" column="98" selection-start-line="39" selection-start-column="78" selection-end-line="39" selection-end-column="98" />
+          <folding />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/core/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_auth.blade.php">
+||||||| merged common ancestors
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/kegiatan.blade.php">
+=======
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/administrator/materi/materi.blade.php">
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="226">
+          <caret line="143" column="40" selection-start-line="138" selection-start-column="24" selection-end-line="143" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="49" column="51" selection-start-line="49" selection-start-column="40" selection-end-line="49" selection-end-column="51" />
+||||||| merged common ancestors
+        <state relative-caret-position="334">
+          <caret line="68" column="33" selection-start-line="64" selection-start-column="32" selection-end-line="68" selection-end-column="33" />
+=======
+        <state relative-caret-position="4050">
+          <caret line="270" column="29" selection-start-line="270" selection-start-column="4" selection-end-line="270" selection-end-column="29" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/core/app/Http/Controllers/CPengguna.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1905">
+          <caret line="509" column="57" selection-start-line="509" selection-start-column="36" selection-end-line="509" selection-end-column="57" />
+          <folding>
+            <element signature="e#372#1340#0#PHP" expanded="false" />
+            <element signature="e#1346#1419#0#PHP" expanded="false" />
+            <element signature="e#1425#1999#0#PHP" expanded="false" />
+            <element signature="e#2005#2093#0#PHP" expanded="false" />
+            <element signature="e#2099#2748#0#PHP" expanded="false" />
+            <element signature="e#3664#4724#0#PHP" expanded="false" />
+            <element signature="e#4730#9780#0#PHP" expanded="false" />
+            <element signature="e#9786#10954#0#PHP" expanded="false" />
+            <element signature="e#10960#12601#0#PHP" expanded="false" />
+            <element signature="e#12607#13264#0#PHP" expanded="false" />
+            <element signature="e#15940#17145#0#PHP" expanded="false" />
+            <element signature="e#17151#17276#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_ubah.blade.php">
+||||||| merged common ancestors
+    <entry file="file://$PROJECT_DIR$/core/resources/views/layout/dosen/check_laporan.blade.php">
+=======
+    <entry file="file://$PROJECT_DIR$/core/.env">
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="165">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+||||||| merged common ancestors
+        <state relative-caret-position="334">
+          <caret line="138" column="71" selection-start-line="138" selection-start-column="71" selection-end-line="138" selection-end-column="71" />
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 1bed91c03b8c1e83c69cf6068fe07c4881c02e84
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="213" column="48" selection-start-line="213" selection-start-column="35" selection-end-line="213" selection-end-column="48" />
+          <folding>
+            <element signature="e#3262#3997#1#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/app/Http/Controllers/CPengguna.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="138" column="44" selection-start-line="138" selection-start-column="44" selection-end-line="138" selection-end-column="44" />
+          <folding>
+            <element signature="e#4886#5131#0#PHP" expanded="false" />
+            <element signature="e#19323#19573#0#PHP" expanded="false" />
+            <element signature="e#20097#20371#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
