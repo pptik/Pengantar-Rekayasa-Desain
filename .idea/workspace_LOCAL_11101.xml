@@ -7,7 +7,50 @@
     <bookmark url="file://$PROJECT_DIR$/core/resources/views/layout/administrator/pengguna/universitas.blade.php" line="263" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d134dff-a0d3-4782-bd96-54cf28f11390" name="Default" comment="" />
+    <list default="true" id="3d134dff-a0d3-4782-bd96-54cf28f11390" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/resources/views/layout/administrator/laporan/topik.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/resources/views/layout/administrator/laporan/topik_detail.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/app/Http/Controllers/CAPI.php" afterPath="$PROJECT_DIR$/core/app/Http/Controllers/CAPI.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/app/Http/Controllers/CAdministrator.php" afterPath="$PROJECT_DIR$/core/app/Http/Controllers/CAdministrator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/app/Http/routes.php" afterPath="$PROJECT_DIR$/core/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/composer.json" afterPath="$PROJECT_DIR$/core/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/composer.lock" afterPath="$PROJECT_DIR$/core/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/config/app.php" afterPath="$PROJECT_DIR$/core/config/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/errors/404.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/errors/404.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/administrator/dashboard.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/administrator/dashboard.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/administrator/materi/materi.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/administrator/materi/materi.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/administrator/materi/sub_materi.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/administrator/materi/sub_materi.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/administrator/pengguna/dosen.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/administrator/pengguna/dosen.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/administrator/pengguna/mahasiswa.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/administrator/pengguna/mahasiswa.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/administrator/pengguna/universitas.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/administrator/pengguna/universitas.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/administrator/template.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/administrator/template.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/dashboard.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/dashboard.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/dosen/bimbingan.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/dosen/bimbingan.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/dosen/bimbingan_backup_sebelum_ganti_layout.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/dosen/bimbingan_backup_sebelum_ganti_layout.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/dosen/bimbingan_materi.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/dosen/bimbingan_materi.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/dosen/check_laporan.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/dosen/check_laporan.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/index.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/keamanan.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/keamanan.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/kegiatan.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/kegiatan.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/laporan_topik.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/laporan_topik.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/laporan_topik_backup.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/laporan_topik_backup.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/login.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/login.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/lupa_password.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/lupa_password.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/mahasiswa/bimbingan.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/mahasiswa/bimbingan.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/mahasiswa/bimbingan_backup_sebelum_ganti_layout.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/mahasiswa/bimbingan_backup_sebelum_ganti_layout.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/mahasiswa/tambah_bimbingan.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/mahasiswa/tambah_bimbingan.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_auth.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_auth.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_ubah.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/profile_pengguna_ubah.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/register.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/register.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/sub_topik.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/sub_topik.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/topik.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/topik.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/ubah_laporan.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/ubah_laporan.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/ubah_laporan_backup.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/ubah_laporan_backup.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/universitas/dashboard.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/universitas/dashboard.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/universitas/pengguna/dosen.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/universitas/pengguna/dosen.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/resources/views/layout/universitas/pengguna/mahasiswa.blade.php" afterPath="$PROJECT_DIR$/core/resources/views/layout/universitas/pengguna/mahasiswa.blade.php" />
+    </list>
     <ignored path="radiolskk.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -816,7 +859,6 @@
       <workItem from="1491445024449" duration="4986000" />
       <workItem from="1491891805564" duration="4735000" />
       <workItem from="1492094398894" duration="133000" />
-      <workItem from="1492388157314" duration="78000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1477519271247</created>
@@ -829,19 +871,19 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="473257000" />
+    <option name="totallyTimeSpent" value="473179000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1276" height="800" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3363047" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33144248" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24858756" sideWeight="0.34359807" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24858756" sideWeight="0.3395462" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.49676898" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24858756" sideWeight="0.65640193" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24858756" sideWeight="0.6604538" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
