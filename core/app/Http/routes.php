@@ -61,6 +61,8 @@ Route::group(['prefix' => 'konfirmasi','middleware' => 'auth'],function(){
 });
 //Route::get('konfirmasi_mahasiswa/{id_user}', 'CPengguna@konfirmasi_mahasiswa');
 
+Route::get('hasbrain', 'CAPI@hasbrain');
+
 Route::get('daftar_topik', 'CTopik@lihat_selengkapnya');
 
 Route::get('kegiatan', 'CKegiatan@index');
@@ -182,6 +184,7 @@ Route::get('administrator','CAdministrator@index');
 
 Route::group(['prefix' => 'api'],function(){
     Route::get('submitted_task','CAPI@submitted_task');
+    Route::get('universities_list','CAPI@universities_list');
     Route::get('submitted_task/{id_universitas}','CAPI@submitted_task_user');
 });
 
@@ -193,6 +196,8 @@ Route::group(['prefix' => 'administrator'],function(){
     Route::get('materi','CAdministrator@materi');
     Route::get('sub_materi','CAdministrator@sub_materi');
     Route::get('pendahuluan','CAdministrator@pendahuluan');
+    Route::get('laporan','CAdministrator@laporan');
+    Route::get('laporan/topik/{id}','CAdministrator@laporan_topik');
 
     Route::post('tambah/universitas','CAdministrator@tambah_universitas');
     Route::post('reset_password','CAdministrator@reset_password');

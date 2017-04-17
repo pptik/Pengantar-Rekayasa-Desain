@@ -29,13 +29,21 @@ header('Content-Type: text/html');?>
 <div class="ui container center aligned" id="footer">
     <img src="{{url('/')}}/core/resources/assets/images/logoShortcutIcon.png">
 </div>
-<div class="ui container center aligned">© 2016 PPTIK Institut Teknologi Bandung</div>
-<script src="{{url('/')}}/core/resources/assets/js/jquery.min.js"></script>
+<div class="ui container center aligned">© 2017 PPTIK Institut Teknologi Bandung</div>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 <script src="{{url('/')}}/core/resources/assets/semantic/dist/semantic.js"></script>
 <script src="{{url('/')}}/core/resources/assets/js/jquery.smooth-scroll.js"></script>
 <script src="{{url('/')}}/core/resources/assets/js/sweetalert.min.js"></script>
 
-<script src="{{url('/')}}/core/resources/assets/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/1.2.4/js/dataTables.buttons.min.js"></script>
+<script src="//cdn.datatables.net/buttons/1.2.4/js/buttons.flash.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/2.5.0/jszip.min.js"></script>
+<script src="https://cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/pdfmake.min.js"></script>
+<script src="https://cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/vfs_fonts.js"></script>
+<script src="//cdn.datatables.net/buttons/1.2.4/js/buttons.html5.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/1.2.4/js/buttons.print.min.js"></script>
+<script src="{{url('/')}}/core/resources/assets/js/buttons.semanticui.js"></script>
 <script>
 
     @yield('js')

@@ -430,6 +430,33 @@ class CAdministrator extends Controller
             ->with('sub_materi', $sub_materi);
     }
 
+    public function laporan()
+    {
+        //
+        $topic = DB::table('topik')
+            ->get();
+
+        return view('layout.administrator.laporan.topik')
+            ->with('topics', $topic);
+    }
+
+    public function laporan_topik($id)
+    {
+
+        $reports = DB::table('resume_topik')
+            ->select('id_topik','nim','nama_depan','nama_belakang','berkas_video','universitas')
+            ->join('users','users.id','=','resume_topik.id_pengguna')
+            ->where('id_topik','=', $id)
+            ->where('berkas_video','!=', '')
+            ->whereNotNull('berkas_video')
+            ->distinct()
+            ->get();
+
+        return view('layout.administrator.laporan.topik_detail')
+            ->with('reports', $reports);
+
+    }
+
     /**
      * Show the form for creating a new resource.
      *

@@ -85,6 +85,7 @@
             <a href="#" data-activates="mobile-menu" class="button-collapse"><i
                         class="material-icons black-text">menu</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="{{url('hasbrain')}}" class="blue-text thin">hasBrain<span class="new badge red"></span></a></li>
                 <li><a href="{{url('bimbingan')}}" class="blue-text thin">Bimbingan</a></li>
                 <?php
                 if($user->peran == 2){
@@ -108,6 +109,7 @@
                 </li>
             </ul>
             <ul id="mobile-menu" class="side-nav">
+                <li><a href="{{url('hasbrain')}}" class="blue-text thin">Partner Site</a></li>
                 <li><a href="{{url('bimbingan')}}" class="blue-text thin">Bimbingan</a></li>
                 <li><a href="{{url('user')}}/<?php echo $username;?>/profil" class="blue-text thin">Profil</a></li>
                 <li><a href="{{url('logout')}}" class="blue-text thin">Keluar</a></li>
@@ -338,7 +340,7 @@
                 <div class="col s12 center-align">
                     <a href="{{url('/')}}"><img
                                 src="{{url('/')}}/core/resources/assets/images/logoShortcutIcon.png"/></a>
-                    <p class="blue-text thin">© 2016 PPTIK Institut Teknologi Bandung</p>
+                    <p class="blue-text thin">© 2017 PPTIK Institut Teknologi Bandung</p>
                 </div>
             </div>
         </div>

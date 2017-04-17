@@ -131,7 +131,7 @@
                 <div class="col s12 center-align">
                     <a href="{{url('/')}}"><img
                                 src="{{url('/')}}/core/resources/assets/images/logoShortcutIcon.png"/></a>
-                    <p class="blue-text thin">© 2016 PPTIK Institut Teknologi Bandung</p>
+                    <p class="blue-text thin">© 2017 PPTIK Institut Teknologi Bandung</p>
                 </div>
             </div>
         </div>

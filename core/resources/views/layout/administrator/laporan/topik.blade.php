@@ -1,6 +1,6 @@
 @extends('layout.administrator.template')
 @section('judul-halaman')
-    <title>Materi | PRD Online Course</title>
+    <title>Laporan | PRD Online Course</title>
 @endsection
 @section('konten')
     <div class="ui container">
@@ -13,10 +13,10 @@
                 <a class="item" href="{{url('administrator/pengguna')}}">
                     Pengguna
                 </a>
-                <a class="active item" href="{{url('administrator/materi')}}">
+                <a class="item" href="{{url('administrator/materi')}}">
                     Materi
                 </a>
-                <a class="item" href="{{url('administrator/laporan')}}">
+                <a class="active item" href="{{url('administrator/laporan')}}">
                     Laporan
                 </a>
                 <a class="ui item" href="{{url('logout')}}">
@@ -28,11 +28,8 @@
         <div class="ui grid">
             <div class="four wide column">
                 <div class="ui vertical pointing menu">
-                    <a class="active item" href="{{url('administrator/materi/materi')}}">
-                        Materi
-                    </a>
-                    <a class="item" href="{{url('administrator/sub_materi')}}">
-                        Sub Materi
+                    <a class="item" href="{{url('administrator/laporan')}}">
+                        Pilih Topik
                     </a>
                 </div>
             </div>
@@ -54,71 +51,27 @@
                         </ul>
                     </div>
                 @endif
-                <div class="ui grid">
-                    <div class="four wide column">
-                        <button class="ui primary button tambah">
-                            <i class="add icon"></i>
-                            Tambah
-                        </button>
-                    </div>
-                </div>
-                <br/>
-                <table class="ui celled table" id="materi">
+
+                <table class="ui celled table" id="topik">
                     <thead>
                     <tr>
                         <th>No</th>
-                        <th style="display: none">Id Materi</th>
-                        <th>Thumbnail</th>
-                        <th>Judul</th>
-                        <!--<th>Deskripsi Singkat</th>-->
-                        <th>Pendahuluan</th>
-                        <th>Warna</th>
+                        <th>Nama Topik</th>
                         <th></th>
                     </tr>
                     </thead>
                     <tbody>
                     <?php
                     $no = 1;
-                    foreach($materi as $materi){
+                    foreach($topics as $topic){
                     ?>
                     <tr>
                         <td><?php echo $no;?></td>
-                        <td class="table-id-materi" style="display: none"><?php echo $materi->id;?></td>
+                        <td class="table-nama"><?php echo $topic->nama_topik;?></td>
                         <td>
-                            <img class="ui small image" src="<?php echo $materi->thumbnail;?>">
-                        </td>
-                        <td class="table-nama"><?php echo $materi->nama_topik;?></td>
-                    <!--<td><?php echo $materi->deskripsi_singkat;?></td>-->
-                        <td class="table-pendahuluan">
-                            <?php
-                            if ($materi->pendahuluan != NULL) {
-                            ?>
-                            <div class="card-panel white thin">
-                                <div class="center-align video-container">
-                                    <iframe width="200" height="150"
-                                            src="<?php echo $materi->pendahuluan;?>"
-                                            frameborder="0" allowfullscreen></iframe>
-                                </div>
-                                </span>
-                            </div>
-                            <?php
-                            } else {
-                                echo "Belum ada video pendahuluan";
-                            }
-                            ?>
-                        </td>
-                        <td class="table-warna">
-                            <?php echo $materi->class_warna;?>
-                        </td>
-                        <td>
-                            <div class="ui relaxed grid">
-                                <div class="eight column wide">
-                                    <button class="circular ui icon button ubah">
-                                        <i class="edit icon"></i>
-                                    </button>
-                                </div>
-
-                            </div>
+                            <a class="ui icon mini button reset" href="laporan/topik/<?php echo $topic->id;?>">
+                                Pilih
+                            </a>
                         </td>
                     </tr>
                     <?php

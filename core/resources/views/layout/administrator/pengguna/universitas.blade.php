@@ -16,6 +16,9 @@
                 <a class="item" href="{{url('administrator/materi')}}">
                     Materi
                 </a>
+                <a class="item" href="{{url('administrator/laporan')}}">
+                    Laporan
+                </a>
                 <a class="ui item" href="{{url('logout')}}">
                     Keluar
                 </a>
